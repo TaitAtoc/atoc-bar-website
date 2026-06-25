@@ -431,6 +431,108 @@ h1 {
 .event-tile p  { color: var(--txt-mid); font-size: 14px; line-height: 1.62; }
 
 /* ================================================================
+   VENUE MOSAIC — Phase 4B homepage editorial image block
+   ================================================================ */
+
+.venue-mosaic {
+  display: grid;
+  grid-template-columns: minmax(0, .85fr) minmax(0, 1.25fr);
+  gap: clamp(28px, 5vw, 72px);
+  align-items: center;
+}
+
+.venue-mosaic-copy { max-width: 560px; }
+
+.venue-mosaic-copy h2 {
+  margin: 14px 0 18px;
+  font-size: clamp(38px, 6vw, 78px);
+  font-weight: 900;
+  letter-spacing: -.035em;
+  line-height: .9;
+}
+
+.venue-mosaic-copy p {
+  color: var(--txt-mid);
+  font-size: 16px;
+  line-height: 1.78;
+  margin-bottom: 24px;
+}
+
+.venue-mosaic-grid {
+  display: grid;
+  grid-template-columns: 1.05fr .85fr;
+  grid-template-rows: 220px 220px;
+  gap: 12px;
+}
+
+.venue-mosaic-card {
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  border: 1px solid var(--bdr);
+  background: var(--bg-2);
+  box-shadow: var(--shadow);
+}
+
+.venue-mosaic-card.card-1 { grid-row: 1 / span 2; }
+
+.venue-mosaic-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: saturate(.9) brightness(.9);
+  transition: transform .55s var(--ease), filter .35s var(--ease);
+}
+
+.venue-mosaic-card:hover img {
+  transform: scale(1.055);
+  filter: saturate(1.04) brightness(.96);
+}
+
+.venue-mosaic-card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, transparent 40%, rgba(0,0,0,.78));
+  pointer-events: none;
+}
+
+.venue-mosaic-card figcaption {
+  position: absolute;
+  left: 18px;
+  right: 18px;
+  bottom: 18px;
+  z-index: 1;
+}
+
+.venue-mosaic-card figcaption span {
+  display: block;
+  color: var(--gold);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+
+.venue-mosaic-card figcaption strong {
+  display: block;
+  color: var(--txt-hi);
+  font-size: clamp(15px, 1.8vw, 20px);
+  line-height: 1.08;
+}
+
+/* ================================================================
+   CONTACT PANEL — styled placeholder values
+   ================================================================ */
+
+.contact-panel div span {
+  color: var(--txt-lo);
+  font-size: 13px;
+  font-style: italic;
+}
+
+/* ================================================================
    FEATURE CARDS (visual-links grid)
    ================================================================ */
 
@@ -772,6 +874,8 @@ h1 {
   .site-footer { grid-template-columns: 1fr; }
   .quick-facts article { border-right: 0; border-bottom: 1px solid rgba(255,255,255,.06); }
   .atmo-section { min-height: 46vh; }
+  .venue-mosaic { grid-template-columns: 1fr; }
+  .venue-mosaic-grid { grid-template-rows: 220px 180px; }
 }
 
 /* ================================================================
@@ -795,6 +899,15 @@ h1 {
   .promo-panel img { height: 250px; }
   .footer-links { grid-template-columns: 1fr; }
   .atmo-headline { font-size: 42px; }
+  .venue-mosaic-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: none;
+  }
+  .venue-mosaic-card,
+  .venue-mosaic-card.card-1 {
+    grid-row: auto;
+    min-height: 240px;
+  }
 }
 
 /* ================================================================

@@ -5,7 +5,8 @@ import { Link } from '../components/Link.jsx'
 import { ParallaxHero } from '../components/ParallaxHero.jsx'
 import { ScrollReveal } from '../components/ScrollReveal.jsx'
 import { SectionTitle } from '../components/SectionTitle.jsx'
-import { eventCards, facts, images, promotions } from '../data/siteData.js'
+import { VenueMosaic } from '../components/VenueMosaic.jsx'
+import { eventCards, facts, homeStory, images, promotions, venueMoments } from '../data/siteData.js'
 import { pageMeta } from '../seo/pageMeta.js'
 
 export function Home() {
@@ -41,6 +42,18 @@ export function Home() {
           <span className="atmo-eyebrow">Guangzhou / Est. 2019</span>
           <h2 className="atmo-headline">Where sport meets the night</h2>
         </div>
+      </ScrollReveal>
+
+      <hr className="section-divider" />
+
+      <ScrollReveal className="section">
+        <VenueMosaic
+          eyebrow={homeStory.eyebrow}
+          title={homeStory.title}
+          text={homeStory.text}
+          moments={venueMoments}
+          cta={homeStory.cta}
+        />
       </ScrollReveal>
 
       <hr className="section-divider" />

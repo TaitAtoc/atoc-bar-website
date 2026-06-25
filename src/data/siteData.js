@@ -36,14 +36,42 @@ export const facts = [
   ['Sports focus', 'Live match nights, watch-party energy, and weekly fixtures once the schedule is confirmed.'],
   ['Venue feel', 'Compact bar, indoor/outdoor seating, warm lights, and social layout.'],
   ['Drinks', 'Draught beer, cocktails, shooters, coffee/tea, and shisha categories pending current menu approval.'],
-  ['Contact', '[Confirm address], [Confirm opening hours], [Confirm phone / WeChat], [Confirm map link].'],
+  ['Contact', 'Address, hours, and contact details are being confirmed — use the contact page for enquiries.'],
 ]
 
 export const eventCards = [
-  { title: 'This Week At ATOC', tag: 'Schedule pending', text: '[Confirm event name], [day], [time], and booking channel.' },
+  { title: 'This Week At ATOC', tag: 'Schedule pending', text: 'Weekly schedule and event details are being confirmed. Check back soon or enquire via the contact page.' },
   { title: 'Live Sports Nights', tag: 'Watch-party format', text: 'Rugby, football, F1, basketball, and MMA categories can anchor weekly sports nights once fixtures are confirmed.' },
   { title: 'Group Match Tables', tag: 'Private groups', text: 'Built for teams, dragon boat crews, birthdays, and casual watch groups. Capacity and booking rules are pending confirmation.' },
 ]
+
+export const venueMoments = [
+  {
+    kicker: 'Bar counter',
+    title: 'Close, social, and built around the room',
+    alt: 'ATOC bar counter and warm venue interior',
+    image: images.bar,
+  },
+  {
+    kicker: 'Live sport',
+    title: 'Screens, fixtures, and group watch energy',
+    alt: 'ATOC sports screens for live match nights',
+    image: images.sports,
+  },
+  {
+    kicker: 'Outside air',
+    title: 'Terrace feel without pretending to be luxury',
+    alt: 'ATOC outdoor seating and terrace area',
+    image: images.outdoor,
+  },
+]
+
+export const homeStory = {
+  eyebrow: 'Real bar energy',
+  title: 'Bar counter, live screens, terrace — the full ATOC feel',
+  text: 'A compact Guangzhou bar built for live sports, group rounds, and easy nights out. Warm lighting, social seating, and a terrace that does not take itself too seriously.',
+  cta: { label: 'See the venue photos', href: '/gallery' },
+}
 
 export const menuSections = [
   { title: 'Draught beers', text: 'Western and Chinese draught beer categories are ready for current taps and prices once approved.', image: images.bar },
