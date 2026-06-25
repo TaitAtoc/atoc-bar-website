@@ -1,0 +1,345 @@
+{
+    "generated_at_utc":  "2026-06-24T04:35:35.3354510Z",
+    "target_market":  "English-language searches for Guangzhou bars, nightlife, sports bars, expats, tourists, international residents, and private groups",
+    "data_sources":  [
+                         "DataForSEO Google Ads Search Volume live - China / English",
+                         "Public web search snippets and source pages",
+                         "ATOC legacy site audit",
+                         "ATOC Phase B route structure",
+                         "Specialist read-only analysis"
+                     ],
+    "dataforseo_call_summary":  {
+                                    "generated_at_utc":  "2026-06-24T04:32:48.8908483Z",
+                                    "paid_call_cap":  20,
+                                    "conservative_total_paid_http_calls_including_failed_attempt":  6,
+                                    "visible_total_cost":  0.077,
+                                    "call_log":  [
+                                                     {
+                                                         "name":  "keyword_search_volume_google_ads_china_en_retry_after_local_serialization_failure",
+                                                         "endpoint":  "https://api.dataforseo.com/v3/keywords_data/google_ads/search_volume/live",
+                                                         "status":  "ok",
+                                                         "http_call_count":  1,
+                                                         "dataforseo_tasks":  0,
+                                                         "cost":  "0",
+                                                         "error":  null,
+                                                         "started_utc":  "2026-06-24T04:31:40.6249372Z",
+                                                         "ended_utc":  "2026-06-24T04:31:41.8214724Z"
+                                                     },
+                                                     {
+                                                         "name":  "serp_google_organic_guangzhou_en_retry_after_local_serialization_failure",
+                                                         "endpoint":  "https://api.dataforseo.com/v3/serp/google/organic/live/advanced",
+                                                         "status":  "ok",
+                                                         "http_call_count":  1,
+                                                         "dataforseo_tasks":  8,
+                                                         "cost":  "0",
+                                                         "error":  null,
+                                                         "started_utc":  "2026-06-24T04:31:41.8326489Z",
+                                                         "ended_utc":  "2026-06-24T04:31:42.5072045Z"
+                                                     },
+                                                     {
+                                                         "name":  "keyword_search_volume_google_ads_china_en_corrected",
+                                                         "endpoint":  "https://api.dataforseo.com/v3/keywords_data/google_ads/search_volume/live",
+                                                         "status":  "ok",
+                                                         "http_call_count":  1,
+                                                         "dataforseo_tasks":  1,
+                                                         "cost":  "0.075",
+                                                         "error":  null,
+                                                         "started_utc":  "2026-06-24T04:32:42.3104569Z",
+                                                         "ended_utc":  "2026-06-24T04:32:48.8819822Z"
+                                                     },
+                                                     {
+                                                         "name":  "serp_google_organic_china_en_sports_bar_guangzhou_corrected",
+                                                         "endpoint":  "https://api.dataforseo.com/v3/serp/google/organic/live/advanced",
+                                                         "status":  "ok",
+                                                         "http_call_count":  1,
+                                                         "dataforseo_tasks":  1,
+                                                         "cost":  "0.002",
+                                                         "error":  null,
+                                                         "started_utc":  "2026-06-24T04:32:47.6553913Z",
+                                                         "ended_utc":  "2026-06-24T04:32:48.8819822Z"
+                                                     }
+                                                 ],
+                                    "limitations":  [
+                                                        "Initial DataForSEO calls returned invalid-task errors and cost 0. Corrected keyword call used China location_code=2156 because Guangzhou-specific keyword metrics were not verified. Corrected SERP call used one representative query because live advanced endpoint accepts one task at a time."
+                                                    ]
+                                },
+    "metrics":  [
+                    {
+                        "keyword":  "Guangzhou nightlife",
+                        "search_volume":  880,
+                        "cpc":  0.69,
+                        "competition":  "LOW",
+                        "competition_index":  16,
+                        "data_source":  "DataForSEO Google Ads search volume live",
+                        "location":  "China",
+                        "language":  "English",
+                        "note":  "Volume returned by DataForSEO."
+                    },
+                    {
+                        "keyword":  "Guangzhou bars",
+                        "search_volume":  170,
+                        "cpc":  0.28,
+                        "competition":  "LOW",
+                        "competition_index":  20,
+                        "data_source":  "DataForSEO Google Ads search volume live",
+                        "location":  "China",
+                        "language":  "English",
+                        "note":  "Volume returned by DataForSEO."
+                    },
+                    {
+                        "keyword":  "best bars in Guangzhou",
+                        "search_volume":  110,
+                        "cpc":  0.67,
+                        "competition":  "LOW",
+                        "competition_index":  22,
+                        "data_source":  "DataForSEO Google Ads search volume live",
+                        "location":  "China",
+                        "language":  "English",
+                        "note":  "Volume returned by DataForSEO."
+                    },
+                    {
+                        "keyword":  "sports bar Guangzhou",
+                        "search_volume":  10,
+                        "cpc":  0.36,
+                        "competition":  "LOW",
+                        "competition_index":  4,
+                        "data_source":  "DataForSEO Google Ads search volume live",
+                        "location":  "China",
+                        "language":  "English",
+                        "note":  "Volume returned by DataForSEO."
+                    },
+                    {
+                        "keyword":  "live sports bar Guangzhou",
+                        "search_volume":  null,
+                        "cpc":  null,
+                        "competition":  null,
+                        "competition_index":  null,
+                        "data_source":  "DataForSEO Google Ads search volume live",
+                        "location":  "China",
+                        "language":  "English",
+                        "note":  "No volume returned in this pull; treat as long-tail or validate later."
+                    },
+                    {
+                        "keyword":  "expat bar Guangzhou",
+                        "search_volume":  null,
+                        "cpc":  null,
+                        "competition":  null,
+                        "competition_index":  null,
+                        "data_source":  "DataForSEO Google Ads search volume live",
+                        "location":  "China",
+                        "language":  "English",
+                        "note":  "No volume returned in this pull; treat as long-tail or validate later."
+                    },
+                    {
+                        "keyword":  "cocktail bar Guangzhou",
+                        "search_volume":  10,
+                        "cpc":  null,
+                        "competition":  "LOW",
+                        "competition_index":  18,
+                        "data_source":  "DataForSEO Google Ads search volume live",
+                        "location":  "China",
+                        "language":  "English",
+                        "note":  "Volume returned by DataForSEO."
+                    },
+                    {
+                        "keyword":  "happy hour Guangzhou",
+                        "search_volume":  null,
+                        "cpc":  null,
+                        "competition":  null,
+                        "competition_index":  null,
+                        "data_source":  "DataForSEO Google Ads search volume live",
+                        "location":  "China",
+                        "language":  "English",
+                        "note":  "No volume returned in this pull; treat as long-tail or validate later."
+                    },
+                    {
+                        "keyword":  "bar Zhujiang New Town",
+                        "search_volume":  null,
+                        "cpc":  null,
+                        "competition":  null,
+                        "competition_index":  null,
+                        "data_source":  "DataForSEO Google Ads search volume live",
+                        "location":  "China",
+                        "language":  "English",
+                        "note":  "No volume returned in this pull; treat as long-tail or validate later."
+                    },
+                    {
+                        "keyword":  "Zhujiang New Town nightlife",
+                        "search_volume":  null,
+                        "cpc":  null,
+                        "competition":  null,
+                        "competition_index":  null,
+                        "data_source":  "DataForSEO Google Ads search volume live",
+                        "location":  "China",
+                        "language":  "English",
+                        "note":  "No volume returned in this pull; treat as long-tail or validate later."
+                    },
+                    {
+                        "keyword":  "Tianhe bars",
+                        "search_volume":  null,
+                        "cpc":  null,
+                        "competition":  null,
+                        "competition_index":  null,
+                        "data_source":  "DataForSEO Google Ads search volume live",
+                        "location":  "China",
+                        "language":  "English",
+                        "note":  "No volume returned in this pull; treat as long-tail or validate later."
+                    },
+                    {
+                        "keyword":  "private party bar Guangzhou",
+                        "search_volume":  null,
+                        "cpc":  null,
+                        "competition":  null,
+                        "competition_index":  null,
+                        "data_source":  "DataForSEO Google Ads search volume live",
+                        "location":  "China",
+                        "language":  "English",
+                        "note":  "No volume returned in this pull; treat as long-tail or validate later."
+                    },
+                    {
+                        "keyword":  "watch rugby Guangzhou",
+                        "search_volume":  null,
+                        "cpc":  null,
+                        "competition":  null,
+                        "competition_index":  null,
+                        "data_source":  "DataForSEO Google Ads search volume live",
+                        "location":  "China",
+                        "language":  "English",
+                        "note":  "No volume returned in this pull; treat as long-tail or validate later."
+                    },
+                    {
+                        "keyword":  "watch football Guangzhou",
+                        "search_volume":  null,
+                        "cpc":  null,
+                        "competition":  null,
+                        "competition_index":  null,
+                        "data_source":  "DataForSEO Google Ads search volume live",
+                        "location":  "China",
+                        "language":  "English",
+                        "note":  "No volume returned in this pull; treat as long-tail or validate later."
+                    },
+                    {
+                        "keyword":  "watch Formula 1 Guangzhou",
+                        "search_volume":  null,
+                        "cpc":  null,
+                        "competition":  null,
+                        "competition_index":  null,
+                        "data_source":  "DataForSEO Google Ads search volume live",
+                        "location":  "China",
+                        "language":  "English",
+                        "note":  "No volume returned in this pull; treat as long-tail or validate later."
+                    },
+                    {
+                        "keyword":  "watch NBA Guangzhou",
+                        "search_volume":  null,
+                        "cpc":  null,
+                        "competition":  null,
+                        "competition_index":  null,
+                        "data_source":  "DataForSEO Google Ads search volume live",
+                        "location":  "China",
+                        "language":  "English",
+                        "note":  "No volume returned in this pull; treat as long-tail or validate later."
+                    },
+                    {
+                        "keyword":  "shisha bar Guangzhou",
+                        "search_volume":  null,
+                        "cpc":  null,
+                        "competition":  null,
+                        "competition_index":  null,
+                        "data_source":  "DataForSEO Google Ads search volume live",
+                        "location":  "China",
+                        "language":  "English",
+                        "note":  "No volume returned in this pull; treat as long-tail or validate later."
+                    },
+                    {
+                        "keyword":  "Guangzhou pubs",
+                        "search_volume":  40,
+                        "cpc":  0.34,
+                        "competition":  "LOW",
+                        "competition_index":  11,
+                        "data_source":  "DataForSEO Google Ads search volume live",
+                        "location":  "China",
+                        "language":  "English",
+                        "note":  "Volume returned by DataForSEO."
+                    },
+                    {
+                        "keyword":  "nightlife in Guangzhou for foreigners",
+                        "search_volume":  null,
+                        "cpc":  null,
+                        "competition":  null,
+                        "competition_index":  null,
+                        "data_source":  "DataForSEO Google Ads search volume live",
+                        "location":  "China",
+                        "language":  "English",
+                        "note":  "No volume returned in this pull; treat as long-tail or validate later."
+                    },
+                    {
+                        "keyword":  "where to drink in Guangzhou",
+                        "search_volume":  null,
+                        "cpc":  null,
+                        "competition":  null,
+                        "competition_index":  null,
+                        "data_source":  "DataForSEO Google Ads search volume live",
+                        "location":  "China",
+                        "language":  "English",
+                        "note":  "No volume returned in this pull; treat as long-tail or validate later."
+                    }
+                ],
+    "long_tail_keywords":  [
+                               "best sports bar in Guangzhou for expats",
+                               "where to watch live sports in Guangzhou",
+                               "Guangzhou bar showing Premier League",
+                               "Guangzhou bar showing rugby live",
+                               "Guangzhou sports bar with big screens",
+                               "English speaking sports bar in Guangzhou",
+                               "expat friendly bar in Zhujiang New Town",
+                               "best bars near Zhujiang New Town station",
+                               "bars near Canton Tower Guangzhou",
+                               "bars near Guangzhou CBD",
+                               "Tianhe bar for foreigners",
+                               "Tianhe sports bar with live games",
+                               "Zhujiang New Town nightlife for expats",
+                               "casual bar in Tianhe for groups",
+                               "book a bar for birthday party Guangzhou",
+                               "private party venue Zhujiang New Town",
+                               "bar rental for private event Guangzhou",
+                               "company party bar Guangzhou",
+                               "after work drinks venue Tianhe",
+                               "outdoor terrace bar Guangzhou",
+                               "bar with terrace in Zhujiang New Town",
+                               "Guangzhou bar for international community",
+                               "late night bar in Tianhe Guangzhou",
+                               "bar for watching football in Guangzhou",
+                               "bar showing NBA games Guangzhou",
+                               "bar showing F1 races Guangzhou",
+                               "happy hour bar Zhujiang New Town",
+                               "group booking bar Guangzhou"
+                           ],
+    "question_keywords":  [
+                              "Where can I watch rugby in Guangzhou?",
+                              "Where can I watch football in Guangzhou?",
+                              "Where can I watch F1 in Guangzhou?",
+                              "What is the best expat bar in Guangzhou?",
+                              "Which bars in Zhujiang New Town show live sports?",
+                              "Where can I book a bar for a private party in Guangzhou?",
+                              "Which Guangzhou bars have outdoor seating?",
+                              "Where should foreigners go out in Guangzhou?"
+                          ],
+    "chinese_expansion_later":  [
+                                    "广州 酒吧",
+                                    "广州 夜生活",
+                                    "广州 体育酒吧",
+                                    "广州 看球酒吧",
+                                    "广州 外国人酒吧",
+                                    "珠江新城 酒吧",
+                                    "珠江新城 夜生活",
+                                    "天河 酒吧",
+                                    "广州 酒吧 包场",
+                                    "广州 生日派对 酒吧"
+                                ],
+    "limitations":  [
+                        "Keyword metrics used China-level targeting because Guangzhou-specific Google Ads keyword metrics were not verified in this run.",
+                        "DataForSEO returned no volume for several long-tail terms; that does not mean no commercial value.",
+                        "Do not publish Guangzhou claims until ATOC city/address is confirmed because some local project assets mention Beijing."
+                    ]
+}

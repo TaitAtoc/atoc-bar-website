@@ -1,0 +1,243 @@
+{
+    "version":  "0.1.20260610",
+    "status_code":  20000,
+    "status_message":  "Ok.",
+    "time":  "0.1396 sec.",
+    "cost":  0,
+    "tasks_count":  8,
+    "tasks_error":  8,
+    "tasks":  [
+                  {
+                      "id":  "06240731-1362-0139-0000-724dbb6f9159",
+                      "status_code":  40501,
+                      "status_message":  "Invalid Field: \u0027location_name\u0027.",
+                      "time":  "0 sec.",
+                      "cost":  0,
+                      "result_count":  0,
+                      "path":  [
+                                   "v3",
+                                   "serp",
+                                   "google",
+                                   "organic",
+                                   "live",
+                                   "advanced"
+                               ],
+                      "data":  {
+                                   "api":  "serp",
+                                   "function":  "live",
+                                   "se":  "google",
+                                   "se_type":  "organic",
+                                   "device":  "desktop",
+                                   "keyword":  "Guangzhou nightlife",
+                                   "location_name":  "Guangzhou,Guangdong,China",
+                                   "language_name":  "English",
+                                   "depth":  10,
+                                   "os":  "windows"
+                               },
+                      "result":  null
+                  },
+                  {
+                      "id":  "06240731-1362-0139-0000-efac5f87aa8f",
+                      "status_code":  40000,
+                      "status_message":  "You can set only one task at a time.",
+                      "time":  "0 sec.",
+                      "cost":  0,
+                      "result_count":  0,
+                      "path":  [
+                                   "v3",
+                                   "serp",
+                                   "google",
+                                   "organic",
+                                   "live",
+                                   "advanced"
+                               ],
+                      "data":  {
+                                   "api":  "serp",
+                                   "function":  "live",
+                                   "se":  "google",
+                                   "se_type":  "organic",
+                                   "device":  "desktop",
+                                   "keyword":  "best bars in Guangzhou",
+                                   "location_name":  "Guangzhou,Guangdong,China",
+                                   "language_name":  "English",
+                                   "depth":  10,
+                                   "os":  "windows"
+                               },
+                      "result":  null
+                  },
+                  {
+                      "id":  "06240731-1362-0139-0000-c36f19ade3d4",
+                      "status_code":  40000,
+                      "status_message":  "You can set only one task at a time.",
+                      "time":  "0 sec.",
+                      "cost":  0,
+                      "result_count":  0,
+                      "path":  [
+                                   "v3",
+                                   "serp",
+                                   "google",
+                                   "organic",
+                                   "live",
+                                   "advanced"
+                               ],
+                      "data":  {
+                                   "api":  "serp",
+                                   "function":  "live",
+                                   "se":  "google",
+                                   "se_type":  "organic",
+                                   "device":  "desktop",
+                                   "keyword":  "sports bar Guangzhou",
+                                   "location_name":  "Guangzhou,Guangdong,China",
+                                   "language_name":  "English",
+                                   "depth":  10,
+                                   "os":  "windows"
+                               },
+                      "result":  null
+                  },
+                  {
+                      "id":  "06240731-1362-0139-0000-b741541c8a5d",
+                      "status_code":  40000,
+                      "status_message":  "You can set only one task at a time.",
+                      "time":  "0 sec.",
+                      "cost":  0,
+                      "result_count":  0,
+                      "path":  [
+                                   "v3",
+                                   "serp",
+                                   "google",
+                                   "organic",
+                                   "live",
+                                   "advanced"
+                               ],
+                      "data":  {
+                                   "api":  "serp",
+                                   "function":  "live",
+                                   "se":  "google",
+                                   "se_type":  "organic",
+                                   "device":  "desktop",
+                                   "keyword":  "expat bar Guangzhou",
+                                   "location_name":  "Guangzhou,Guangdong,China",
+                                   "language_name":  "English",
+                                   "depth":  10,
+                                   "os":  "windows"
+                               },
+                      "result":  null
+                  },
+                  {
+                      "id":  "06240731-1362-0139-0000-5262554bfd29",
+                      "status_code":  40000,
+                      "status_message":  "You can set only one task at a time.",
+                      "time":  "0 sec.",
+                      "cost":  0,
+                      "result_count":  0,
+                      "path":  [
+                                   "v3",
+                                   "serp",
+                                   "google",
+                                   "organic",
+                                   "live",
+                                   "advanced"
+                               ],
+                      "data":  {
+                                   "api":  "serp",
+                                   "function":  "live",
+                                   "se":  "google",
+                                   "se_type":  "organic",
+                                   "device":  "desktop",
+                                   "keyword":  "cocktail bar Guangzhou",
+                                   "location_name":  "Guangzhou,Guangdong,China",
+                                   "language_name":  "English",
+                                   "depth":  10,
+                                   "os":  "windows"
+                               },
+                      "result":  null
+                  },
+                  {
+                      "id":  "06240731-1362-0139-0000-a982ce95e679",
+                      "status_code":  40000,
+                      "status_message":  "You can set only one task at a time.",
+                      "time":  "0 sec.",
+                      "cost":  0,
+                      "result_count":  0,
+                      "path":  [
+                                   "v3",
+                                   "serp",
+                                   "google",
+                                   "organic",
+                                   "live",
+                                   "advanced"
+                               ],
+                      "data":  {
+                                   "api":  "serp",
+                                   "function":  "live",
+                                   "se":  "google",
+                                   "se_type":  "organic",
+                                   "device":  "desktop",
+                                   "keyword":  "Zhujiang New Town bars",
+                                   "location_name":  "Guangzhou,Guangdong,China",
+                                   "language_name":  "English",
+                                   "depth":  10,
+                                   "os":  "windows"
+                               },
+                      "result":  null
+                  },
+                  {
+                      "id":  "06240731-1362-0139-0000-ea9edd292c7c",
+                      "status_code":  40000,
+                      "status_message":  "You can set only one task at a time.",
+                      "time":  "0 sec.",
+                      "cost":  0,
+                      "result_count":  0,
+                      "path":  [
+                                   "v3",
+                                   "serp",
+                                   "google",
+                                   "organic",
+                                   "live",
+                                   "advanced"
+                               ],
+                      "data":  {
+                                   "api":  "serp",
+                                   "function":  "live",
+                                   "se":  "google",
+                                   "se_type":  "organic",
+                                   "device":  "desktop",
+                                   "keyword":  "Tianhe bars",
+                                   "location_name":  "Guangzhou,Guangdong,China",
+                                   "language_name":  "English",
+                                   "depth":  10,
+                                   "os":  "windows"
+                               },
+                      "result":  null
+                  },
+                  {
+                      "id":  "06240731-1362-0139-0000-87f8dd087c29",
+                      "status_code":  40000,
+                      "status_message":  "You can set only one task at a time.",
+                      "time":  "0 sec.",
+                      "cost":  0,
+                      "result_count":  0,
+                      "path":  [
+                                   "v3",
+                                   "serp",
+                                   "google",
+                                   "organic",
+                                   "live",
+                                   "advanced"
+                               ],
+                      "data":  {
+                                   "api":  "serp",
+                                   "function":  "live",
+                                   "se":  "google",
+                                   "se_type":  "organic",
+                                   "device":  "desktop",
+                                   "keyword":  "private party venue Guangzhou",
+                                   "location_name":  "Guangzhou,Guangdong,China",
+                                   "language_name":  "English",
+                                   "depth":  10,
+                                   "os":  "windows"
+                               },
+                      "result":  null
+                  }
+              ]
+}

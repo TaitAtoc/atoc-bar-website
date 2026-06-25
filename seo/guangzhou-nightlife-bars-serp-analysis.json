@@ -1,0 +1,202 @@
+{
+    "generated_at_utc":  "2026-06-24T04:35:35.3683832Z",
+    "dataforseo_representative_query":  "sports bar Guangzhou",
+    "dataforseo_serp_items":  [
+                                  {
+                                      "query":  "sports bar Guangzhou",
+                                      "rank":  1,
+                                      "title":  "Cages Sports Bar and Restaurant (@cages_official)",
+                                      "domain":  "www.instagram.com",
+                                      "url":  "https://www.instagram.com/cages_official/?hl=en",
+                                      "page_type":  "social profile",
+                                      "intent_note":  "Searcher wants a place to watch sport, compare venues, or confirm an active sports bar."
+                                  },
+                                  {
+                                      "query":  "sports bar Guangzhou",
+                                      "rank":  2,
+                                      "title":  "Sports bars? : r/guangzhou",
+                                      "domain":  "www.reddit.com",
+                                      "url":  "https://www.reddit.com/r/guangzhou/comments/1d6kh9h/sports_bars/",
+                                      "page_type":  "forum / UGC",
+                                      "intent_note":  "Searcher wants a place to watch sport, compare venues, or confirm an active sports bar."
+                                  },
+                                  {
+                                      "query":  "sports bar Guangzhou",
+                                      "rank":  3,
+                                      "title":  "CAGES GUANGZHOU - Menu, Prices \u0026 Restaurant Reviews",
+                                      "domain":  "www.tripadvisor.com",
+                                      "url":  "https://www.tripadvisor.com/Restaurant_Review-g298555-d28129830-Reviews-Cages_Guangzhou-Guangzhou_Guangdong.html",
+                                      "page_type":  "review aggregator",
+                                      "intent_note":  "Searcher wants a place to watch sport, compare venues, or confirm an active sports bar."
+                                  },
+                                  {
+                                      "query":  "sports bar Guangzhou",
+                                      "rank":  4,
+                                      "title":  "CAGES Bar and Sports | Guangzhou",
+                                      "domain":  "www.facebook.com",
+                                      "url":  "https://www.facebook.com/cagesshanghai/",
+                                      "page_type":  "social profile",
+                                      "intent_note":  "Searcher wants a place to watch sport, compare venues, or confirm an active sports bar."
+                                  },
+                                  {
+                                      "query":  "sports bar Guangzhou",
+                                      "rank":  5,
+                                      "title":  "GOAT: Premier American Sports Bar in Guangzhou",
+                                      "domain":  "www.zhujianger.com",
+                                      "url":  "https://www.zhujianger.com/goat",
+                                      "page_type":  "local guide / article",
+                                      "intent_note":  "Searcher wants a place to watch sport, compare venues, or confirm an active sports bar."
+                                  },
+                                  {
+                                      "query":  "sports bar Guangzhou",
+                                      "rank":  6,
+                                      "title":  "THE BEST Bars \u0026 Pubs in Guangzhou",
+                                      "domain":  "www.tripadvisor.com",
+                                      "url":  "https://www.tripadvisor.com/Restaurants-g298555-zfg11776-Guangzhou_Guangdong.html",
+                                      "page_type":  "review aggregator",
+                                      "intent_note":  "Searcher wants a place to watch sport, compare venues, or confirm an active sports bar."
+                                  },
+                                  {
+                                      "query":  "sports bar Guangzhou",
+                                      "rank":  7,
+                                      "title":  "Greatest of All Time (@goatgz)",
+                                      "domain":  "www.instagram.com",
+                                      "url":  "https://www.instagram.com/goatgz/",
+                                      "page_type":  "social profile",
+                                      "intent_note":  "Searcher wants a place to watch sport, compare venues, or confirm an active sports bar."
+                                  },
+                                  {
+                                      "query":  "sports bar Guangzhou",
+                                      "rank":  8,
+                                      "title":  "Top Sports Bars in Guangzhou to Watch the Match With the ...",
+                                      "domain":  "pickbestplaces.com",
+                                      "url":  "https://pickbestplaces.com/china/guangzhou/sports-bars",
+                                      "page_type":  "local guide / article",
+                                      "intent_note":  "Searcher wants a place to watch sport, compare venues, or confirm an active sports bar."
+                                  },
+                                  {
+                                      "query":  "sports bar Guangzhou",
+                                      "rank":  9,
+                                      "title":  "The Tavern Sports Bar, Guangzhou",
+                                      "domain":  "www.thenanfang.com",
+                                      "url":  "https://www.thenanfang.com/bars/guangzhou/tianhe/the-tavern-zhujiang",
+                                      "page_type":  "local guide / article",
+                                      "intent_note":  "Searcher wants a place to watch sport, compare venues, or confirm an active sports bar."
+                                  },
+                                  {
+                                      "query":  "sports bar Guangzhou",
+                                      "rank":  10,
+                                      "title":  "GOAT, Guangzhou - Menu, Prices \u0026 Restaurant Reviews",
+                                      "domain":  "www.tripadvisor.com",
+                                      "url":  "https://www.tripadvisor.com/Restaurant_Review-g298555-d21231428-Reviews-GOAT-Guangzhou_Guangdong.html",
+                                      "page_type":  "review aggregator",
+                                      "intent_note":  "Searcher wants a place to watch sport, compare venues, or confirm an active sports bar."
+                                  }
+                              ],
+    "manual_serp_patterns":  [
+                                 {
+                                     "query":  "Guangzhou nightlife",
+                                     "observed_page_types":  [
+                                                                 "travel listicles",
+                                                                 "Tripadvisor nightlife/category pages",
+                                                                 "local expat guides",
+                                                                 "area pages"
+                                                             ],
+                                     "likely_domains":  [
+                                                            "tripadvisor.com",
+                                                            "thatsmags.com",
+                                                            "chinahighlights.com",
+                                                            "atocbar.com legacy blog where indexed"
+                                                        ],
+                                     "atoc_opportunity":  "Build an owned nightlife hub that is more conversion-focused than directories."
+                                 },
+                                 {
+                                     "query":  "best bars in Guangzhou",
+                                     "observed_page_types":  [
+                                                                 "review aggregators",
+                                                                 "restaurant/bar directory pages",
+                                                                 "blog listicles"
+                                                             ],
+                                     "likely_domains":  [
+                                                            "tripadvisor.com",
+                                                            "thatsmags.com",
+                                                            "travel guides"
+                                                        ],
+                                     "atoc_opportunity":  "Compete less on broad listicle and more via niche sports/expat/location pages."
+                                 },
+                                 {
+                                     "query":  "expat bar Guangzhou",
+                                     "observed_page_types":  [
+                                                                 "expat city guides",
+                                                                 "venue pages",
+                                                                 "social profiles",
+                                                                 "directories"
+                                                             ],
+                                     "likely_domains":  [
+                                                            "thatsmags.com",
+                                                            "reddit.com",
+                                                            "venue/social profiles"
+                                                        ],
+                                     "atoc_opportunity":  "Use international-friendly language, English contact info, sports nights, and clear map/location."
+                                 },
+                                 {
+                                     "query":  "cocktail bar Guangzhou",
+                                     "observed_page_types":  [
+                                                                 "hotel bar pages",
+                                                                 "premium cocktail/speakeasy listicles",
+                                                                 "review aggregators"
+                                                             ],
+                                     "likely_domains":  [
+                                                            "fourseasons.com",
+                                                            "tripadvisor.com",
+                                                            "local guides"
+                                                        ],
+                                     "atoc_opportunity":  "Avoid competing as luxury cocktail bar unless menu supports it; target casual drinks and match-night cocktails."
+                                 },
+                                 {
+                                     "query":  "Zhujiang New Town bars",
+                                     "observed_page_types":  [
+                                                                 "area guides",
+                                                                 "maps/directories",
+                                                                 "hotel bars",
+                                                                 "venue listings"
+                                                             ],
+                                     "likely_domains":  [
+                                                            "tripadvisor.com",
+                                                            "thatsmags.com",
+                                                            "hotel sites"
+                                                        ],
+                                     "atoc_opportunity":  "Create area landing page only after address confirms Zhujiang New Town/Tianhe relevance."
+                                 },
+                                 {
+                                     "query":  "private party venue Guangzhou",
+                                     "observed_page_types":  [
+                                                                 "event venue pages",
+                                                                 "hotel/restaurant private dining",
+                                                                 "directories"
+                                                             ],
+                                     "likely_domains":  [
+                                                            "event directories",
+                                                            "hotel sites",
+                                                            "venue pages"
+                                                        ],
+                                     "atoc_opportunity":  "High-conversion page if capacity, minimum spend, contact process, and photos are confirmed."
+                                 }
+                             ],
+    "competitor_domains":  [
+                               "tripadvisor.com",
+                               "thatsmags.com",
+                               "instagram.com",
+                               "facebook.com",
+                               "reddit.com",
+                               "zhujianger.com",
+                               "thenanfang.com",
+                               "pickbestplaces.com",
+                               "fourseasons.com"
+                           ],
+    "overall_opportunity":  "ATOC is unlikely to beat broad directories on breadth quickly, but can win high-intent local/use-case searches with current venue photos, schedule, booking details, bilingual address, and sports/event pages.",
+    "limitations":  [
+                        "Only one corrected paid SERP query was run to stay inside the paid-call cap after endpoint validation.",
+                        "Other SERP patterns are public/manual analysis and should be rechecked before final publication."
+                    ]
+}

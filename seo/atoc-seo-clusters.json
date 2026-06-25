@@ -1,0 +1,154 @@
+{
+    "generated_at_utc":  "2026-06-24T04:35:35.3702495Z",
+    "clusters":  [
+                     {
+                         "cluster":  "Core nightlife / bars",
+                         "primary_keyword":  "Guangzhou nightlife",
+                         "secondary_keywords":  [
+                                                    "Guangzhou bars",
+                                                    "best bars in Guangzhou",
+                                                    "where to drink in Guangzhou",
+                                                    "Guangzhou pubs"
+                                                ],
+                         "intent":  "Broad discovery",
+                         "recommended_page":  "Home plus future /guangzhou-nightlife hub",
+                         "priority":  "High",
+                         "difficulty_notes":  "Broad SERPs dominated by directories/listicles; use as hub and internal linking theme.",
+                         "content_angle":  "ATOC as international-friendly bar for sports, drinks, terrace, and groups.",
+                         "maps_to_existing_route":  "/"
+                     },
+                     {
+                         "cluster":  "Sports bar / live sports",
+                         "primary_keyword":  "sports bar Guangzhou",
+                         "secondary_keywords":  [
+                                                    "live sports bar Guangzhou",
+                                                    "watch rugby Guangzhou",
+                                                    "watch football Guangzhou",
+                                                    "watch Formula 1 Guangzhou",
+                                                    "watch NBA Guangzhou",
+                                                    "Guangzhou sports bar with big screens"
+                                                ],
+                         "intent":  "High commercial / activity",
+                         "recommended_page":  "/events plus future /guangzhou-sports-bar",
+                         "priority":  "Very High",
+                         "difficulty_notes":  "Lower volume but highly qualified. SERP shows Cages, GOAT, Tripadvisor, Reddit and social profiles.",
+                         "content_angle":  "Current match schedule, sports shown, screen setup, booking for groups.",
+                         "maps_to_existing_route":  "/events"
+                     },
+                     {
+                         "cluster":  "Expat / international bar",
+                         "primary_keyword":  "expat bar Guangzhou",
+                         "secondary_keywords":  [
+                                                    "English speaking bar Guangzhou",
+                                                    "international bar Guangzhou",
+                                                    "foreigner bar Guangzhou",
+                                                    "expat friendly bar in Zhujiang New Town"
+                                                ],
+                         "intent":  "High commercial / trust",
+                         "recommended_page":  "/about plus future /expat-bar-guangzhou",
+                         "priority":  "High",
+                         "difficulty_notes":  "May rely on local guides and forums; owned page can win with clear English info and community proof.",
+                         "content_angle":  "International-friendly, easy contact, sports, local and expat crowd.",
+                         "maps_to_existing_route":  "/about"
+                     },
+                     {
+                         "cluster":  "Location based pages",
+                         "primary_keyword":  "bar Zhujiang New Town",
+                         "secondary_keywords":  [
+                                                    "Zhujiang New Town nightlife",
+                                                    "Tianhe bars",
+                                                    "bars near Canton Tower Guangzhou",
+                                                    "bars near Guangzhou CBD"
+                                                ],
+                         "intent":  "Local navigation",
+                         "recommended_page":  "/contact plus future /zhujiang-new-town-bar",
+                         "priority":  "High after address confirmed",
+                         "difficulty_notes":  "Do not publish until exact address confirms relevant district.",
+                         "content_angle":  "Bilingual address, metro/landmark directions, map link, nearby nightlife context.",
+                         "maps_to_existing_route":  "/contact"
+                     },
+                     {
+                         "cluster":  "Drinks / happy hour / cocktails",
+                         "primary_keyword":  "cocktail bar Guangzhou",
+                         "secondary_keywords":  [
+                                                    "happy hour Guangzhou",
+                                                    "beer bar Guangzhou",
+                                                    "Guangzhou bar menu",
+                                                    "shisha bar Guangzhou",
+                                                    "draught beer Guangzhou"
+                                                ],
+                         "intent":  "Menu / offer discovery",
+                         "recommended_page":  "/menus and /promotions",
+                         "priority":  "Medium",
+                         "difficulty_notes":  "Hotel bars and cocktail specialists may outrank generic cocktail terms.",
+                         "content_angle":  "Casual drinks, draught beer, match-night rounds, confirmed happy hour only.",
+                         "maps_to_existing_route":  "/menus,/promotions"
+                     },
+                     {
+                         "cluster":  "Events / private parties / bookings",
+                         "primary_keyword":  "private party bar Guangzhou",
+                         "secondary_keywords":  [
+                                                    "Guangzhou party venue",
+                                                    "bar for sports groups Guangzhou",
+                                                    "birthday party bar Guangzhou",
+                                                    "company party bar Guangzhou",
+                                                    "group booking bar Guangzhou"
+                                                ],
+                         "intent":  "Lead generation",
+                         "recommended_page":  "/bookings plus future /private-party-bookings-guangzhou",
+                         "priority":  "Very High",
+                         "difficulty_notes":  "Potentially lower volume but close to conversion.",
+                         "content_angle":  "Capacity, booking process, minimum spend, group types, contact CTA.",
+                         "maps_to_existing_route":  "/bookings"
+                     },
+                     {
+                         "cluster":  "Gallery / atmosphere / terrace",
+                         "primary_keyword":  "Guangzhou bar with terrace",
+                         "secondary_keywords":  [
+                                                    "outdoor terrace bar Guangzhou",
+                                                    "bar with outdoor seating Guangzhou",
+                                                    "Guangzhou bar photos",
+                                                    "sports bar photos"
+                                                ],
+                         "intent":  "Trust / visual proof",
+                         "recommended_page":  "/gallery",
+                         "priority":  "Medium",
+                         "difficulty_notes":  "Supports conversion more than standalone ranking.",
+                         "content_angle":  "Approved photos: entrance, bar counter, sports screens, terrace, groups.",
+                         "maps_to_existing_route":  "/gallery"
+                     },
+                     {
+                         "cluster":  "Blog/article opportunities",
+                         "primary_keyword":  "Guangzhou nightlife for expats",
+                         "secondary_keywords":  [
+                                                    "where to watch rugby in Guangzhou",
+                                                    "where to drink in Guangzhou",
+                                                    "best bars in Zhujiang New Town",
+                                                    "Party Pier vs Zhujiang New Town bars"
+                                                ],
+                         "intent":  "Research / discovery",
+                         "recommended_page":  "Future blog",
+                         "priority":  "Medium",
+                         "difficulty_notes":  "Good for long-tail entry points and internal links.",
+                         "content_angle":  "Helpful guides, not fake rankings; disclose ATOC as venue where relevant.",
+                         "maps_to_existing_route":  "new blog routes"
+                     },
+                     {
+                         "cluster":  "Chinese-language expansion later",
+                         "primary_keyword":  "广州 酒吧",
+                         "secondary_keywords":  [
+                                                    "广州 夜生活",
+                                                    "广州 体育酒吧",
+                                                    "珠江新城 酒吧",
+                                                    "天河 酒吧",
+                                                    "广州 酒吧 包场"
+                                                ],
+                         "intent":  "Local Chinese search",
+                         "recommended_page":  "Future /zh pages",
+                         "priority":  "Later",
+                         "difficulty_notes":  "Needs separate Chinese research, Baidu/Dianping/WeChat ecosystem, and native copy.",
+                         "content_angle":  "Bilingual local business discovery and bookings.",
+                         "maps_to_existing_route":  "future"
+                     }
+                 ]
+}

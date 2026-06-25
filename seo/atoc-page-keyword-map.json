@@ -1,0 +1,258 @@
+{
+    "generated_at_utc":  "2026-06-24T04:35:35.3713628Z",
+    "pages":  [
+                  {
+                      "route":  "/",
+                      "target_title":  "ATOC Bar | Guangzhou Sports Bar, Events \u0026 Nightlife",
+                      "meta_description":  "ATOC is a sports bar and nightlife venue for live sports, drinks, events, bookings, and international-friendly nights in Guangzhou. Confirm address before publish.",
+                      "h1":  "ATOC Guangzhou Sports Bar",
+                      "key_h2s":  [
+                                      "Live Sports and Nightlife",
+                                      "Drinks and Match Nights",
+                                      "Groups and Private Bookings",
+                                      "Find ATOC"
+                                  ],
+                      "primary_keyword":  "Guangzhou sports bar",
+                      "secondary_keywords":  [
+                                                 "Guangzhou nightlife",
+                                                 "Guangzhou bars",
+                                                 "expat bar Guangzhou"
+                                             ],
+                      "internal_links":  [
+                                             "/events",
+                                             "/menus",
+                                             "/bookings",
+                                             "/gallery",
+                                             "/contact"
+                                         ],
+                      "content_gaps":  [
+                                           "Confirm Guangzhou vs Beijing",
+                                           "address",
+                                           "hours",
+                                           "booking channel"
+                                       ]
+                  },
+                  {
+                      "route":  "/about",
+                      "target_title":  "About ATOC | Sports Bar and International Nightlife Venue",
+                      "meta_description":  "Learn about ATOC, an international-friendly sports and nightlife bar with warm interiors, TV sports energy, bar seating, and terrace space.",
+                      "h1":  "About ATOC",
+                      "key_h2s":  [
+                                      "The Venue",
+                                      "Sports Bar Atmosphere",
+                                      "International Crowd",
+                                      "Outdoor Terrace"
+                                  ],
+                      "primary_keyword":  "expat bar Guangzhou",
+                      "secondary_keywords":  [
+                                                 "international bar Guangzhou",
+                                                 "English speaking bar Guangzhou",
+                                                 "sports bar atmosphere"
+                                             ],
+                      "internal_links":  [
+                                             "/events",
+                                             "/gallery",
+                                             "/contact"
+                                         ],
+                      "content_gaps":  [
+                                           "Confirm founder story",
+                                           "confirm city/district",
+                                           "approved venue photos"
+                                       ]
+                  },
+                  {
+                      "route":  "/events",
+                      "target_title":  "Events at ATOC | Live Sports and Watch Parties in Guangzhou",
+                      "meta_description":  "See ATOC sports watch parties, live games, event nights, and group booking options for rugby, football, F1, basketball, and MMA.",
+                      "h1":  "Events and Live Sports at ATOC",
+                      "key_h2s":  [
+                                      "Upcoming Watch Parties",
+                                      "Sports Shown Live",
+                                      "Group Match Tables",
+                                      "Ask What Is On This Week"
+                                  ],
+                      "primary_keyword":  "sports bar Guangzhou",
+                      "secondary_keywords":  [
+                                                 "live sports bar Guangzhou",
+                                                 "watch rugby Guangzhou",
+                                                 "watch football Guangzhou",
+                                                 "watch Formula 1 Guangzhou"
+                                             ],
+                      "internal_links":  [
+                                             "/bookings",
+                                             "/menus",
+                                             "/promotions",
+                                             "/contact"
+                                         ],
+                      "content_gaps":  [
+                                           "sports schedule",
+                                           "event policy",
+                                           "screen/audio details",
+                                           "booking rules"
+                                       ]
+                  },
+                  {
+                      "route":  "/menus",
+                      "target_title":  "ATOC Menus | Drinks, Beer, Cocktails and Match Night Favourites",
+                      "meta_description":  "Browse ATOC drinks and menu categories including draught beer, cocktails, shots, coffee, tea, and shisha once current details are confirmed.",
+                      "h1":  "ATOC Drinks and Menus",
+                      "key_h2s":  [
+                                      "Draught Beers",
+                                      "Cocktails and Shooters",
+                                      "Coffee and Tea",
+                                      "Shisha",
+                                      "Food Ordering"
+                                  ],
+                      "primary_keyword":  "Guangzhou bar menu",
+                      "secondary_keywords":  [
+                                                 "cocktail bar Guangzhou",
+                                                 "beer bar Guangzhou",
+                                                 "shisha bar Guangzhou"
+                                             ],
+                      "internal_links":  [
+                                             "/promotions",
+                                             "/events",
+                                             "/bookings",
+                                             "/contact"
+                                         ],
+                      "content_gaps":  [
+                                           "current menu",
+                                           "prices",
+                                           "shisha availability",
+                                           "food arrangement"
+                                       ]
+                  },
+                  {
+                      "route":  "/promotions",
+                      "target_title":  "ATOC Promotions | Happy Hour and Event Specials",
+                      "meta_description":  "Check ATOC promotion candidates, happy hour, sports-night offers, and event specials once current terms are confirmed.",
+                      "h1":  "ATOC Promotions",
+                      "key_h2s":  [
+                                      "Happy Hour",
+                                      "Sports Night Specials",
+                                      "Legacy Offers To Confirm",
+                                      "Terms and Availability"
+                                  ],
+                      "primary_keyword":  "happy hour Guangzhou",
+                      "secondary_keywords":  [
+                                                 "bar promotions Guangzhou",
+                                                 "drink specials Guangzhou"
+                                             ],
+                      "internal_links":  [
+                                             "/events",
+                                             "/menus",
+                                             "/bookings"
+                                         ],
+                      "content_gaps":  [
+                                           "current offers",
+                                           "valid dates",
+                                           "prices",
+                                           "alcohol advertising compliance"
+                                       ]
+                  },
+                  {
+                      "route":  "/gallery",
+                      "target_title":  "ATOC Gallery | Bar, Terrace and Sports Night Photos",
+                      "meta_description":  "View ATOC bar photos including interior, terrace, sports screens, entrance, and atmosphere images after rights review.",
+                      "h1":  "ATOC Gallery and Atmosphere",
+                      "key_h2s":  [
+                                      "Bar Counter",
+                                      "Main Room",
+                                      "Outdoor Terrace",
+                                      "Sports Screens",
+                                      "Events and Watch Parties"
+                                  ],
+                      "primary_keyword":  "Guangzhou bar photos",
+                      "secondary_keywords":  [
+                                                 "outdoor terrace bar Guangzhou",
+                                                 "Guangzhou bar with terrace",
+                                                 "sports bar photos"
+                                             ],
+                      "internal_links":  [
+                                             "/about",
+                                             "/events",
+                                             "/bookings",
+                                             "/contact"
+                                         ],
+                      "content_gaps":  [
+                                           "approved final photos",
+                                           "people consent",
+                                           "replace contact sheets"
+                                       ]
+                  },
+                  {
+                      "route":  "/bookings",
+                      "target_title":  "Book ATOC | Private Events, Tables and Watch Parties",
+                      "meta_description":  "Book ATOC for private events, table bookings, sports watch parties, birthdays, company drinks, and group nights in Guangzhou.",
+                      "h1":  "Book ATOC for Groups and Private Events",
+                      "key_h2s":  [
+                                      "Table Bookings",
+                                      "Private Events",
+                                      "Sports Watch Parties",
+                                      "Birthdays and Company Drinks",
+                                      "Booking Enquiry"
+                                  ],
+                      "primary_keyword":  "private party bar Guangzhou",
+                      "secondary_keywords":  [
+                                                 "Guangzhou party venue",
+                                                 "bar booking Guangzhou",
+                                                 "birthday party bar Guangzhou",
+                                                 "company party bar Guangzhou"
+                                             ],
+                      "internal_links":  [
+                                             "/events",
+                                             "/menus",
+                                             "/contact"
+                                         ],
+                      "content_gaps":  [
+                                           "capacity",
+                                           "minimum spend",
+                                           "deposit policy",
+                                           "response time",
+                                           "contact workflow"
+                                       ]
+                  },
+                  {
+                      "route":  "/contact",
+                      "target_title":  "Contact ATOC | Location, Hours and Bookings",
+                      "meta_description":  "Contact ATOC for address, opening hours, map directions, phone, WeChat, bookings, and event enquiries once details are confirmed.",
+                      "h1":  "Contact ATOC",
+                      "key_h2s":  [
+                                      "Find Us",
+                                      "Opening Hours",
+                                      "Phone and WeChat",
+                                      "Map and Directions",
+                                      "Booking Enquiries"
+                                  ],
+                      "primary_keyword":  "ATOC Guangzhou address",
+                      "secondary_keywords":  [
+                                                 "bar Zhujiang New Town",
+                                                 "Tianhe bars",
+                                                 "Guangzhou bar contact"
+                                             ],
+                      "internal_links":  [
+                                             "/bookings",
+                                             "/events",
+                                             "/menus"
+                                         ],
+                      "content_gaps":  [
+                                           "exact address",
+                                           "map pin",
+                                           "phone/WeChat",
+                                           "hours",
+                                           "social links"
+                                       ]
+                  }
+              ],
+    "global_missing_facts":  [
+                                 "Confirm Guangzhou vs Beijing conflict",
+                                 "address",
+                                 "opening hours",
+                                 "phone/WeChat",
+                                 "current promotions",
+                                 "current menu",
+                                 "sports schedule",
+                                 "booking process",
+                                 "image rights"
+                             ]
+}

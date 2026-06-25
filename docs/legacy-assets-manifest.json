@@ -1,0 +1,152 @@
+{
+    "schema_version":  1,
+    "generated_at_utc":  "2026-06-24T02:51:59.1215935Z",
+    "source_site":  "https://www.atocbar.com/",
+    "local_project":  "D:\\Projects\\ATOC-Website",
+    "assets":  [
+                   {
+                       "description":  "Real ATOC logo master PNG",
+                       "original_source_url_or_path":  "D:\\Projects\\AI-Ops-Hub\\assets\\brands\\ATOC\\logos\\atoc-logo-master.png",
+                       "use_case":  "Header, hero, footer",
+                       "local_copied_path":  "public/assets/brand/atoc-logo-master.png",
+                       "needs_human_review_before_publishing":  false,
+                       "asset_type":  "brand_logo",
+                       "contains_people":  false
+                   },
+                   {
+                       "description":  "Legacy front entrance image",
+                       "original_source_url_or_path":  "https://www.atocbar.com/wp-content/uploads/2021/03/Front-Entrance.jpg",
+                       "use_case":  "Hero background / legacy audit",
+                       "local_copied_path":  "public/assets/legacy/front-entrance.jpg",
+                       "needs_human_review_before_publishing":  true,
+                       "asset_type":  "legacy_photo",
+                       "contains_people":  false
+                   },
+                   {
+                       "description":  "Legacy outdoor seating image",
+                       "original_source_url_or_path":  "https://www.atocbar.com/wp-content/uploads/2021/03/Mobile-Phone-Hero-Pic-724x1024.jpg",
+                       "use_case":  "Gallery and outdoor seating context",
+                       "local_copied_path":  "public/assets/legacy/outdoor-seating-legacy.jpg",
+                       "needs_human_review_before_publishing":  true,
+                       "asset_type":  "legacy_photo",
+                       "contains_people":  false
+                   },
+                   {
+                       "description":  "Legacy bar interior image",
+                       "original_source_url_or_path":  "https://www.atocbar.com/wp-content/uploads/2021/03/Bar-Pic.jpg",
+                       "use_case":  "About / venue section",
+                       "local_copied_path":  "public/assets/legacy/bar-interior-legacy.jpg",
+                       "needs_human_review_before_publishing":  true,
+                       "asset_type":  "legacy_photo",
+                       "contains_people":  false
+                   },
+                   {
+                       "description":  "Legacy sports channels image",
+                       "original_source_url_or_path":  "https://www.atocbar.com/wp-content/uploads/2021/03/Tv-Channels.jpg",
+                       "use_case":  "Events / sports reference",
+                       "local_copied_path":  "public/assets/legacy/sports-channels-legacy.jpg",
+                       "needs_human_review_before_publishing":  true,
+                       "asset_type":  "legacy_promo_image",
+                       "contains_people":  false
+                   },
+                   {
+                       "description":  "Legacy Guinness promotion image",
+                       "original_source_url_or_path":  "https://www.atocbar.com/wp-content/uploads/2023/04/Guinness-212x300.jpg",
+                       "use_case":  "Promotion candidate, confirm current offer",
+                       "local_copied_path":  "public/assets/legacy/guinness-promo-legacy.jpg",
+                       "needs_human_review_before_publishing":  true,
+                       "asset_type":  "legacy_promo_image",
+                       "contains_people":  false
+                   },
+                   {
+                       "description":  "Legacy Ladies Night promotion image",
+                       "original_source_url_or_path":  "https://www.atocbar.com/wp-content/uploads/2023/04/Ladies-Night-212x300.jpg",
+                       "use_case":  "Promotion candidate, confirm current offer",
+                       "local_copied_path":  "public/assets/legacy/ladies-night-promo-legacy.jpg",
+                       "needs_human_review_before_publishing":  true,
+                       "asset_type":  "legacy_promo_image",
+                       "contains_people":  false
+                   },
+                   {
+                       "description":  "Legacy Bloody Caesar promotion image",
+                       "original_source_url_or_path":  "https://www.atocbar.com/wp-content/uploads/2023/04/Caesar-212x300.jpg",
+                       "use_case":  "Promotion candidate, confirm current offer",
+                       "local_copied_path":  "public/assets/legacy/bloody-caesar-promo-legacy.jpg",
+                       "needs_human_review_before_publishing":  true,
+                       "asset_type":  "legacy_promo_image",
+                       "contains_people":  false
+                   },
+                   {
+                       "description":  "Legacy tequila shots promotion image",
+                       "original_source_url_or_path":  "https://www.atocbar.com/wp-content/uploads/2021/03/Tequila-Shots-212x300.jpg",
+                       "use_case":  "Promotion candidate, confirm current offer",
+                       "local_copied_path":  "public/assets/legacy/tequila-shots-promo-legacy.jpg",
+                       "needs_human_review_before_publishing":  true,
+                       "asset_type":  "legacy_promo_image",
+                       "contains_people":  false
+                   },
+                   {
+                       "description":  "Legacy coffee menu image",
+                       "original_source_url_or_path":  "https://www.atocbar.com/wp-content/uploads/2021/03/Coffee-Table-Cards-614x1024.jpg",
+                       "use_case":  "Menu candidate, confirm current offer",
+                       "local_copied_path":  "public/assets/legacy/coffee-menu-legacy.jpg",
+                       "needs_human_review_before_publishing":  true,
+                       "asset_type":  "legacy_menu_image",
+                       "contains_people":  false
+                   },
+                   {
+                       "description":  "Legacy shisha menu image",
+                       "original_source_url_or_path":  "https://www.atocbar.com/wp-content/uploads/2021/03/Shisha-1-768x1086.jpg",
+                       "use_case":  "Menu candidate, confirm current availability",
+                       "local_copied_path":  "public/assets/legacy/shisha-menu-legacy.jpg",
+                       "needs_human_review_before_publishing":  true,
+                       "asset_type":  "legacy_menu_image",
+                       "contains_people":  false
+                   },
+                   {
+                       "description":  "Bar counter and bottle wall contact sheet",
+                       "original_source_url_or_path":  "D:\\Projects\\AI-Ops-Hub\\assets\\brands\\ATOC\\references\\contact-sheets\\contact-sheet-05_bar_counter.jpg",
+                       "use_case":  "Internal gallery/reference placeholder",
+                       "local_copied_path":  "public/assets/references/bar-counter-contact-sheet.jpg",
+                       "needs_human_review_before_publishing":  true,
+                       "asset_type":  "local_reference_contact_sheet",
+                       "contains_people":  true
+                   },
+                   {
+                       "description":  "Main room contact sheet",
+                       "original_source_url_or_path":  "D:\\Projects\\AI-Ops-Hub\\assets\\brands\\ATOC\\references\\contact-sheets\\contact-sheet-02_main_room.jpg",
+                       "use_case":  "Internal gallery/reference placeholder",
+                       "local_copied_path":  "public/assets/references/main-room-contact-sheet.jpg",
+                       "needs_human_review_before_publishing":  true,
+                       "asset_type":  "local_reference_contact_sheet",
+                       "contains_people":  true
+                   },
+                   {
+                       "description":  "Outdoor terrace contact sheet",
+                       "original_source_url_or_path":  "D:\\Projects\\AI-Ops-Hub\\assets\\brands\\ATOC\\references\\contact-sheets\\contact-sheet-11_outdoor_terrace_street_area.jpg",
+                       "use_case":  "Internal gallery/reference placeholder",
+                       "local_copied_path":  "public/assets/references/outdoor-terrace-contact-sheet.jpg",
+                       "needs_human_review_before_publishing":  true,
+                       "asset_type":  "local_reference_contact_sheet",
+                       "contains_people":  true
+                   },
+                   {
+                       "description":  "Entrance approach contact sheet",
+                       "original_source_url_or_path":  "D:\\Projects\\AI-Ops-Hub\\assets\\brands\\ATOC\\references\\contact-sheets\\contact-sheet-01_entrance_approach.jpg",
+                       "use_case":  "Internal gallery/reference placeholder",
+                       "local_copied_path":  "public/assets/references/entrance-contact-sheet.jpg",
+                       "needs_human_review_before_publishing":  true,
+                       "asset_type":  "local_reference_contact_sheet",
+                       "contains_people":  true
+                   },
+                   {
+                       "description":  "Capture runs overview contact sheet",
+                       "original_source_url_or_path":  "D:\\Projects\\AI-Ops-Hub\\assets\\brands\\ATOC\\references\\contact-sheets\\capture_runs_overview_contact_sheet.jpg",
+                       "use_case":  "Internal review only",
+                       "local_copied_path":  "public/assets/references/capture-runs-overview.jpg",
+                       "needs_human_review_before_publishing":  true,
+                       "asset_type":  "local_reference_contact_sheet",
+                       "contains_people":  true
+                   }
+               ]
+}
