@@ -1,0 +1,141 @@
+{
+  "status": "draft",
+  "approvedForLaunch": false,
+  "lastReviewed": "",
+  "reviewedBy": "",
+  "identity": {
+    "officialName": "",
+    "displayName": "ATOC Bar",
+    "shortName": "ATOC",
+    "description": "",
+    "foundedYear": "",
+    "founderStoryApproved": false
+  },
+  "location": {
+    "addressEnglish": "",
+    "addressChinese": "",
+    "buildingFloorUnit": "",
+    "district": "",
+    "city": "Guangzhou",
+    "province": "Guangdong",
+    "country": "China",
+    "postalCode": "",
+    "nearestMetro": "",
+    "nearbyLandmark": "",
+    "directionsNote": "",
+    "zhujiangNewTownAccurate": null,
+    "tianheAccurate": null,
+    "mapPinVerified": false
+  },
+  "contact": {
+    "phone": "",
+    "wechatId": "",
+    "wechatQrImage": "",
+    "email": "",
+    "whatsapp": "",
+    "bookingMethod": "",
+    "generalEnquiryMethod": ""
+  },
+  "mapLinks": {
+    "google": "",
+    "apple": "",
+    "baidu": "",
+    "amap": "",
+    "dianping": ""
+  },
+  "hours": {
+    "timezone": "Asia/Shanghai",
+    "weekly": [
+      { "day": "Monday", "open": "", "close": "", "closed": false },
+      { "day": "Tuesday", "open": "", "close": "", "closed": false },
+      { "day": "Wednesday", "open": "", "close": "", "closed": false },
+      { "day": "Thursday", "open": "", "close": "", "closed": false },
+      { "day": "Friday", "open": "", "close": "", "closed": false },
+      { "day": "Saturday", "open": "", "close": "", "closed": false },
+      { "day": "Sunday", "open": "", "close": "", "closed": false }
+    ],
+    "holidayNote": "",
+    "lastOrder": "",
+    "kitchenHours": "",
+    "shishaHours": ""
+  },
+  "menus": {
+    "pricesApprovedForPublication": false,
+    "beerApproved": false,
+    "cocktailsApproved": false,
+    "shootersApproved": false,
+    "coffeeTeaApproved": false,
+    "shishaAvailable": null,
+    "shishaAdvertisingApproved": false,
+    "foodArrangement": ""
+  },
+  "promotions": [
+    {
+      "title": "",
+      "active": null,
+      "approvedForLaunch": false,
+      "days": "",
+      "times": "",
+      "price": "",
+      "terms": "",
+      "validFrom": "",
+      "validTo": ""
+    }
+  ],
+  "events": [
+    {
+      "title": "",
+      "active": null,
+      "approvedForLaunch": false,
+      "day": "",
+      "time": "",
+      "description": "",
+      "bookingRecommended": null,
+      "audioPolicy": ""
+    }
+  ],
+  "venue": {
+    "indoorCapacity": "",
+    "terraceCapacity": "",
+    "privateEventCapacity": "",
+    "minimumSpend": "",
+    "depositRequired": "",
+    "cancellationPolicy": "",
+    "smokingTerracePolicy": "",
+    "paymentMethods": [],
+    "accessibilityNotes": "",
+    "agePolicy": ""
+  },
+  "socialLinks": {
+    "instagram": "",
+    "facebook": "",
+    "wechatOfficialAccount": "",
+    "xiaohongshu": "",
+    "dianping": "",
+    "tripadvisor": "",
+    "other": []
+  },
+  "media": {
+    "fullWordPressUploadsExportObtained": false,
+    "mediaManifestStatus": "draft_public_crawl_incomplete",
+    "imageRightsApproved": false,
+    "approvedHeroImage": "",
+    "approvedGalleryImages": []
+  },
+  "schema": {
+    "approvedForInjection": false,
+    "type": "BarOrPub",
+    "includeOpeningHours": false,
+    "includePhone": false,
+    "includeMapLinks": false,
+    "includeSocialLinks": false
+  },
+  "ctas": {
+    "homepagePrimary": "",
+    "homepageSecondary": "",
+    "contactPage": "",
+    "booking": "",
+    "promotions": "",
+    "footerContact": ""
+  }
+}

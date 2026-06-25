@@ -1,0 +1,36 @@
+diff --git a/src/data/siteData.js b/src/data/siteData.js
+--- a/src/data/siteData.js
++++ b/src/data/siteData.js
+@@
++// Future patch:
++// - add businessFacts as the single source of truth
++// - replace contactPlaceholders with derived display rows
++// - add approvedForLaunch flags for facts, promotions, events, and media
++// - do not fill unknown address, hours, phone, WeChat, map, menu, or promo data
++
+diff --git a/src/seo/schema.js b/src/seo/schema.js
+--- a/src/seo/schema.js
++++ b/src/seo/schema.js
+@@
++// Future patch:
++// - keep publishReady false until owner-approved businessFacts are complete
++// - generate LocalBusiness/BarOrPub schema from businessFacts only
++// - do not inject schema in the placeholder clearance step
++
+diff --git a/src/seo/pageMeta.js b/src/seo/pageMeta.js
+--- a/src/seo/pageMeta.js
++++ b/src/seo/pageMeta.js
+@@
++// Future patch:
++// - derive contact/location-sensitive descriptions from confirmed businessFacts
++// - avoid district, hours, price, and offer claims until approved
++
+diff --git a/tools/Test-ATOC-SafetyScan.ps1 b/tools/Test-ATOC-SafetyScan.ps1
+--- a/tools/Test-ATOC-SafetyScan.ps1
++++ b/tools/Test-ATOC-SafetyScan.ps1
+@@
++# Future patch:
++# - keep all current blockers
++# - add blockers for [Confirm workflow], Map placeholder, and current terms still to confirm
++# - add data-state checks for approvedForLaunch flags after businessFacts exists
++# - only relax Zhujiang/Tianhe after exact address confirms those terms
