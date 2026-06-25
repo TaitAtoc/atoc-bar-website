@@ -17,10 +17,8 @@ export function Home() {
         text="A relaxed Guangzhou bar for live sports, drinks, group nights, and international-friendly nightlife."
         image={images.hero}
         actions={[
-          { label: 'See What Is On', href: '/events' },
-          { label: 'Browse Drinks & Menus', href: '/menus' },
-          { label: 'Book a Table or Group Night', href: '/bookings' },
-          { label: 'Find ATOC in Guangzhou', href: '/contact' },
+          { label: "See What's On", href: '/events', className: 'btn-primary' },
+          { label: 'Find ATOC', href: '/contact', className: 'btn-ghost' },
         ]}
       />
 
@@ -33,7 +31,21 @@ export function Home() {
         ))}
       </ScrollReveal>
 
-      <ScrollReveal className="section">
+      <ScrollReveal className="atmo-section" as="section">
+        <div
+          className="atmo-bg"
+          style={{ backgroundImage: `url(${images.bar})` }}
+          aria-hidden="true"
+        />
+        <div className="atmo-content">
+          <span className="atmo-eyebrow">Guangzhou / Est. 2019</span>
+          <h2 className="atmo-headline">Where sport meets the night</h2>
+        </div>
+      </ScrollReveal>
+
+      <hr className="section-divider" />
+
+      <ScrollReveal className="section bg-alt">
         <SectionTitle eyebrow="Tonight / this week" title="Live sports and easy nights out in Guangzhou">
           ATOC can anchor match nights, casual drinks, and private group plans once the weekly schedule and booking channel are confirmed.
         </SectionTitle>
@@ -48,6 +60,8 @@ export function Home() {
         </div>
       </ScrollReveal>
 
+      <hr className="section-divider" />
+
       <ScrollReveal className="section visual-links">
         <FeatureCard title="Events & Sports" text="Rugby, football, F1, basketball, MMA, and group watch-party planning." image={images.sports} href="/events" badge="Live sports" />
         <FeatureCard title="Drinks & Menus" text="Beer, cocktails, coffee, tea, shisha, and match-night drinks categories." image={images.coffee} href="/menus" badge="Menus" />
@@ -55,7 +69,9 @@ export function Home() {
         <FeatureCard title="Gallery" text="Venue atmosphere, terrace, bar counter, screens, and sports-night photos." image={images.bar} href="/gallery" badge="Atmosphere" />
       </ScrollReveal>
 
-      <ScrollReveal className="section split-feature">
+      <hr className="section-divider" />
+
+      <ScrollReveal className="section split-feature bg-alt">
         <div>
           <SectionTitle eyebrow="Visit / book" title="Plan a table, group night, or private event">
             The contact details are placeholders until ATOC confirms current address, hours, phone or WeChat, and map link.
