@@ -14,7 +14,7 @@ export function Footer() {
       </div>
       <div className="footer-contact">
         {contactPlaceholders.slice(0, 3).map(([label, value]) => (
-          <span key={label}><strong>{label}</strong>{value}</span>
+          <span key={label}><strong>{label}</strong>{Array.isArray(value) ? value.join(', ') : value}</span>
         ))}
       </div>
     </footer>
