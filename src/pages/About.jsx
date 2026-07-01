@@ -20,7 +20,7 @@ export function About() {
       <ScrollReveal className="section split-feature">
         <div>
           <SectionTitle eyebrow="Story" title="A friendly local bar with an international crowd">
-            ATOC was founded in 2019 by expatriate New Zealander Tait Dalrymple and his Chinese wife, Cai Endi. Located in Guangzhou’s Central Business District, Zhejiang Newtown, Tianhe, ATOC was built as a relaxed local bar for people who want somewhere easy to drink, talk, watch sport, and meet new people.
+            ATOC was founded in 2019 by expatriate New Zealander Tait Dalrymple and his Chinese wife, Cai Endi. Located in Guangzhou’s Central Business District, Zhujiang Newtown, Tianhe, ATOC was built as a relaxed local bar for people who want somewhere easy to drink, talk, watch sport, and meet new people.
           </SectionTitle>
           <p className="body-copy">With indoor and outdoor seating for around 50 guests, a full drinks menu, Western and Chinese draught beers, and a mixed clientele from all over the world, ATOC has become a comfortable place to unwind and socialise in Guangzhou.</p>
           <p className="body-copy">Food is available from surrounding restaurants, and the team is happy to help guests order for delivery to ATOC. Because of its intimate size and social layout, ATOC works well for catching up with friends, meeting new people, watching live sport, or settling in for a casual night out.</p>

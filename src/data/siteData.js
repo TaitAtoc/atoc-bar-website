@@ -158,7 +158,7 @@ export const sports = ['Rugby', 'Football', 'Formula One', 'Basketball', 'MMA']
 
 export const facts = [
   ['Opening hours', ['5pm – 3am', 'Open 7 days a week']],
-  ['Location', ['2-107 Huaxun St', 'Zhejiang Newtown, Tianhe', 'Guangzhou, P.R.C.']],
+  ['Location', ['2-107 Huaxun St', 'Zhujiang Newtown, Tianhe', 'Guangzhou, P.R.C.']],
   ['Bar focus', ['Live sports, drinks, group nights, indoor/outdoor seating']],
 ]
 
@@ -250,7 +250,7 @@ export const galleryPhotos = [
 ]
 
 export const contactPlaceholders = [
-  ['Address', ['2-107 Huaxun St', 'Zhejiang Newtown, Tianhe', 'Guangzhou, P.R.C.']],
+  ['Address', ['2-107 Huaxun St', 'Zhujiang Newtown, Tianhe', 'Guangzhou, P.R.C.']],
   ['Opening hours', ['5pm – 3am', 'Open 7 days a week']],
   ['Phone', '15705867448'],
   ['WeChat', 'taitchina'],
