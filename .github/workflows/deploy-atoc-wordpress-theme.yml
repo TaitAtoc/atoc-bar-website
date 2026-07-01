@@ -34,6 +34,29 @@ jobs:
             -exec rm -rf {} +
           cp -R dist/. deploy/wordpress-theme/atoc-bar-v2/
 
+      - name: Validate WordPress themes parent path
+        shell: bash
+        env:
+          WP_THEME_REMOTE_PATH: ${{ secrets.WP_THEME_REMOTE_PATH }}
+        run: |
+          set -euo pipefail
+          path="${WP_THEME_REMOTE_PATH:-}"
+
+          if [[ -z "$path" ]]; then
+            echo "::error::WP_THEME_REMOTE_PATH is empty. Set it to the WordPress themes parent directory."
+            exit 1
+          fi
+
+          if [[ "$path" == */atoc-bar-v2 || "$path" == */atoc-bar-v2/ ]]; then
+            echo "::error::WP_THEME_REMOTE_PATH must not include atoc-bar-v2. The workflow appends that folder automatically."
+            exit 1
+          fi
+
+          if [[ "$path" != */wp-content/themes && "$path" != */wp-content/themes/ ]]; then
+            echo "::error::WP_THEME_REMOTE_PATH must end with /wp-content/themes or /wp-content/themes/."
+            exit 1
+          fi
+
       - name: Deploy atoc-bar-v2 only
         uses: appleboy/scp-action@v0.1.7
         with:
