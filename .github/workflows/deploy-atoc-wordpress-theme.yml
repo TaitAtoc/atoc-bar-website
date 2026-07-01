@@ -65,8 +65,7 @@ jobs:
           port: ${{ secrets.WP_DEPLOY_PORT }}
           password: ${{ secrets.WP_DEPLOY_PASSWORD }}
           key: ${{ secrets.WP_DEPLOY_SSH_KEY }}
-          passphrase: ${{ secrets.WP_DEPLOY_PASSPHRASE }}
-          source: deploy/wordpress-theme/atoc-bar-v2
+source: deploy/wordpress-theme/atoc-bar-v2
           target: ${{ secrets.WP_THEME_REMOTE_PATH }}
           strip_components: 2
           overwrite: true
