@@ -14,6 +14,7 @@ import { canonicalFor, getPageMeta } from './seo/pageMeta.js'
 const routes = {
   '/': Home,
   '/about': About,
+  '/sports': Events,
   '/events': Events,
   '/menus': Menus,
   '/promotions': Promotions,
@@ -23,10 +24,14 @@ const routes = {
 }
 
 function useCurrentPath() {
-  const [path, setPath] = useState(() => window.location.pathname)
+  const getPath = () => {
+    const pathname = window.location.pathname.replace(/\/+$/, '') || '/'
+    return routes[pathname] ? pathname : '/'
+  }
+  const [path, setPath] = useState(getPath)
 
   useEffect(() => {
-    const update = () => setPath(window.location.pathname)
+    const update = () => setPath(getPath())
     window.addEventListener('popstate', update)
     return () => window.removeEventListener('popstate', update)
   }, [])
@@ -46,7 +51,7 @@ function App() {
     document.title = meta.title
     upsertMeta('name', 'description', meta.description)
     upsertMeta('name', 'keywords', meta.keywords.join(', '))
-    upsertMeta('name', 'robots', 'noindex,nofollow')
+    upsertMeta('name', 'robots', __ATOC_ROBOTS_CONTENT__)
     upsertMeta('property', 'og:title', meta.title)
     upsertMeta('property', 'og:description', meta.description)
     upsertMeta('property', 'og:url', canonical)

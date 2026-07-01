@@ -13,6 +13,12 @@ export const pageMeta = {
     h1: 'An International Bar in Guangzhou',
     keywords: ['expat bar Guangzhou', 'international bar Guangzhou', 'English speaking bar Guangzhou'],
   },
+  '/sports': {
+    title: 'Events at ATOC | Live Sports Bar in Guangzhou',
+    description: 'Watch rugby, football, Formula 1, basketball, MMA, and other live sports at ATOC in Guangzhou. Ask what is on this week before visiting.',
+    h1: 'Live Sports in Guangzhou',
+    keywords: ['sports bar Guangzhou', 'live sports bar Guangzhou', 'watch rugby Guangzhou', 'watch football Guangzhou', 'watch Formula 1 Guangzhou'],
+  },
   '/events': {
     title: 'Events at ATOC | Live Sports Bar in Guangzhou',
     description: 'Watch rugby, football, Formula 1, basketball, MMA, and other live sports at ATOC in Guangzhou. Ask what is on this week before visiting.',

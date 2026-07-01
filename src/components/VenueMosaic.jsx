@@ -12,7 +12,7 @@ export function VenueMosaic({ eyebrow, title, text, moments = [], cta }) {
       </div>
       <div className="venue-mosaic-grid" aria-label="ATOC venue atmosphere highlights">
         {moments.map((item, index) => (
-          <figure className={`venue-mosaic-card card-${index + 1}`} key={item.title}>
+          <figure className={`venue-mosaic-card atoc-border-tracer card-${index + 1}`} key={item.title}>
             <img src={item.image} alt={item.alt} loading="lazy" />
             <figcaption>
               <span>{item.kicker}</span>

@@ -6,9 +6,11 @@ export function ContactPanel({ compact = false }) {
   return (
     <div className={`contact-panel ${compact ? 'compact' : ''}`}>
       {contactPlaceholders.map(([label, value]) => (
-        <div key={label}>
+        <div className="atoc-border-tracer" key={label}>
           <strong>{label}</strong>
-          <span>{value}</span>
+          {(Array.isArray(value) ? value : [value]).map((line) => (
+            <span key={line}>{line}</span>
+          ))}
         </div>
       ))}
       <Link href="/contact" className="text-link">Open contact page</Link>

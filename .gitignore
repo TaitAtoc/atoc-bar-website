@@ -10,7 +10,10 @@ atoc-bar-theme/assets/
 # Environment files
 .env
 .env.local
+.env.production
 .env.*.local
+secrets/
+runtime/
 
 # Logs
 *.log
@@ -24,3 +27,13 @@ Thumbs.db
 .vscode/
 *.swp
 *.swo
+
+# Sports bridge — secret key (never commit)
+tools/sports/bridge-key.txt
+# Bridge log (generated at runtime)
+tools/sports/bridge.log
+# Sports collector output (generated at runtime)
+tools/sports/live-fixtures.json
+tools/sports/collector-status.json
+tools/sports/verified-fixtures.json
+tools/sports/verification-status.json

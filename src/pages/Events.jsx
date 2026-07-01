@@ -3,8 +3,11 @@ import { Link } from '../components/Link.jsx'
 import { ParallaxHero } from '../components/ParallaxHero.jsx'
 import { ScrollReveal } from '../components/ScrollReveal.jsx'
 import { SectionTitle } from '../components/SectionTitle.jsx'
-import { eventCards, images, sports } from '../data/siteData.js'
+import { SportsScheduleWidget } from '../components/SportsScheduleWidget.jsx'
+import { PosterCarousel } from '../components/PosterCarousel.jsx'
+import { eventCards, images } from '../data/siteData.js'
 import { pageMeta } from '../seo/pageMeta.js'
+import { assetUrl } from '../utils/assetUrl.js'
 
 export function Events() {
   return (
@@ -12,17 +15,17 @@ export function Events() {
       <ParallaxHero
         compact
         eyebrow="Events & live sports"
-        title={pageMeta['/events'].h1}
+        title={pageMeta['/sports'].h1}
         text="Watch rugby, football, Formula 1, basketball, MMA, and other match nights with friends in Guangzhou."
-        image={images.sports}
+        image={assetUrl('/assets/photos/hero/sports hero.png')}
         actions={[{ label: 'Ask What Is On This Week', href: '/contact' }, { label: 'Book a Match Table', href: '/bookings' }, { label: 'Browse Match-Night Drinks', href: '/menus' }]}
       />
-      <ScrollReveal className="section">
-        <SectionTitle eyebrow="Sports shown" title="A Guangzhou sports bar page built around fixture-led nights">
-          Current weekly fixtures, start times, audio policy, and booking rules still need confirmation, but the page is structured for high-intent sports searches.
-        </SectionTitle>
-        <div className="sports-cloud">
-          {sports.map((sport) => <button type="button" key={sport}>{sport}</button>)}
+      <ScrollReveal className="section sports-split">
+        <div className="sports-split__schedule">
+          <SportsScheduleWidget compact />
+        </div>
+        <div className="sports-split__carousel">
+          <PosterCarousel />
         </div>
       </ScrollReveal>
       <ScrollReveal className="section event-page-grid">

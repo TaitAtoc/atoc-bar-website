@@ -25,12 +25,12 @@ export function Nav({ path }) {
       </button>
       <nav className={open ? 'is-open' : ''} aria-label="Main navigation">
         {navItems.map((item) => (
-          <Link key={item.path} href={item.path} className={path === item.path ? 'active' : ''} onClick={() => setOpen(false)}>
+          <Link key={item.path} href={item.path} className={`atoc-border-tracer atoc-border-tracer--nav ${path === item.path ? 'active' : ''}`.trim()} onClick={() => setOpen(false)}>
             {item.label}
           </Link>
         ))}
       </nav>
-      <Link href="/bookings" className="nav-cta" onClick={() => setOpen(false)}>Book / Contact</Link>
+      <Link href="/bookings" className="nav-cta atoc-border-tracer atoc-border-tracer--nav" onClick={() => setOpen(false)}>Book / Contact</Link>
     </header>
   )
 }

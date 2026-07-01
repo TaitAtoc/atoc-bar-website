@@ -17,12 +17,136 @@ export const images = {
   mainRoomSheet: `${b}assets/references/main-room-contact-sheet.jpg`,
   terraceSheet: `${b}assets/references/outdoor-terrace-contact-sheet.jpg`,
   entranceSheet: `${b}assets/references/entrance-contact-sheet.jpg`,
+  promotionsHero: `${b}assets/photos/hero/promotions-hero-bartender.png`,
+  contactMap: `${b}assets/photos/Maps/${encodeURIComponent('ATOC MAP.png')}`,
 }
+
+const fd = `${b}assets/photos/food-drink/`
+
+export const beers = [
+  {
+    title: 'Carlsberg',
+    text: 'Carlsberg is a crisp Danish lager with a smooth finish and refreshing easy-drinking beer taste.',
+    image: `${fd}Carlsberg-Beer.png`,
+    alt: 'Bottle of Carlsberg Danish lager',
+  },
+  {
+    title: 'Asahi',
+    text: 'Asahi is a clean Japanese lager with a crisp dry finish and refreshing easy-drinking beer taste.',
+    image: `${fd}Asahi.png`,
+    alt: 'Bottle of Asahi Japanese lager',
+  },
+  {
+    title: 'Brooklyn',
+    text: 'Brooklyn is a smooth American craft beer with a balanced malt flavour and refreshing hoppy finish.',
+    image: `${fd}Brooklyn.png`,
+    alt: 'Bottle of Brooklyn American craft beer',
+  },
+  {
+    title: 'Guinness',
+    text: 'Guinness is a rich Irish stout with smooth roasted malt flavour and a creamy, distinctive finish.',
+    image: `${fd}Guinness.png`,
+    alt: 'Bottle of Guinness Irish stout',
+  },
+  {
+    title: 'Hoegaarden',
+    text: 'Hoegaarden is a refreshing Belgian wheat beer with smooth citrus notes and a light, cloudy finish.',
+    image: `${fd}Hoegarrden.png`,
+    alt: 'Bottle of Hoegaarden Belgian wheat beer',
+  },
+  {
+    title: 'Jing-A',
+    text: 'Jing-A is a bold Beijing craft beer with fresh hoppy flavour and a smooth, modern finish.',
+    image: `${fd}${encodeURIComponent('Jing A.png')}`,
+    alt: 'Bottle of Jing-A Beijing craft beer',
+  },
+  {
+    title: 'Liefmans',
+    text: 'Liefmans is a sweet Belgian fruit beer with smooth berry flavour and a refreshing, slightly tart finish.',
+    image: `${fd}liefmans.png`,
+    alt: 'Bottle of Liefmans Belgian fruit beer',
+  },
+]
+
+const md = `${b}assets/photos/menu/`
+
+export const menuCategories = [
+  { key: 'all', label: 'All' },
+  { key: 'beer', label: 'Beer' },
+  { key: 'cocktails', label: 'Cocktails' },
+  { key: 'wine', label: 'Wine' },
+  { key: 'spirits', label: 'Spirits' },
+  { key: 'soft-drinks-coffee', label: 'Soft Drinks & Coffee' },
+  { key: 'shisha', label: 'Shisha' },
+]
+
+export const menuPages = [
+  {
+    title: 'Beer',
+    image: `${md}menu-page-01-drinks.webp`,
+    alt: 'ATOC drink menu cover and draught beer price list',
+    categories: ['beer'],
+  },
+  {
+    title: 'Coffee Cocktails',
+    image: `${md}menu-page-02-coffee-cocktails.webp`,
+    alt: 'ATOC coffee infused cocktails promotion',
+    categories: ['cocktails'],
+  },
+  {
+    title: 'Cocktails',
+    image: `${md}menu-page-03-cocktails.webp`,
+    alt: 'ATOC cocktails price list',
+    categories: ['cocktails'],
+  },
+  {
+    title: 'Wines & Champagne',
+    image: `${md}menu-page-04-wines.webp`,
+    alt: 'ATOC cocktails continued, wine and champagne price list',
+    categories: ['cocktails', 'wine'],
+  },
+  {
+    title: 'Cognac & Whiskey',
+    image: `${md}menu-page-05-whiskey-cognac.webp`,
+    alt: 'ATOC cognac and whiskey price list',
+    categories: ['spirits'],
+  },
+  {
+    title: 'Bourbon & Rum',
+    image: `${md}menu-page-06-bourbon-rum.webp`,
+    alt: 'ATOC bourbon and rum price list',
+    categories: ['spirits'],
+  },
+  {
+    title: 'Tequila, Vodka & Gin',
+    image: `${md}menu-page-07-tequila-vodka-gin.webp`,
+    alt: 'ATOC tequila, vodka and gin price list',
+    categories: ['spirits'],
+  },
+  {
+    title: 'Liqueurs',
+    image: `${md}menu-page-08-liquors.webp`,
+    alt: 'ATOC liqueurs and other spirits price list',
+    categories: ['spirits'],
+  },
+  {
+    title: 'Soft Drinks & Coffee',
+    image: `${md}menu-page-09-soft-drinks-coffee.webp`,
+    alt: 'ATOC soft drinks, juice, tea and coffee menu',
+    categories: ['soft-drinks-coffee'],
+  },
+  {
+    title: 'Shisha & Promotions',
+    image: `${md}menu-page-10-shisha-promos.webp`,
+    alt: 'ATOC shisha menu and ladies night promotion',
+    categories: ['shisha'],
+  },
+]
 
 export const navItems = [
   { label: 'Home', path: '/' },
   { label: 'About', path: '/about' },
-  { label: 'Events', path: '/events' },
+  { label: 'Sports', path: '/sports' },
   { label: 'Menus', path: '/menus' },
   { label: 'Promotions', path: '/promotions' },
   { label: 'Gallery', path: '/gallery' },
@@ -33,10 +157,9 @@ export const navItems = [
 export const sports = ['Rugby', 'Football', 'Formula One', 'Basketball', 'MMA']
 
 export const facts = [
-  ['Sports focus', 'Live match nights, watch-party energy, and weekly fixtures once the schedule is confirmed.'],
-  ['Venue feel', 'Compact bar, indoor/outdoor seating, warm lights, and social layout.'],
-  ['Drinks', 'Draught beer, cocktails, shooters, coffee/tea, and shisha categories pending current menu approval.'],
-  ['Contact', 'Address, hours, and contact details are being confirmed — use the contact page for enquiries.'],
+  ['Opening hours', ['5pm – 3am', 'Open 7 days a week']],
+  ['Location', ['2-107 Huaxun St', 'Zhejiang Newtown, Tianhe', 'Guangzhou, P.R.C.']],
+  ['Bar focus', ['Live sports, drinks, group nights, indoor/outdoor seating']],
 ]
 
 export const eventCards = [
@@ -50,7 +173,7 @@ export const venueMoments = [
     kicker: 'Bar counter',
     title: 'Close, social, and built around the room',
     alt: 'ATOC bar counter and warm venue interior',
-    image: images.bar,
+    image: `${b}assets/photos/venue/ATOC BAR ASSETS.png`,
   },
   {
     kicker: 'Live sport',
@@ -62,7 +185,7 @@ export const venueMoments = [
     kicker: 'Outside air',
     title: 'Terrace feel without pretending to be luxury',
     alt: 'ATOC outdoor seating and terrace area',
-    image: images.outdoor,
+    image: `${b}assets/photos/venue/ChatGPT Image Jun 26, 2026, 05_03_34 PM.png`,
   },
 ]
 
@@ -81,27 +204,58 @@ export const menuSections = [
   { title: 'Food ordering', text: 'Food options can be listed after ATOC confirms the current kitchen or delivery arrangement.', image: images.outdoor },
 ]
 
+const promo = `${b}assets/photos/promo/`
+
 export const promotions = [
-  { title: 'Guinness', badge: 'Legacy promo', status: 'Confirm current offer', image: images.guinness },
-  { title: 'Ladies Night', badge: 'Needs update', status: 'Confirm day, terms, and availability', image: images.ladies },
-  { title: 'Bloody Caesar', badge: 'Legacy promo', status: 'Confirm current menu and price', image: images.caesar },
-  { title: 'Tequila Special', badge: 'Needs update', status: 'Confirm whether offer is active', image: images.tequila },
+  {
+    title: 'Happy Hour',
+    status: 'Daily 2:30pm–10pm — discounted beer, wine, and house spirits.',
+    image: `${promo}${encodeURIComponent('Happy Hour.jpg')}`,
+  },
+  {
+    title: 'Ladies Night',
+    status: 'Every Tuesday — free frozen margaritas, plus free shisha for groups of 4 ladies.',
+    image: `${promo}${encodeURIComponent('Ladies Night.jpg')}`,
+  },
+  {
+    title: 'Ice Cream Menu',
+    status: 'Soft serve sundaes from RMB18, plus boozy Kahlua Baileys ice cream.',
+    image: `${promo}${encodeURIComponent('Soft Serve Menu.jpg')}`,
+  },
+  {
+    title: 'Affogato',
+    status: 'Espresso poured over soft serve ice cream, RMB25.',
+    image: `${promo}${encodeURIComponent('Affogato.jpg')}`,
+  },
 ]
 
-export const gallery = [
-  { title: 'Front entrance', group: 'Venue', image: images.hero, review: 'Review image rights before launch' },
-  { title: 'Outdoor seating', group: 'Terrace', image: images.outdoor, review: 'Review image rights before launch' },
-  { title: 'Bar interior', group: 'Interior', image: images.bar, review: 'Review image rights before launch' },
-  { title: 'Sports screens', group: 'Sports', image: images.sports, review: 'Brand/channel review needed' },
-  { title: 'Bar counter reference', group: 'Reference', image: images.barSheet, review: 'Internal contact sheet - replace before publish' },
-  { title: 'Main room reference', group: 'Reference', image: images.mainRoomSheet, review: 'Internal contact sheet - replace before publish' },
-  { title: 'Terrace reference', group: 'Reference', image: images.terraceSheet, review: 'Internal contact sheet - replace before publish' },
-  { title: 'Entrance reference', group: 'Reference', image: images.entranceSheet, review: 'Internal contact sheet - replace before publish' },
+const lg = `${b}assets/photos/live-gallery/`
+
+export const galleryPhotos = [
+  { src: `${lg}${encodeURIComponent('Dalrymple Family.png')}`, alt: 'The Dalrymple family at ATOC' },
+  { src: `${lg}IMG_0011-scaled.jpg`, alt: 'Guests enjoying a night out at ATOC' },
+  { src: `${lg}IMG_0065-scaled.jpg`, alt: 'Guests enjoying a night out at ATOC' },
+  { src: `${lg}IMG_0153.jpg`, alt: 'Guests enjoying a night out at ATOC' },
+  { src: `${lg}IMG_1315-scaled.jpg`, alt: 'Guests enjoying a night out at ATOC' },
+  { src: `${lg}IMG_1344-scaled.jpg`, alt: 'Guests enjoying a night out at ATOC' },
+  { src: `${lg}IMG_1352-scaled.jpg`, alt: 'Guests enjoying a night out at ATOC' },
+  { src: `${lg}IMG_1648-scaled.jpg`, alt: 'Guests enjoying a night out at ATOC' },
+  { src: `${lg}IMG_1657-scaled.jpg`, alt: 'Guests enjoying a night out at ATOC' },
+  { src: `${lg}IMG_1658-scaled.jpg`, alt: 'Guests enjoying a night out at ATOC' },
+  { src: `${lg}IMG_1677-scaled.jpg`, alt: 'Guests enjoying a night out at ATOC' },
+  { src: `${lg}IMG_1680-scaled.jpg`, alt: 'Guests enjoying a night out at ATOC' },
+  { src: `${lg}IMG_1682-scaled.jpg`, alt: 'Guests enjoying a night out at ATOC' },
+  { src: `${lg}IMG_1686-scaled.jpg`, alt: 'Guests enjoying a night out at ATOC' },
+  { src: `${lg}IMG_1687-scaled.jpg`, alt: 'Guests enjoying a night out at ATOC' },
 ]
 
 export const contactPlaceholders = [
-  ['Address', '[Confirm address]'],
-  ['Opening hours', '[Confirm opening hours]'],
-  ['Phone / WeChat', '[Confirm phone / WeChat]'],
-  ['Map', '[Confirm map link]'],
+  ['Address', ['2-107 Huaxun St', 'Zhejiang Newtown, Tianhe', 'Guangzhou, P.R.C.']],
+  ['Opening hours', ['5pm – 3am', 'Open 7 days a week']],
+  ['Phone', '15705867448'],
+  ['WeChat', 'taitchina'],
 ]
+
+// Same ATOC recipients used by AI Mission Control for finished sports poster emails
+// (config/poster-email-delivery.json in AI-Ops-Hub). Public business addresses only.
+export const bookingEnquiryRecipients = ['kiwidecadence@hotmail.com', '20501117@qq.com']

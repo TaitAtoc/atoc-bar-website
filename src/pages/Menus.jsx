@@ -1,10 +1,11 @@
 import React from 'react'
-import { FeatureCard } from '../components/CardGrid.jsx'
+import { BeerCarousel } from '../components/BeerCarousel.jsx'
 import { Link } from '../components/Link.jsx'
+import { MenuGallery } from '../components/MenuGallery.jsx'
 import { ParallaxHero } from '../components/ParallaxHero.jsx'
 import { ScrollReveal } from '../components/ScrollReveal.jsx'
 import { SectionTitle } from '../components/SectionTitle.jsx'
-import { images, menuSections } from '../data/siteData.js'
+import { beers, images, menuCategories, menuPages } from '../data/siteData.js'
 import { pageMeta } from '../seo/pageMeta.js'
 
 export function Menus() {
@@ -12,23 +13,28 @@ export function Menus() {
     <>
       <ParallaxHero
         compact
+        className="hero-darken"
         eyebrow="Drinks & menus"
         title={pageMeta['/menus'].h1}
         text="Beer, cocktails, shooters, coffee, tea, shisha, and match-night favourites for a Guangzhou bar menu once current items are approved."
         image={images.bar}
-        actions={[{ label: 'Ask What Is Available', href: '/contact' }, { label: 'Book a Table for Drinks', href: '/bookings' }, { label: 'Plan a Match Night', href: '/events' }]}
+        actions={[{ label: 'Ask What Is Available', href: '/contact' }, { label: 'Book a Table for Drinks', href: '/bookings' }, { label: 'Plan a Match Night', href: '/sports' }]}
       />
       <ScrollReveal className="section">
-        <SectionTitle eyebrow="Menu structure" title="Readable categories for cocktails, beer, and casual rounds">
-          Use approved item lists later. For now, exact prices and current-offer claims stay out of the public copy.
+        <SectionTitle eyebrow="On tap & in the fridge" title="ATOC Beers">
+          Danish, Japanese, American, Irish, Belgian, and Beijing brews, ready to pour.
         </SectionTitle>
-        <div className="card-grid five">
-          {menuSections.map((section) => <FeatureCard key={section.title} {...section} badge="Confirm current details" />)}
-        </div>
+        <BeerCarousel items={beers} />
+      </ScrollReveal>
+      <ScrollReveal className="section">
+        <SectionTitle eyebrow="The full list" title="Full Drinks Menu">
+          Browse the current ATOC drinks menu. Tap any page to enlarge.
+        </SectionTitle>
+        <MenuGallery categories={menuCategories} pages={menuPages} />
       </ScrollReveal>
       <ScrollReveal className="section social-row">
         <Link href="/promotions">See current drinks promotions</Link>
-        <Link href="/events">View live sports nights</Link>
+        <Link href="/sports">View live sports nights</Link>
         <Link href="/bookings">Book a table or group night</Link>
       </ScrollReveal>
     </>

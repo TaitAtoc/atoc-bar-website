@@ -8,26 +8,31 @@ import { SectionTitle } from '../components/SectionTitle.jsx'
 import { VenueMosaic } from '../components/VenueMosaic.jsx'
 import { eventCards, facts, homeStory, images, promotions, venueMoments } from '../data/siteData.js'
 import { pageMeta } from '../seo/pageMeta.js'
+import { assetUrl } from '../utils/assetUrl.js'
 
 export function Home() {
   return (
     <>
       <ParallaxHero
+        className="hero--panorama"
+        imageScale={1.02}
         eyebrow="Guangzhou bar / live sports / nightlife"
         title={pageMeta['/'].h1}
         text="A relaxed Guangzhou bar for live sports, drinks, group nights, and international-friendly nightlife."
         image={images.hero}
         actions={[
-          { label: "See What's On", href: '/events', className: 'btn-primary' },
+          { label: "See What's On", href: '/sports', className: 'btn-primary' },
           { label: 'Find ATOC', href: '/contact', className: 'btn-ghost' },
         ]}
       />
 
       <ScrollReveal className="quick-facts">
         {facts.map(([title, text]) => (
-          <article key={title}>
+          <article className="atoc-border-tracer" key={title}>
             <strong>{title}</strong>
-            <span>{text}</span>
+            {(Array.isArray(text) ? text : [text]).map((line) => (
+              <span key={line}>{line}</span>
+            ))}
           </article>
         ))}
       </ScrollReveal>
@@ -64,7 +69,7 @@ export function Home() {
         </SectionTitle>
         <div className="event-strip">
           {eventCards.map((item) => (
-            <article className="event-tile" key={item.title}>
+            <article className="event-tile atoc-border-tracer" key={item.title}>
               <span>{item.tag}</span>
               <h3>{item.title}</h3>
               <p>{item.text}</p>
@@ -76,10 +81,10 @@ export function Home() {
       <hr className="section-divider" />
 
       <ScrollReveal className="section visual-links">
-        <FeatureCard title="Events & Sports" text="Rugby, football, F1, basketball, MMA, and group watch-party planning." image={images.sports} href="/events" badge="Live sports" />
-        <FeatureCard title="Drinks & Menus" text="Beer, cocktails, coffee, tea, shisha, and match-night drinks categories." image={images.coffee} href="/menus" badge="Menus" />
+        <FeatureCard title="Events & Sports" text="Rugby, football, F1, basketball, MMA, and group watch-party planning." image={assetUrl('/assets/photos/posters/Sports Generic Poster.png')} href="/sports" badge="Live sports" />
+        <FeatureCard title="Drinks & Menus" text="Beer, cocktails, coffee, tea, shisha, and match-night drinks categories." image={assetUrl('/assets/photos/posters/Coffee Poster.png')} href="/menus" badge="Menus" />
         <FeatureCard title="Promotions" text="Happy hour and bar promotion candidates with current terms still to confirm." image={promotions[0].image} href="/promotions" badge="Offers" />
-        <FeatureCard title="Gallery" text="Venue atmosphere, terrace, bar counter, screens, and sports-night photos." image={images.bar} href="/gallery" badge="Atmosphere" />
+        <FeatureCard title="Gallery" text="Venue atmosphere, terrace, bar counter, screens, and sports-night photos." image={assetUrl('/assets/photos/posters/ChatGPT Image Jun 26, 2026, 06_01_22 PM.png')} href="/gallery" badge="Atmosphere" />
       </ScrollReveal>
 
       <hr className="section-divider" />
@@ -87,10 +92,10 @@ export function Home() {
       <ScrollReveal className="section split-feature bg-alt">
         <div>
           <SectionTitle eyebrow="Visit / book" title="Plan a table, group night, or private event">
-            The contact details are placeholders until ATOC confirms current address, hours, phone or WeChat, and map link.
+            Book a table, plan a group night, or message us about live sports and private events.
           </SectionTitle>
           <div className="social-row">
-            <Link href="/events">View live sports at ATOC</Link>
+            <Link href="/sports">View live sports at ATOC</Link>
             <Link href="/bookings">Start a private booking</Link>
           </div>
         </div>
