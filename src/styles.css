@@ -1170,8 +1170,30 @@ h1 {
    ================================================================ */
 
 @media (max-width: 620px) {
-  .site-nav { position: sticky; }
+  /* Phone header: stacked & centered — logo on top, menu button centered beneath it,
+     dropdown opens below the button (matches ANZSBS mobile header pattern) */
+  .site-nav {
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: auto;
+    gap: 10px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
   .nav-logo img { width: 56px; height: 56px; }
+  .site-nav.is-scrolled .nav-logo img { width: 48px; height: 48px; }
+  .menu-toggle { margin: 0 auto; }
+  .site-nav nav {
+    grid-column: auto;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 4px;
+  }
+  .site-nav nav a { width: min(100%, 280px); }
   .section { padding: 58px 20px; }
   .quick-facts {
     gap: 12px;
