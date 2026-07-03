@@ -47,7 +47,7 @@ export function Contact() {
         compact
         eyebrow="Find us / contact"
         title={pageMeta['/contact'].h1}
-        text="Use this page for ATOC address, hours, map, phone, WeChat, bookings, and event enquiries once the details are confirmed."
+        text="Use this page for the ATOC BAR address, hours, map, phone, WeChat, bookings, and event enquiries."
         image={images.outdoor}
         actions={[{ label: 'Book a Group Table', href: '/bookings' }, { label: 'See What Is On', href: '/sports' }, { label: 'Browse Menus', href: '/menus' }]}
       />

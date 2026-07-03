@@ -9,13 +9,12 @@ import { Gallery } from './pages/Gallery.jsx'
 import { Home } from './pages/Home.jsx'
 import { Menus } from './pages/Menus.jsx'
 import { Promotions } from './pages/Promotions.jsx'
-import { canonicalFor, getPageMeta } from './seo/pageMeta.js'
+import { canonicalFor, getPageMeta, siteBaseUrl, socialImageUrl } from './seo/pageMeta.js'
 
 const routes = {
   '/': Home,
   '/about': About,
   '/sports': Events,
-  '/events': Events,
   '/menus': Menus,
   '/promotions': Promotions,
   '/gallery': Gallery,
@@ -45,8 +44,7 @@ function App() {
 
   useEffect(() => {
     const meta = getPageMeta(path)
-    const origin = window.location.origin
-    const canonical = canonicalFor(path, origin)
+    const canonical = canonicalFor(path, siteBaseUrl)
 
     document.title = meta.title
     upsertMeta('name', 'description', meta.description)
@@ -56,8 +54,11 @@ function App() {
     upsertMeta('property', 'og:description', meta.description)
     upsertMeta('property', 'og:url', canonical)
     upsertMeta('property', 'og:type', 'website')
+    upsertMeta('property', 'og:image', socialImageUrl)
+    upsertMeta('name', 'twitter:card', 'summary_large_image')
     upsertMeta('name', 'twitter:title', meta.title)
     upsertMeta('name', 'twitter:description', meta.description)
+    upsertMeta('name', 'twitter:image', socialImageUrl)
     upsertCanonical(canonical)
   }, [path])
 

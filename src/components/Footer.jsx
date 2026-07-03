@@ -7,7 +7,7 @@ export function Footer() {
     <footer className="site-footer">
       <div className="footer-brand">
         <img src={logo} alt="ATOC logo" loading="lazy" />
-        <p>Guangzhou-focused ATOC site. Address, offers, and contact details still need confirmation before launch.</p>
+        <p>ATOC BAR in Guangzhou for live sports, drinks, group nights, bookings, and relaxed nightlife.</p>
       </div>
       <div className="footer-links">
         {navItems.map((item) => <Link key={item.path} href={item.path}>{item.label}</Link>)}
