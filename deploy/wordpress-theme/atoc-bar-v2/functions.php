@@ -232,6 +232,11 @@ add_filter('robots_txt', function () {
     return "User-agent: *\nAllow: /\n\nSitemap: " . ATOC_BAR_V2_CANONICAL_ORIGIN . "/sitemap.xml\n";
 }, 999);
 
+add_action('do_robotstxt', function () {
+    echo "User-agent: *\nAllow: /\n\nSitemap: " . ATOC_BAR_V2_CANONICAL_ORIGIN . "/sitemap.xml\n";
+    exit;
+}, -100);
+
 add_filter('pre_get_document_title', function ($title) {
     $routes = atoc_bar_v2_route_meta();
     $path = atoc_bar_v2_request_path();
