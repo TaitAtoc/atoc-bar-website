@@ -89,11 +89,6 @@ jobs:
               exit 1
             fi
 
-            if grep -q '^# BEGIN ATOC Canonical Host$' "$htaccess"; then
-              echo "ATOC canonical redirect block already present"
-              exit 0
-            fi
-
             timestamp="$(date +%Y%m%d-%H%M%S)"
             backup="$wordpress_root/.htaccess.atoc-backup-$timestamp"
             temporary="$wordpress_root/.htaccess.atoc-new-$timestamp"
@@ -108,10 +103,12 @@ jobs:
                 'RewriteCond %{HTTPS} !=on [OR]' \
                 'RewriteCond %{HTTP_HOST} !^www\.atocbar\.com$ [NC]' \
                 'RewriteRule ^ https://www.atocbar.com%{REQUEST_URI} [R=301,L,NE]' \
+                'RewriteRule ^$ - [E=Cache-Control:no-cache]' \
+                'RewriteRule ^robots\.txt$ /wp-content/themes/atoc-bar-v2/robots.txt [L]' \
                 '</IfModule>' \
                 '# END ATOC Canonical Host' \
                 ''
-              cat "$htaccess"
+              sed '/^# BEGIN ATOC Canonical Host$/,/^# END ATOC Canonical Host$/d' "$htaccess"
             } > "$temporary"
 
             mv "$temporary" "$htaccess"
