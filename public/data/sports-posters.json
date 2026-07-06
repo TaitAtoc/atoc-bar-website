@@ -1,20 +1,27 @@
 {
-  "updatedAt": "2026-06-30T20:15:00.000Z",
+  "updatedAt": "2026-07-06T18:43:26.427Z",
   "posters": [
     {
-      "id": "ops-20260630183934-atoc-ac7766c8",
-      "jobId": "ops-20260630183934-atoc-ac7766c8",
-      "title": "England vs DR Congo",
+      "id": "ops-20260706183545-atoc-f670a0b2",
+      "jobId": "ops-20260706183545-atoc-f670a0b2",
+      "title": "Argentina vs Egypt",
       "sport": "Football",
-      "competition": "FIFA World Cup 2026 — Round of 32",
-      "kickoffAt": "2026-07-01T16:00:00.000Z",
-      "expiresAt": "2026-07-01T19:00:00.000Z",
-      "imageUrl": "/media/sports-posters/ops-20260630183934-atoc-ac7766c8/poster-output-v2.png",
-      "createdAt": "2026-06-30T18:39:34.561Z",
-      "sentAt": null,
+      "competition": "FIFA World Cup",
+      "venue": "ATOC Bar, Guangzhou",
+      "kickoffAt": "2026-07-07T16:00:00.000Z",
+      "displayKickoffTime": "12:00 AM",
+      "displayTimezone": "Asia/Shanghai",
+      "verifiedAt": "2026-07-06T16:56:50.602Z",
+      "verificationSource": "espn-soccer-fifa.world live feed",
+      "expiresAt": "2026-07-07T19:00:00.000Z",
+      "imageUrl": "/media/sports-posters/ops-20260706183545-atoc-f670a0b2/poster-output-v2.png",
+      "createdAt": "2026-07-06T18:35:45.311Z",
+      "sentAt": "2026-07-06T18:43:26.427Z",
       "source": "ai-mission-control",
       "active": true
-    },
+    }
+  ],
+  "expiredPosters": [
     {
       "id": "ops-20260630160234-atoc-884d9541",
       "jobId": "ops-20260630160234-atoc-884d9541",
@@ -27,8 +34,21 @@
       "createdAt": "2026-06-30T16:02:34.902Z",
       "sentAt": "2026-06-30T17:30:39.621Z",
       "source": "ai-mission-control",
-      "active": true
+      "active": false
+    },
+    {
+      "id": "ops-20260630183934-atoc-ac7766c8",
+      "jobId": "ops-20260630183934-atoc-ac7766c8",
+      "title": "England vs DR Congo",
+      "sport": "Football",
+      "competition": "FIFA World Cup 2026 — Round of 32",
+      "kickoffAt": "2026-07-01T16:00:00.000Z",
+      "expiresAt": "2026-07-01T19:00:00.000Z",
+      "imageUrl": "/media/sports-posters/ops-20260630183934-atoc-ac7766c8/poster-output-v2.png",
+      "createdAt": "2026-06-30T18:39:34.561Z",
+      "sentAt": null,
+      "source": "ai-mission-control",
+      "active": false
     }
-  ],
-  "expiredPosters": []
+  ]
 }
