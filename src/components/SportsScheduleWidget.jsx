@@ -82,7 +82,8 @@ export function SportsScheduleWidget({ compact = false }) {
 
   // Fetch real JSON on mount. Never substitute sample fixtures on failure.
   useEffect(() => {
-    fetch(assetUrl('/data/sports-schedule.json'))
+    const scheduleUrl = `${assetUrl('/data/sports-schedule.json')}?v=${Date.now()}`
+    fetch(scheduleUrl, { cache: 'no-store' })
       .then(r => {
         if (!r.ok) throw new Error(`HTTP ${r.status}`)
         return r.json()
