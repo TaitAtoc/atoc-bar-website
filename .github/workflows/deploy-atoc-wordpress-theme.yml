@@ -129,3 +129,29 @@ jobs:
           target: ${{ secrets.WP_THEME_REMOTE_PATH }}
           strip_components: 2
           overwrite: true
+
+      - name: Purge ATOC sports page cache
+        uses: appleboy/ssh-action@v1.2.0
+        env:
+          WP_THEME_REMOTE_PATH: ${{ secrets.WP_THEME_REMOTE_PATH }}
+        with:
+          host: ${{ secrets.WP_DEPLOY_HOST }}
+          username: ${{ secrets.WP_DEPLOY_USER }}
+          port: ${{ secrets.WP_DEPLOY_PORT }}
+          password: ${{ secrets.WP_DEPLOY_PASSWORD }}
+          key: ${{ secrets.WP_DEPLOY_SSH_KEY }}
+          envs: WP_THEME_REMOTE_PATH
+          script: |
+            set -eu
+            themes_path="${WP_THEME_REMOTE_PATH%/}"
+            wordpress_root="${themes_path%/wp-content/themes}"
+            cd "$wordpress_root"
+
+            if ! command -v wp >/dev/null 2>&1; then
+              echo "WP-CLI is required to purge the LiteSpeed page cache."
+              exit 1
+            fi
+
+            wp litespeed-purge all --allow-root
+            wp cache flush --allow-root
+            echo "Purged LiteSpeed and WordPress caches after ATOC sports deployment."
