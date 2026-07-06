@@ -153,7 +153,10 @@ const events = merged
     const key     = `${_raw.sport}-${dateStr}`
     idCounters[key] = (idCounters[key] || 0) + 1
 
-    const trustedAdapter = String(_raw._verifiedReason || '').startsWith('trusted-adapter:')
+    const verifiedReason = String(_raw._verifiedReason || '')
+    const trustedAdapter = verifiedReason.startsWith('trusted-adapter:')
+    const verifiedManual = verifiedReason.startsWith('manual-verified:')
+    const verifiedSource = _raw.sourceUrl || _raw.sourceName || _raw.manuallyVerifiedBy || null
     return {
       id:           makeId(_raw.sport, _startUtc, idCounters[key]),
       sport:        _raw.sport,
@@ -173,6 +176,11 @@ const events = merged
         sourceUrlOrSourceName: `${_raw.source} live feed`,
         verifiedAt:           generatedAt,
         timeConfidence:       'trusted',
+      } : verifiedManual && verifiedSource ? {
+        kickoffUtcIso:        _startUtc.toISOString(),
+        sourceUrlOrSourceName: verifiedSource,
+        verifiedAt:           _raw.manuallyVerifiedAt || generatedAt,
+        timeConfidence:       'official',
       } : {}),
     }
   })

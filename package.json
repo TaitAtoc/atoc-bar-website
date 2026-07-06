@@ -6,7 +6,12 @@
   "scripts": {
     "dev": "vite --host 127.0.0.1 --port 8789",
     "build": "vite build",
-    "preview": "vite preview --host 127.0.0.1 --port 8789"
+    "preview": "vite preview --host 127.0.0.1 --port 8789",
+    "build:sports": "node tools/sports/build-sports-schedule.mjs",
+    "collect:sports": "node tools/sports/collect-fixtures.mjs",
+    "verify:sports": "node tools/sports/verify-fixtures.mjs",
+    "update:sports": "npm run collect:sports && npm run verify:sports && npm run build:sports",
+    "bridge:sports": "node tools/sports/bridge-server.mjs"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^4.3.4",

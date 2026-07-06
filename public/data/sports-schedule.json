@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T16:08:02.492Z",
+  "generatedAt": "2026-07-06T16:34:26.271Z",
   "timezone": "Asia/Shanghai",
   "daysAhead": 7,
   "openingHours": "17:00-03:00",
@@ -21,7 +21,7 @@
       "source": "espn-soccer-fifa.world",
       "kickoffUtcIso": "2026-07-06T19:00:00.000Z",
       "sourceUrlOrSourceName": "espn-soccer-fifa.world live feed",
-      "verifiedAt": "2026-07-06T16:08:02.492Z",
+      "verifiedAt": "2026-07-06T16:34:26.271Z",
       "timeConfidence": "trusted"
     },
     {
@@ -40,7 +40,7 @@
       "source": "espn-soccer-fifa.world",
       "kickoffUtcIso": "2026-07-07T16:00:00.000Z",
       "sourceUrlOrSourceName": "espn-soccer-fifa.world live feed",
-      "verifiedAt": "2026-07-06T16:08:02.492Z",
+      "verifiedAt": "2026-07-06T16:34:26.271Z",
       "timeConfidence": "trusted"
     },
     {
@@ -59,7 +59,7 @@
       "source": "squiggle",
       "kickoffUtcIso": "2026-07-09T10:10:00.000Z",
       "sourceUrlOrSourceName": "squiggle live feed",
-      "verifiedAt": "2026-07-06T16:08:02.492Z",
+      "verifiedAt": "2026-07-06T16:34:26.271Z",
       "timeConfidence": "trusted"
     },
     {
@@ -78,7 +78,7 @@
       "source": "squiggle",
       "kickoffUtcIso": "2026-07-10T09:40:00.000Z",
       "sourceUrlOrSourceName": "squiggle live feed",
-      "verifiedAt": "2026-07-06T16:08:02.492Z",
+      "verifiedAt": "2026-07-06T16:34:26.271Z",
       "timeConfidence": "trusted"
     },
     {
@@ -97,7 +97,7 @@
       "source": "espn-soccer-fifa.world",
       "kickoffUtcIso": "2026-07-10T19:00:00.000Z",
       "sourceUrlOrSourceName": "espn-soccer-fifa.world live feed",
-      "verifiedAt": "2026-07-06T16:08:02.492Z",
+      "verifiedAt": "2026-07-06T16:34:26.271Z",
       "timeConfidence": "trusted"
     },
     {
@@ -116,7 +116,7 @@
       "source": "squiggle",
       "kickoffUtcIso": "2026-07-11T09:35:00.000Z",
       "sourceUrlOrSourceName": "squiggle live feed",
-      "verifiedAt": "2026-07-06T16:08:02.492Z",
+      "verifiedAt": "2026-07-06T16:34:26.271Z",
       "timeConfidence": "trusted"
     },
     {
@@ -135,7 +135,7 @@
       "source": "squiggle",
       "kickoffUtcIso": "2026-07-11T10:10:00.000Z",
       "sourceUrlOrSourceName": "squiggle live feed",
-      "verifiedAt": "2026-07-06T16:08:02.492Z",
+      "verifiedAt": "2026-07-06T16:34:26.271Z",
       "timeConfidence": "trusted"
     }
   ]

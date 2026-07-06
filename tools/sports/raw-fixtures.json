@@ -1,0 +1,67 @@
+[
+  {
+    "sport": "NRL",
+    "league": "NRL — Round 19",
+    "startUtc": "2026-06-28T11:00:00Z",
+    "homeTeam": "Melbourne Storm",
+    "awayTeam": "Penrith Panthers",
+    "status": "Scheduled",
+    "source": "manual",
+    "sourceName": "NRL Official Schedule 2026",
+    "sourceUrl": "https://www.nrl.com/draw/"
+  },
+  {
+    "sport": "Formula 1",
+    "league": "Formula 1 — Austrian Grand Prix",
+    "startUtc": "2026-06-28T13:00:00Z",
+    "displayTitle": "Austrian Grand Prix — Race",
+    "status": "Scheduled",
+    "source": "manual",
+    "sourceName": "Formula 1 Official Calendar 2026",
+    "sourceUrl": "https://www.formula1.com/en/racing/2026/austria"
+  },
+  {
+    "sport": "Tennis",
+    "league": "Wimbledon — Round 1",
+    "startUtc": "2026-06-29T11:00:00Z",
+    "displayTitle": "Wimbledon — Day 1",
+    "teams": "Multiple matches · Centre Court TBC",
+    "status": "Scheduled",
+    "source": "manual",
+    "sourceName": "The Championships Wimbledon 2026",
+    "sourceUrl": "https://www.wimbledon.com"
+  },
+  {
+    "sport": "Tennis",
+    "league": "Wimbledon — Round 1",
+    "startUtc": "2026-06-30T11:30:00Z",
+    "displayTitle": "Wimbledon — Day 2",
+    "teams": "Multiple matches · Courts TBC",
+    "status": "Scheduled",
+    "source": "manual",
+    "sourceName": "The Championships Wimbledon 2026",
+    "sourceUrl": "https://www.wimbledon.com"
+  },
+  {
+    "sport": "Basketball",
+    "league": "NBL Australia — Round 1",
+    "startUtc": "2026-07-02T10:00:00Z",
+    "homeTeam": "Illawarra Hawks",
+    "awayTeam": "Sydney Kings",
+    "status": "Scheduled",
+    "source": "manual",
+    "sourceName": "NBL Official Schedule 2026",
+    "sourceUrl": "https://nbl.com.au/games"
+  },
+  {
+    "sport": "Rugby",
+    "league": "Rugby Nations Championship 2026",
+    "startUtc": "2026-07-04T15:05:00Z",
+    "homeTeam": "South Africa",
+    "awayTeam": "England",
+    "status": "Scheduled",
+    "source": "manual",
+    "sourceName": "SA Rugby Nations Championship 2026",
+    "sourceUrl": "https://sarugby.co.za"
+  }
+]
