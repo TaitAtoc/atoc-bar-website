@@ -1,17 +1,16 @@
 /**
  * SportsScheduleWidget.jsx
  * ─────────────────────────────────────────────────────────────────
- * Sports Schedule Widget — real JSON first, sample fallback.
+ * Sports Schedule Widget — real schedule JSON with visible failure states.
  *
  * Data source priority:
  *   1. /data/sports-schedule.json  (written by: npm run build:sports)
- *      → if fetch succeeds AND events.length > 0, use it (isSampleFallback = false)
- *   2. src/data/sportsScheduleSample.js  (static import, always available)
- *      → used when fetch fails or JSON has no events (isSampleFallback = true)
+ *      → empty schedules remain empty; failures are shown and never replaced
+ *        with sample fixtures.
  *
  * Opening-hours filter (applied at render time):
  *   ATOC is open 5 pm – 3 am China time (UTC+8).
- *   The window crosses midnight: minutes >= 17*60 || minutes < 3*60
+ *   The window crosses midnight: minutes >= 17*60 || minutes <= 3*60
  *   Uses startChina field — no browser timezone conversion.
  *
  * See: docs/sports-schedule-widget-plan.md
@@ -19,7 +18,6 @@
  */
 
 import React, { useState, useEffect, useMemo } from 'react'
-import { schedule as sampleSchedule } from '../data/sportsScheduleSample.js'
 import { assetUrl } from '../utils/assetUrl.js'
 
 // ── Opening-hours filter ──────────────────────────────────────────────────────
@@ -30,22 +28,10 @@ function isWithinAtocOpeningHours(event) {
   const match = event.startChina && event.startChina.match(/T(\d{2}):(\d{2}):/)
   if (!match) return false
   const minutesAfterMidnight = parseInt(match[1], 10) * 60 + parseInt(match[2], 10)
-  return minutesAfterMidnight >= 17 * 60 || minutesAfterMidnight < 3 * 60
+  return minutesAfterMidnight >= 17 * 60 || minutesAfterMidnight <= 3 * 60
 }
 
 const ALL = 'All Sports'
-
-const SPORT_OPTIONS = [
-  ALL,
-  'Rugby',
-  'Football',
-  'AFL',
-  'NRL',
-  'NFL',
-  'Tennis',
-  'Formula 1',
-  'Basketball',
-]
 
 const SPORT_ABBREV = {
   'Rugby':      'Rugby',
@@ -90,11 +76,11 @@ function EventCard({ event }) {
 }
 
 export function SportsScheduleWidget({ compact = false }) {
-  const [schedule, setSchedule] = useState(sampleSchedule)
-  const [isSampleFallback, setIsSampleFallback] = useState(true)
+  const [schedule, setSchedule] = useState({ generatedAt: null, events: [] })
+  const [loadError, setLoadError] = useState(null)
   const [selected, setSelected] = useState(ALL)
 
-  // Fetch real JSON on mount; fall back to sample if unavailable or empty.
+  // Fetch real JSON on mount. Never substitute sample fixtures on failure.
   useEffect(() => {
     fetch(assetUrl('/data/sports-schedule.json'))
       .then(r => {
@@ -102,16 +88,21 @@ export function SportsScheduleWidget({ compact = false }) {
         return r.json()
       })
       .then(data => {
-        if (data && Array.isArray(data.events) && data.events.length > 0) {
-          setSchedule(data)
-          setIsSampleFallback(false)
-        }
-        // else: leave sampleSchedule + isSampleFallback=true
+        if (!data || !Array.isArray(data.events)) throw new Error('Invalid schedule data')
+        setSchedule(data)
+        setLoadError(null)
       })
-      .catch(() => {
-        // Network error or bad JSON — stay on sample fallback
+      .catch(error => {
+        setSchedule({ generatedAt: null, events: [] })
+        setLoadError(error.message || 'Schedule unavailable')
       })
   }, [])
+
+  const sportOptions = useMemo(
+    () => [ALL, ...new Set(schedule.events.map(event => event.sport).filter(Boolean))]
+      .sort((a, b) => a === ALL ? -1 : b === ALL ? 1 : a.localeCompare(b)),
+    [schedule],
+  )
 
   // Filter: 7-day window, opening hours, sport selection. Sort soonest first.
   const filtered = useMemo(() => {
@@ -154,7 +145,7 @@ export function SportsScheduleWidget({ compact = false }) {
             onChange={e => setSelected(e.target.value)}
             aria-label="Filter by sport"
           >
-            {SPORT_OPTIONS.map(s => (
+            {sportOptions.map(s => (
               <option key={s} value={s}>{s}</option>
             ))}
           </select>
@@ -162,16 +153,14 @@ export function SportsScheduleWidget({ compact = false }) {
         </div>
 
         <div className="sports-widget__updated-group">
-          {isSampleFallback ? (
-            <span className="sports-widget__sample-label">
-              Sample schedule — live fixture feed coming soon
+          {loadError ? (
+            <span className="sports-widget__sample-label" role="alert">
+              Live schedule unavailable — no sample fixtures shown
             </span>
-          ) : (
-            updatedDate && (
-              <span className="sports-widget__updated">
-                Schedule updated {updatedDate}
-              </span>
-            )
+          ) : updatedDate && (
+            <span className="sports-widget__updated">
+              Schedule updated {updatedDate}
+            </span>
           )}
         </div>
       </div>
@@ -179,7 +168,9 @@ export function SportsScheduleWidget({ compact = false }) {
       {isEmpty ? (
         <div className="sports-widget__empty">
           <p className="sports-widget__empty-line">
-            No confirmed fixtures during ATOC opening hours in the next 7 days.
+            {loadError
+              ? 'The live sports schedule could not be loaded. Please check again shortly.'
+              : 'No confirmed fixtures during ATOC opening hours in the next 7 days.'}
           </p>
           <p className="sports-widget__empty-cta">
             Ask us what's on this week.
