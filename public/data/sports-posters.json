@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-15T19:27:01.684Z",
+  "updatedAt": "2026-07-16T02:37:48.858Z",
   "posters": [
     {
       "id": "ops-20260715185955-atoc-8f75c486",
@@ -17,6 +17,25 @@
       "imageUrl": "/media/sports-posters/ops-20260715185955-atoc-8f75c486/poster-output-v2.png",
       "createdAt": "2026-07-15T18:59:55.469Z",
       "sentAt": "2026-07-15T19:27:01.684Z",
+      "source": "ai-mission-control",
+      "active": true
+    },
+    {
+      "id": "ops-20260716023107-atoc-7109f15f",
+      "jobId": "ops-20260716023107-atoc-7109f15f",
+      "title": "Collingwood vs Carlton",
+      "sport": "AFL",
+      "competition": "AFL — Round 19",
+      "venue": "ATOC Bar, Guangzhou",
+      "kickoffAt": "2026-07-18T09:35:00.000Z",
+      "displayKickoffTime": "5:35 PM",
+      "displayTimezone": "Asia/Shanghai",
+      "verifiedAt": "2026-07-15T18:57:41.375Z",
+      "verificationSource": "squiggle live feed",
+      "expiresAt": "2026-07-18T12:35:00.000Z",
+      "imageUrl": "/media/sports-posters/ops-20260716023107-atoc-7109f15f/poster-output-v2.png",
+      "createdAt": "2026-07-16T02:31:07.037Z",
+      "sentAt": "2026-07-16T02:37:48.858Z",
       "source": "ai-mission-control",
       "active": true
     }
