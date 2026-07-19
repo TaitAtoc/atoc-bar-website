@@ -1,48 +1,10 @@
 {
-  "generatedAt": "2026-07-17T20:06:39.772Z",
+  "generatedAt": "2026-07-19T12:18:57.321Z",
   "timezone": "Asia/Shanghai",
   "daysAhead": 7,
   "openingHours": "17:00-03:00",
   "source": "build-sports-schedule",
   "events": [
-    {
-      "id": "afl-2026-07-18-001",
-      "sport": "AFL",
-      "league": "AFL — Round 19",
-      "startUtc": "2026-07-18T09:35:00.000Z",
-      "startChina": "2026-07-18T17:35:00+08:00",
-      "dateLabel": "Sat, 18 July",
-      "timeLabel": "5:35 PM",
-      "homeTeam": "Collingwood",
-      "awayTeam": "Carlton",
-      "displayTitle": "Collingwood vs Carlton",
-      "teams": "Collingwood vs Carlton",
-      "status": "Scheduled",
-      "source": "squiggle",
-      "kickoffUtcIso": "2026-07-18T09:35:00.000Z",
-      "sourceUrlOrSourceName": "squiggle live feed",
-      "verifiedAt": "2026-07-17T20:06:39.772Z",
-      "timeConfidence": "trusted"
-    },
-    {
-      "id": "afl-2026-07-18-002",
-      "sport": "AFL",
-      "league": "AFL — Round 19",
-      "startUtc": "2026-07-18T10:10:00.000Z",
-      "startChina": "2026-07-18T18:10:00+08:00",
-      "dateLabel": "Sat, 18 July",
-      "timeLabel": "6:10 PM",
-      "homeTeam": "West Coast",
-      "awayTeam": "Brisbane Lions",
-      "displayTitle": "West Coast vs Brisbane Lions",
-      "teams": "West Coast vs Brisbane Lions",
-      "status": "Scheduled",
-      "source": "squiggle",
-      "kickoffUtcIso": "2026-07-18T10:10:00.000Z",
-      "sourceUrlOrSourceName": "squiggle live feed",
-      "verifiedAt": "2026-07-17T20:06:39.772Z",
-      "timeConfidence": "trusted"
-    },
     {
       "id": "formula-1-2026-07-19-001",
       "sport": "Formula 1",
@@ -59,7 +21,7 @@
       "source": "openf1",
       "kickoffUtcIso": "2026-07-19T13:00:00.000Z",
       "sourceUrlOrSourceName": "openf1 live feed",
-      "verifiedAt": "2026-07-17T20:06:39.772Z",
+      "verifiedAt": "2026-07-19T12:18:57.321Z",
       "timeConfidence": "trusted"
     },
     {
@@ -78,7 +40,7 @@
       "source": "espn-soccer-fifa.world",
       "kickoffUtcIso": "2026-07-19T19:00:00.000Z",
       "sourceUrlOrSourceName": "espn-soccer-fifa.world live feed",
-      "verifiedAt": "2026-07-17T20:06:39.772Z",
+      "verifiedAt": "2026-07-19T12:18:57.321Z",
       "timeConfidence": "trusted"
     },
     {
@@ -97,7 +59,7 @@
       "source": "squiggle",
       "kickoffUtcIso": "2026-07-23T09:30:00.000Z",
       "sourceUrlOrSourceName": "squiggle live feed",
-      "verifiedAt": "2026-07-17T20:06:39.772Z",
+      "verifiedAt": "2026-07-19T12:18:57.321Z",
       "timeConfidence": "trusted"
     },
     {
@@ -116,7 +78,7 @@
       "source": "squiggle",
       "kickoffUtcIso": "2026-07-24T09:40:00.000Z",
       "sourceUrlOrSourceName": "squiggle live feed",
-      "verifiedAt": "2026-07-17T20:06:39.772Z",
+      "verifiedAt": "2026-07-19T12:18:57.321Z",
       "timeConfidence": "trusted"
     },
     {
@@ -135,7 +97,26 @@
       "source": "squiggle",
       "kickoffUtcIso": "2026-07-24T10:10:00.000Z",
       "sourceUrlOrSourceName": "squiggle live feed",
-      "verifiedAt": "2026-07-17T20:06:39.772Z",
+      "verifiedAt": "2026-07-19T12:18:57.321Z",
+      "timeConfidence": "trusted"
+    },
+    {
+      "id": "afl-2026-07-25-001",
+      "sport": "AFL",
+      "league": "AFL — Round 20",
+      "startUtc": "2026-07-25T09:40:00.000Z",
+      "startChina": "2026-07-25T17:40:00+08:00",
+      "dateLabel": "Sat, 25 July",
+      "timeLabel": "5:40 PM",
+      "homeTeam": "Western Bulldogs",
+      "awayTeam": "Richmond",
+      "displayTitle": "Western Bulldogs vs Richmond",
+      "teams": "Western Bulldogs vs Richmond",
+      "status": "Scheduled",
+      "source": "squiggle",
+      "kickoffUtcIso": "2026-07-25T09:40:00.000Z",
+      "sourceUrlOrSourceName": "squiggle live feed",
+      "verifiedAt": "2026-07-19T12:18:57.321Z",
       "timeConfidence": "trusted"
     }
   ]
