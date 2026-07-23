@@ -1,29 +1,10 @@
 {
-  "generatedAt": "2026-07-22T14:36:05.263Z",
+  "generatedAt": "2026-07-23T14:42:46.932Z",
   "timezone": "Asia/Shanghai",
   "daysAhead": 7,
   "openingHours": "17:00-03:00",
   "source": "build-sports-schedule",
   "events": [
-    {
-      "id": "afl-2026-07-23-001",
-      "sport": "AFL",
-      "league": "AFL — Round 20",
-      "startUtc": "2026-07-23T09:30:00.000Z",
-      "startChina": "2026-07-23T17:30:00+08:00",
-      "dateLabel": "Thu, 23 July",
-      "timeLabel": "5:30 PM",
-      "homeTeam": "Adelaide",
-      "awayTeam": "Collingwood",
-      "displayTitle": "Adelaide vs Collingwood",
-      "teams": "Adelaide vs Collingwood",
-      "status": "Scheduled",
-      "source": "squiggle",
-      "kickoffUtcIso": "2026-07-23T09:30:00.000Z",
-      "sourceUrlOrSourceName": "squiggle live feed",
-      "verifiedAt": "2026-07-22T14:36:05.263Z",
-      "timeConfidence": "trusted"
-    },
     {
       "id": "afl-2026-07-24-001",
       "sport": "AFL",
@@ -40,7 +21,7 @@
       "source": "squiggle",
       "kickoffUtcIso": "2026-07-24T09:40:00.000Z",
       "sourceUrlOrSourceName": "squiggle live feed",
-      "verifiedAt": "2026-07-22T14:36:05.263Z",
+      "verifiedAt": "2026-07-23T14:42:46.932Z",
       "timeConfidence": "trusted"
     },
     {
@@ -59,7 +40,7 @@
       "source": "squiggle",
       "kickoffUtcIso": "2026-07-24T10:10:00.000Z",
       "sourceUrlOrSourceName": "squiggle live feed",
-      "verifiedAt": "2026-07-22T14:36:05.263Z",
+      "verifiedAt": "2026-07-23T14:42:46.932Z",
       "timeConfidence": "trusted"
     },
     {
@@ -78,7 +59,7 @@
       "source": "squiggle",
       "kickoffUtcIso": "2026-07-25T09:40:00.000Z",
       "sourceUrlOrSourceName": "squiggle live feed",
-      "verifiedAt": "2026-07-22T14:36:05.263Z",
+      "verifiedAt": "2026-07-23T14:42:46.932Z",
       "timeConfidence": "trusted"
     },
     {
@@ -97,7 +78,26 @@
       "source": "openf1",
       "kickoffUtcIso": "2026-07-26T13:00:00.000Z",
       "sourceUrlOrSourceName": "openf1 live feed",
-      "verifiedAt": "2026-07-22T14:36:05.263Z",
+      "verifiedAt": "2026-07-23T14:42:46.932Z",
+      "timeConfidence": "trusted"
+    },
+    {
+      "id": "afl-2026-07-30-001",
+      "sport": "AFL",
+      "league": "AFL — Round 21",
+      "startUtc": "2026-07-30T09:30:00.000Z",
+      "startChina": "2026-07-30T17:30:00+08:00",
+      "dateLabel": "Thu, 30 July",
+      "timeLabel": "5:30 PM",
+      "homeTeam": "Collingwood",
+      "awayTeam": "Geelong",
+      "displayTitle": "Collingwood vs Geelong",
+      "teams": "Collingwood vs Geelong",
+      "status": "Scheduled",
+      "source": "squiggle",
+      "kickoffUtcIso": "2026-07-30T09:30:00.000Z",
+      "sourceUrlOrSourceName": "squiggle live feed",
+      "verifiedAt": "2026-07-23T14:42:46.932Z",
       "timeConfidence": "trusted"
     }
   ]
