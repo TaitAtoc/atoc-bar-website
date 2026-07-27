@@ -1,29 +1,10 @@
 {
-  "generatedAt": "2026-07-25T20:32:23.742Z",
+  "generatedAt": "2026-07-27T14:50:53.747Z",
   "timezone": "Asia/Shanghai",
   "daysAhead": 7,
   "openingHours": "17:00-03:00",
   "source": "build-sports-schedule",
   "events": [
-    {
-      "id": "formula-1-2026-07-26-001",
-      "sport": "Formula 1",
-      "league": "Formula 1 — Hungarian Grand Prix",
-      "startUtc": "2026-07-26T13:00:00.000Z",
-      "startChina": "2026-07-26T21:00:00+08:00",
-      "dateLabel": "Sun, 26 July",
-      "timeLabel": "9:00 PM",
-      "homeTeam": null,
-      "awayTeam": null,
-      "displayTitle": "Hungarian Grand Prix — Race",
-      "teams": "N/A",
-      "status": "Scheduled",
-      "source": "openf1",
-      "kickoffUtcIso": "2026-07-26T13:00:00.000Z",
-      "sourceUrlOrSourceName": "openf1 live feed",
-      "verifiedAt": "2026-07-25T20:32:23.742Z",
-      "timeConfidence": "trusted"
-    },
     {
       "id": "afl-2026-07-30-001",
       "sport": "AFL",
@@ -40,7 +21,7 @@
       "source": "squiggle",
       "kickoffUtcIso": "2026-07-30T09:30:00.000Z",
       "sourceUrlOrSourceName": "squiggle live feed",
-      "verifiedAt": "2026-07-25T20:32:23.742Z",
+      "verifiedAt": "2026-07-27T14:50:53.747Z",
       "timeConfidence": "trusted"
     },
     {
@@ -59,7 +40,7 @@
       "source": "squiggle",
       "kickoffUtcIso": "2026-07-31T10:10:00.000Z",
       "sourceUrlOrSourceName": "squiggle live feed",
-      "verifiedAt": "2026-07-25T20:32:23.742Z",
+      "verifiedAt": "2026-07-27T14:50:53.747Z",
       "timeConfidence": "trusted"
     },
     {
@@ -78,7 +59,7 @@
       "source": "squiggle",
       "kickoffUtcIso": "2026-08-01T09:40:00.000Z",
       "sourceUrlOrSourceName": "squiggle live feed",
-      "verifiedAt": "2026-07-25T20:32:23.742Z",
+      "verifiedAt": "2026-07-27T14:50:53.747Z",
       "timeConfidence": "trusted"
     }
   ]
