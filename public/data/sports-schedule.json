@@ -1,29 +1,10 @@
 {
-  "generatedAt": "2026-07-30T15:16:52.511Z",
+  "generatedAt": "2026-07-31T16:44:29.045Z",
   "timezone": "Asia/Shanghai",
   "daysAhead": 7,
   "openingHours": "17:00-03:00",
   "source": "build-sports-schedule",
   "events": [
-    {
-      "id": "afl-2026-07-31-001",
-      "sport": "AFL",
-      "league": "AFL — Round 21",
-      "startUtc": "2026-07-31T10:10:00.000Z",
-      "startChina": "2026-07-31T18:10:00+08:00",
-      "dateLabel": "Fri, 31 July",
-      "timeLabel": "6:10 PM",
-      "homeTeam": "Fremantle",
-      "awayTeam": "Western Bulldogs",
-      "displayTitle": "Fremantle vs Western Bulldogs",
-      "teams": "Fremantle vs Western Bulldogs",
-      "status": "Scheduled",
-      "source": "squiggle",
-      "kickoffUtcIso": "2026-07-31T10:10:00.000Z",
-      "sourceUrlOrSourceName": "squiggle live feed",
-      "verifiedAt": "2026-07-30T15:16:52.511Z",
-      "timeConfidence": "trusted"
-    },
     {
       "id": "afl-2026-08-01-001",
       "sport": "AFL",
@@ -40,7 +21,7 @@
       "source": "squiggle",
       "kickoffUtcIso": "2026-08-01T09:40:00.000Z",
       "sourceUrlOrSourceName": "squiggle live feed",
-      "verifiedAt": "2026-07-30T15:16:52.511Z",
+      "verifiedAt": "2026-07-31T16:44:29.045Z",
       "timeConfidence": "trusted"
     },
     {
@@ -59,7 +40,26 @@
       "source": "squiggle",
       "kickoffUtcIso": "2026-08-06T09:30:00.000Z",
       "sourceUrlOrSourceName": "squiggle live feed",
-      "verifiedAt": "2026-07-30T15:16:52.511Z",
+      "verifiedAt": "2026-07-31T16:44:29.045Z",
+      "timeConfidence": "trusted"
+    },
+    {
+      "id": "afl-2026-08-07-001",
+      "sport": "AFL",
+      "league": "AFL — Round 22",
+      "startUtc": "2026-08-07T09:40:00.000Z",
+      "startChina": "2026-08-07T17:40:00+08:00",
+      "dateLabel": "Fri, 7 Aug",
+      "timeLabel": "5:40 PM",
+      "homeTeam": "Brisbane Lions",
+      "awayTeam": "Hawthorn",
+      "displayTitle": "Brisbane Lions vs Hawthorn",
+      "teams": "Brisbane Lions vs Hawthorn",
+      "status": "Scheduled",
+      "source": "squiggle",
+      "kickoffUtcIso": "2026-08-07T09:40:00.000Z",
+      "sourceUrlOrSourceName": "squiggle live feed",
+      "verifiedAt": "2026-07-31T16:44:29.045Z",
       "timeConfidence": "trusted"
     }
   ]
