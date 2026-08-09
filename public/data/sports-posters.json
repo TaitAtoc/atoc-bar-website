@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09T08:36:12.876Z",
+  "updatedAt": "2026-08-09T09:18:59.820Z",
   "posters": [
     {
       "id": "ops-20260808032522-atoc-0bdb5c13",
@@ -36,6 +36,25 @@
       "imageUrl": "/media/sports-posters/ops-20260809074427-atoc-47590d01/poster-output-v2.png",
       "createdAt": "2026-08-09T07:44:27.471Z",
       "sentAt": "2026-08-09T08:36:12.876Z",
+      "source": "ai-mission-control",
+      "active": true
+    },
+    {
+      "id": "ops-20260809085653-atoc-6dc8c233",
+      "jobId": "ops-20260809085653-atoc-6dc8c233",
+      "title": "Fremantle vs Adelaide",
+      "sport": "AFL",
+      "competition": "AFL — Round 23",
+      "venue": "ATOC Bar, Guangzhou",
+      "kickoffAt": "2026-08-14T10:10:00.000Z",
+      "displayKickoffTime": "6:10 PM",
+      "displayTimezone": "Asia/Shanghai",
+      "verifiedAt": "2026-08-09T03:57:14.934Z",
+      "verificationSource": "squiggle live feed",
+      "expiresAt": "2026-08-14T13:10:00.000Z",
+      "imageUrl": "/media/sports-posters/ops-20260809085653-atoc-6dc8c233/poster-output-v2.png",
+      "createdAt": "2026-08-09T08:56:53.441Z",
+      "sentAt": "2026-08-09T09:18:59.820Z",
       "source": "ai-mission-control",
       "active": true
     }
