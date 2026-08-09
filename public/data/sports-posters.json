@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09T04:00:52.176Z",
+  "updatedAt": "2026-08-09T08:36:12.876Z",
   "posters": [
     {
       "id": "ops-20260808032522-atoc-0bdb5c13",
@@ -17,6 +17,25 @@
       "imageUrl": "/media/sports-posters/ops-20260808032522-atoc-0bdb5c13/poster-output-v2.png",
       "createdAt": "2026-08-08T03:25:22.167Z",
       "sentAt": "2026-08-09T04:00:52.176Z",
+      "source": "ai-mission-control",
+      "active": true
+    },
+    {
+      "id": "ops-20260809074427-atoc-47590d01",
+      "jobId": "ops-20260809074427-atoc-47590d01",
+      "title": "St Kilda vs Carlton",
+      "sport": "AFL",
+      "competition": "AFL — Round 22",
+      "venue": "ATOC Bar, Guangzhou",
+      "kickoffAt": "2026-08-09T09:20:00.000Z",
+      "displayKickoffTime": "5:20 PM",
+      "displayTimezone": "Asia/Shanghai",
+      "verifiedAt": "2026-08-09T03:57:14.934Z",
+      "verificationSource": "squiggle live feed",
+      "expiresAt": "2026-08-09T12:20:00.000Z",
+      "imageUrl": "/media/sports-posters/ops-20260809074427-atoc-47590d01/poster-output-v2.png",
+      "createdAt": "2026-08-09T07:44:27.471Z",
+      "sentAt": "2026-08-09T08:36:12.876Z",
       "source": "ai-mission-control",
       "active": true
     }
