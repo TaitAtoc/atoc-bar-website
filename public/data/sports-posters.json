@@ -1,25 +1,27 @@
 {
-  "updatedAt": "2026-07-16T02:37:48.858Z",
+  "updatedAt": "2026-08-09T04:00:52.176Z",
   "posters": [
     {
-      "id": "ops-20260715185955-atoc-8f75c486",
-      "jobId": "ops-20260715185955-atoc-8f75c486",
-      "title": "Belgian Grand Prix Race",
-      "sport": "Formula 1",
-      "competition": "Formula 1 — Belgian Grand Prix",
+      "id": "ops-20260808032522-atoc-0bdb5c13",
+      "jobId": "ops-20260808032522-atoc-0bdb5c13",
+      "title": "Fremantle vs Adelaide",
+      "sport": "AFL",
+      "competition": "AFL — Round 23",
       "venue": "ATOC Bar, Guangzhou",
-      "kickoffAt": "2026-07-19T13:00:00.000Z",
-      "displayKickoffTime": "9:00 PM",
+      "kickoffAt": "2026-08-14T10:10:00.000Z",
+      "displayKickoffTime": "6:10 PM",
       "displayTimezone": "Asia/Shanghai",
-      "verifiedAt": "2026-07-14T18:35:42.946Z",
-      "verificationSource": "openf1 live feed",
-      "expiresAt": "2026-07-19T16:30:00.000Z",
-      "imageUrl": "/media/sports-posters/ops-20260715185955-atoc-8f75c486/poster-output-v2.png",
-      "createdAt": "2026-07-15T18:59:55.469Z",
-      "sentAt": "2026-07-15T19:27:01.684Z",
+      "verifiedAt": "2026-08-07T19:06:59.468Z",
+      "verificationSource": "squiggle live feed",
+      "expiresAt": "2026-08-14T13:10:00.000Z",
+      "imageUrl": "/media/sports-posters/ops-20260808032522-atoc-0bdb5c13/poster-output-v2.png",
+      "createdAt": "2026-08-08T03:25:22.167Z",
+      "sentAt": "2026-08-09T04:00:52.176Z",
       "source": "ai-mission-control",
       "active": true
-    },
+    }
+  ],
+  "expiredPosters": [
     {
       "id": "ops-20260716023107-atoc-7109f15f",
       "jobId": "ops-20260716023107-atoc-7109f15f",
@@ -37,10 +39,27 @@
       "createdAt": "2026-07-16T02:31:07.037Z",
       "sentAt": "2026-07-16T02:37:48.858Z",
       "source": "ai-mission-control",
-      "active": true
-    }
-  ],
-  "expiredPosters": [
+      "active": false
+    },
+    {
+      "id": "ops-20260715185955-atoc-8f75c486",
+      "jobId": "ops-20260715185955-atoc-8f75c486",
+      "title": "Belgian Grand Prix Race",
+      "sport": "Formula 1",
+      "competition": "Formula 1 — Belgian Grand Prix",
+      "venue": "ATOC Bar, Guangzhou",
+      "kickoffAt": "2026-07-19T13:00:00.000Z",
+      "displayKickoffTime": "9:00 PM",
+      "displayTimezone": "Asia/Shanghai",
+      "verifiedAt": "2026-07-14T18:35:42.946Z",
+      "verificationSource": "openf1 live feed",
+      "expiresAt": "2026-07-19T16:30:00.000Z",
+      "imageUrl": "/media/sports-posters/ops-20260715185955-atoc-8f75c486/poster-output-v2.png",
+      "createdAt": "2026-07-15T18:59:55.469Z",
+      "sentAt": "2026-07-15T19:27:01.684Z",
+      "source": "ai-mission-control",
+      "active": false
+    },
     {
       "id": "ops-20260706183545-atoc-f670a0b2",
       "jobId": "ops-20260706183545-atoc-f670a0b2",
