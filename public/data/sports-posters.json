@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09T09:18:59.820Z",
+  "updatedAt": "2026-08-09T09:21:01.521Z",
   "posters": [
     {
       "id": "ops-20260808032522-atoc-0bdb5c13",
@@ -55,6 +55,25 @@
       "imageUrl": "/media/sports-posters/ops-20260809085653-atoc-6dc8c233/poster-output-v2.png",
       "createdAt": "2026-08-09T08:56:53.441Z",
       "sentAt": "2026-08-09T09:18:59.820Z",
+      "source": "ai-mission-control",
+      "active": true
+    },
+    {
+      "id": "ops-20260809092035-atoc-b1d93734",
+      "jobId": "ops-20260809092035-atoc-b1d93734",
+      "title": "Hawthorn vs Collingwood",
+      "sport": "AFL",
+      "competition": "AFL — Round 23",
+      "venue": "ATOC Bar, Guangzhou",
+      "kickoffAt": "2026-08-15T09:40:00.000Z",
+      "displayKickoffTime": "5:40 PM",
+      "displayTimezone": "Asia/Shanghai",
+      "verifiedAt": "2026-08-09T03:57:14.934Z",
+      "verificationSource": "squiggle live feed",
+      "expiresAt": "2026-08-15T12:40:00.000Z",
+      "imageUrl": "/media/sports-posters/ops-20260809092035-atoc-b1d93734/poster-output-v2.png",
+      "createdAt": "2026-08-09T09:20:35.735Z",
+      "sentAt": "2026-08-09T09:21:01.521Z",
       "source": "ai-mission-control",
       "active": true
     }
