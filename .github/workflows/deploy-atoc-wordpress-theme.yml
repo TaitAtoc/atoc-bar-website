@@ -105,6 +105,8 @@ jobs:
                 'RewriteRule ^ https://www.atocbar.com%{REQUEST_URI} [R=301,L,NE]' \
                 'RewriteRule ^$ - [E=Cache-Control:no-cache]' \
                 'RewriteRule ^sports/?$ - [E=Cache-Control:no-cache,no-store,must-revalidate]' \
+                'RewriteRule ^data/sports-posters\.json$ /wp-content/themes/atoc-bar-v2/data/sports-posters.json [L]' \
+                'RewriteRule ^media/sports-posters/(.+)$ /wp-content/themes/atoc-bar-v2/media/sports-posters/$1 [L,NE]' \
                 'RewriteRule ^wp-content/themes/atoc-bar-v2/data/sports-schedule\.json$ - [E=Cache-Control:no-cache,no-store,must-revalidate]' \
                 'RewriteRule ^robots\.txt$ /wp-content/themes/atoc-bar-v2/robots.txt [L]' \
                 '</IfModule>' \
