@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09T09:21:01.521Z",
+  "updatedAt": "2026-08-09T09:22:07.662Z",
   "posters": [
     {
       "id": "ops-20260808032522-atoc-0bdb5c13",
@@ -74,6 +74,25 @@
       "imageUrl": "/media/sports-posters/ops-20260809092035-atoc-b1d93734/poster-output-v2.png",
       "createdAt": "2026-08-09T09:20:35.735Z",
       "sentAt": "2026-08-09T09:21:01.521Z",
+      "source": "ai-mission-control",
+      "active": true
+    },
+    {
+      "id": "ops-20260809092135-atoc-dca3c08d",
+      "jobId": "ops-20260809092135-atoc-dca3c08d",
+      "title": "Port Adelaide vs Melbourne",
+      "sport": "AFL",
+      "competition": "AFL — Round 23",
+      "venue": "ATOC Bar, Guangzhou",
+      "kickoffAt": "2026-08-15T10:10:00.000Z",
+      "displayKickoffTime": "6:10 PM",
+      "displayTimezone": "Asia/Shanghai",
+      "verifiedAt": "2026-08-09T03:57:14.934Z",
+      "verificationSource": "squiggle live feed",
+      "expiresAt": "2026-08-15T13:10:00.000Z",
+      "imageUrl": "/media/sports-posters/ops-20260809092135-atoc-dca3c08d/poster-output-v2.png",
+      "createdAt": "2026-08-09T09:21:35.365Z",
+      "sentAt": "2026-08-09T09:22:07.662Z",
       "source": "ai-mission-control",
       "active": true
     }
