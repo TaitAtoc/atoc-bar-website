@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09T09:22:07.662Z",
+  "updatedAt": "2026-08-09T10:36:26.361Z",
   "posters": [
     {
       "id": "ops-20260808032522-atoc-0bdb5c13",
@@ -93,6 +93,25 @@
       "imageUrl": "/media/sports-posters/ops-20260809092135-atoc-dca3c08d/poster-output-v2.png",
       "createdAt": "2026-08-09T09:21:35.365Z",
       "sentAt": "2026-08-09T09:22:07.662Z",
+      "source": "ai-mission-control",
+      "active": true
+    },
+    {
+      "id": "ops-20260809103530-atoc-e3e4797b",
+      "jobId": "ops-20260809103530-atoc-e3e4797b",
+      "title": "Buffalo Bills vs Carolina Panthers",
+      "sport": "NFL",
+      "competition": "NFL 2026",
+      "venue": "ATOC Bar, Guangzhou",
+      "kickoffAt": "2026-08-15T17:00:00.000Z",
+      "displayKickoffTime": "1:00 AM",
+      "displayTimezone": "Asia/Shanghai",
+      "verifiedAt": "2026-08-09T03:57:14.934Z",
+      "verificationSource": "espn-nfl live feed",
+      "expiresAt": "2026-08-15T21:00:00.000Z",
+      "imageUrl": "/media/sports-posters/ops-20260809103530-atoc-e3e4797b/poster-output-v2.png",
+      "createdAt": "2026-08-09T10:35:30.525Z",
+      "sentAt": "2026-08-09T10:36:26.361Z",
       "source": "ai-mission-control",
       "active": true
     }
