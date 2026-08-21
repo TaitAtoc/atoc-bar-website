@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T11:51:49.923Z",
+  "updatedAt": "2026-08-21T11:56:58.771Z",
   "posters": [
     {
       "id": "ops-20260818030756-atoc-7ffdbce1",
@@ -321,6 +321,25 @@
       "imageUrl": "/media/sports-posters/ops-20260821115131-atoc-cd8bcfc7/poster-output-v2.png",
       "createdAt": "2026-08-21T11:51:31.853Z",
       "sentAt": "2026-08-21T11:51:49.923Z",
+      "source": "ai-mission-control",
+      "active": true
+    },
+    {
+      "id": "ops-20260821115648-atoc-b7a2ad27",
+      "jobId": "ops-20260821115648-atoc-b7a2ad27",
+      "title": "Brisbane Broncos vs Melbourne Storm",
+      "sport": "NRL",
+      "competition": "NRL 2026",
+      "venue": "ATOC Bar, Guangzhou",
+      "kickoffAt": "2026-08-27T09:50:00.000Z",
+      "displayKickoffTime": "5:50 PM",
+      "displayTimezone": "Asia/Shanghai",
+      "verifiedAt": "2026-08-21T11:26:09.398Z",
+      "verificationSource": "espn-nrl live feed",
+      "expiresAt": "2026-08-27T12:50:00.000Z",
+      "imageUrl": "/media/sports-posters/ops-20260821115648-atoc-b7a2ad27/poster-output-v2.png",
+      "createdAt": "2026-08-21T11:56:48.966Z",
+      "sentAt": "2026-08-21T11:56:58.771Z",
       "source": "ai-mission-control",
       "active": true
     }
