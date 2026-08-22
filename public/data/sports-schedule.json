@@ -1,46 +1,27 @@
 {
-  "generatedAt": "2026-08-21T03:14:08.172Z",
+  "generatedAt": "2026-08-22T03:16:55.094Z",
   "timezone": "Asia/Shanghai",
   "daysAhead": 7,
   "openingHours": "17:00-03:00",
   "source": "build-sports-schedule",
   "events": [
     {
-      "id": "afl-2026-08-21-001",
-      "sport": "AFL",
-      "league": "AFL — Round 24",
-      "startUtc": "2026-08-21T09:40:00.000Z",
-      "startChina": "2026-08-21T17:40:00+08:00",
-      "dateLabel": "Fri, 21 Aug",
-      "timeLabel": "5:40 PM",
-      "homeTeam": "Collingwood",
-      "awayTeam": "Brisbane Lions",
-      "displayTitle": "Collingwood vs Brisbane Lions",
-      "teams": "Collingwood vs Brisbane Lions",
-      "status": "Scheduled",
-      "source": "squiggle",
-      "kickoffUtcIso": "2026-08-21T09:40:00.000Z",
-      "sourceUrlOrSourceName": "squiggle live feed",
-      "verifiedAt": "2026-08-21T03:14:08.172Z",
-      "timeConfidence": "trusted"
-    },
-    {
-      "id": "football-2026-08-21-001",
-      "sport": "Football",
-      "league": "Premier League",
-      "startUtc": "2026-08-21T19:00:00.000Z",
-      "startChina": "2026-08-22T03:00:00+08:00",
+      "id": "nrl-2026-08-22-001",
+      "sport": "NRL",
+      "league": "NRL 2026",
+      "startUtc": "2026-08-22T09:35:00.000Z",
+      "startChina": "2026-08-22T17:35:00+08:00",
       "dateLabel": "Sat, 22 Aug",
-      "timeLabel": "3:00 AM",
-      "homeTeam": "Arsenal",
-      "awayTeam": "Coventry City",
-      "displayTitle": "Arsenal vs Coventry City",
-      "teams": "Arsenal vs Coventry City",
+      "timeLabel": "5:35 PM",
+      "homeTeam": "St George Illawarra Dragons",
+      "awayTeam": "Canterbury Bulldogs",
+      "displayTitle": "St George Illawarra Dragons vs Canterbury Bulldogs",
+      "teams": "St George Illawarra Dragons vs Canterbury Bulldogs",
       "status": "Scheduled",
-      "source": "espn-soccer-eng.1",
-      "kickoffUtcIso": "2026-08-21T19:00:00.000Z",
-      "sourceUrlOrSourceName": "espn-soccer-eng.1 live feed",
-      "verifiedAt": "2026-08-21T03:14:08.172Z",
+      "source": "espn-nrl",
+      "kickoffUtcIso": "2026-08-22T09:35:00.000Z",
+      "sourceUrlOrSourceName": "espn-nrl live feed",
+      "verifiedAt": "2026-08-22T03:16:55.094Z",
       "timeConfidence": "trusted"
     },
     {
@@ -59,7 +40,7 @@
       "source": "squiggle",
       "kickoffUtcIso": "2026-08-22T09:45:00.000Z",
       "sourceUrlOrSourceName": "squiggle live feed",
-      "verifiedAt": "2026-08-21T03:14:08.172Z",
+      "verifiedAt": "2026-08-22T03:16:55.094Z",
       "timeConfidence": "trusted"
     },
     {
@@ -78,7 +59,7 @@
       "source": "openf1",
       "kickoffUtcIso": "2026-08-22T10:00:00.000Z",
       "sourceUrlOrSourceName": "openf1 live feed",
-      "verifiedAt": "2026-08-21T03:14:08.172Z",
+      "verifiedAt": "2026-08-22T03:16:55.094Z",
       "timeConfidence": "trusted"
     },
     {
@@ -97,7 +78,7 @@
       "source": "squiggle",
       "kickoffUtcIso": "2026-08-22T10:10:00.000Z",
       "sourceUrlOrSourceName": "squiggle live feed",
-      "verifiedAt": "2026-08-21T03:14:08.172Z",
+      "verifiedAt": "2026-08-22T03:16:55.094Z",
       "timeConfidence": "trusted"
     },
     {
@@ -116,7 +97,7 @@
       "source": "espn-soccer-eng.1",
       "kickoffUtcIso": "2026-08-22T11:30:00.000Z",
       "sourceUrlOrSourceName": "espn-soccer-eng.1 live feed",
-      "verifiedAt": "2026-08-21T03:14:08.172Z",
+      "verifiedAt": "2026-08-22T03:16:55.094Z",
       "timeConfidence": "trusted"
     },
     {
@@ -135,7 +116,7 @@
       "source": "espn-soccer-eng.1",
       "kickoffUtcIso": "2026-08-22T14:00:00.000Z",
       "sourceUrlOrSourceName": "espn-soccer-eng.1 live feed",
-      "verifiedAt": "2026-08-21T03:14:08.172Z",
+      "verifiedAt": "2026-08-22T03:16:55.094Z",
       "timeConfidence": "trusted"
     },
     {
@@ -154,7 +135,7 @@
       "source": "espn-soccer-eng.1",
       "kickoffUtcIso": "2026-08-22T14:00:00.000Z",
       "sourceUrlOrSourceName": "espn-soccer-eng.1 live feed",
-      "verifiedAt": "2026-08-21T03:14:08.172Z",
+      "verifiedAt": "2026-08-22T03:16:55.094Z",
       "timeConfidence": "trusted"
     },
     {
@@ -173,7 +154,7 @@
       "source": "espn-soccer-eng.1",
       "kickoffUtcIso": "2026-08-22T14:00:00.000Z",
       "sourceUrlOrSourceName": "espn-soccer-eng.1 live feed",
-      "verifiedAt": "2026-08-21T03:14:08.172Z",
+      "verifiedAt": "2026-08-22T03:16:55.094Z",
       "timeConfidence": "trusted"
     },
     {
@@ -192,7 +173,7 @@
       "source": "espn-nfl",
       "kickoffUtcIso": "2026-08-22T16:00:00.000Z",
       "sourceUrlOrSourceName": "espn-nfl live feed",
-      "verifiedAt": "2026-08-21T03:14:08.172Z",
+      "verifiedAt": "2026-08-22T03:16:55.094Z",
       "timeConfidence": "trusted"
     },
     {
@@ -211,7 +192,7 @@
       "source": "espn-soccer-eng.1",
       "kickoffUtcIso": "2026-08-22T16:30:00.000Z",
       "sourceUrlOrSourceName": "espn-soccer-eng.1 live feed",
-      "verifiedAt": "2026-08-21T03:14:08.172Z",
+      "verifiedAt": "2026-08-22T03:16:55.094Z",
       "timeConfidence": "trusted"
     },
     {
@@ -230,7 +211,7 @@
       "source": "espn-nfl",
       "kickoffUtcIso": "2026-08-22T17:00:00.000Z",
       "sourceUrlOrSourceName": "espn-nfl live feed",
-      "verifiedAt": "2026-08-21T03:14:08.172Z",
+      "verifiedAt": "2026-08-22T03:16:55.094Z",
       "timeConfidence": "trusted"
     },
     {
@@ -249,7 +230,7 @@
       "source": "espn-nfl",
       "kickoffUtcIso": "2026-08-22T17:00:00.000Z",
       "sourceUrlOrSourceName": "espn-nfl live feed",
-      "verifiedAt": "2026-08-21T03:14:08.172Z",
+      "verifiedAt": "2026-08-22T03:16:55.094Z",
       "timeConfidence": "trusted"
     },
     {
@@ -268,7 +249,7 @@
       "source": "espn-nfl",
       "kickoffUtcIso": "2026-08-22T17:00:00.000Z",
       "sourceUrlOrSourceName": "espn-nfl live feed",
-      "verifiedAt": "2026-08-21T03:14:08.172Z",
+      "verifiedAt": "2026-08-22T03:16:55.094Z",
       "timeConfidence": "trusted"
     },
     {
@@ -287,7 +268,7 @@
       "source": "squiggle",
       "kickoffUtcIso": "2026-08-23T09:20:00.000Z",
       "sourceUrlOrSourceName": "squiggle live feed",
-      "verifiedAt": "2026-08-21T03:14:08.172Z",
+      "verifiedAt": "2026-08-22T03:16:55.094Z",
       "timeConfidence": "trusted"
     },
     {
@@ -306,7 +287,7 @@
       "source": "openf1",
       "kickoffUtcIso": "2026-08-23T13:00:00.000Z",
       "sourceUrlOrSourceName": "openf1 live feed",
-      "verifiedAt": "2026-08-21T03:14:08.172Z",
+      "verifiedAt": "2026-08-22T03:16:55.094Z",
       "timeConfidence": "trusted"
     },
     {
@@ -325,7 +306,7 @@
       "source": "espn-soccer-eng.1",
       "kickoffUtcIso": "2026-08-23T13:00:00.000Z",
       "sourceUrlOrSourceName": "espn-soccer-eng.1 live feed",
-      "verifiedAt": "2026-08-21T03:14:08.172Z",
+      "verifiedAt": "2026-08-22T03:16:55.094Z",
       "timeConfidence": "trusted"
     },
     {
@@ -344,7 +325,7 @@
       "source": "espn-soccer-eng.1",
       "kickoffUtcIso": "2026-08-23T13:00:00.000Z",
       "sourceUrlOrSourceName": "espn-soccer-eng.1 live feed",
-      "verifiedAt": "2026-08-21T03:14:08.172Z",
+      "verifiedAt": "2026-08-22T03:16:55.094Z",
       "timeConfidence": "trusted"
     },
     {
@@ -363,7 +344,7 @@
       "source": "espn-soccer-eng.1",
       "kickoffUtcIso": "2026-08-23T15:30:00.000Z",
       "sourceUrlOrSourceName": "espn-soccer-eng.1 live feed",
-      "verifiedAt": "2026-08-21T03:14:08.172Z",
+      "verifiedAt": "2026-08-22T03:16:55.094Z",
       "timeConfidence": "trusted"
     },
     {
@@ -382,7 +363,64 @@
       "source": "espn-soccer-eng.1",
       "kickoffUtcIso": "2026-08-24T19:00:00.000Z",
       "sourceUrlOrSourceName": "espn-soccer-eng.1 live feed",
-      "verifiedAt": "2026-08-21T03:14:08.172Z",
+      "verifiedAt": "2026-08-22T03:16:55.094Z",
+      "timeConfidence": "trusted"
+    },
+    {
+      "id": "nrl-2026-08-27-001",
+      "sport": "NRL",
+      "league": "NRL 2026",
+      "startUtc": "2026-08-27T09:50:00.000Z",
+      "startChina": "2026-08-27T17:50:00+08:00",
+      "dateLabel": "Thu, 27 Aug",
+      "timeLabel": "5:50 PM",
+      "homeTeam": "Brisbane Broncos",
+      "awayTeam": "Melbourne Storm",
+      "displayTitle": "Brisbane Broncos vs Melbourne Storm",
+      "teams": "Brisbane Broncos vs Melbourne Storm",
+      "status": "Scheduled",
+      "source": "espn-nrl",
+      "kickoffUtcIso": "2026-08-27T09:50:00.000Z",
+      "sourceUrlOrSourceName": "espn-nrl live feed",
+      "verifiedAt": "2026-08-22T03:16:55.094Z",
+      "timeConfidence": "trusted"
+    },
+    {
+      "id": "nrl-2026-08-28-001",
+      "sport": "NRL",
+      "league": "NRL 2026",
+      "startUtc": "2026-08-28T10:00:00.000Z",
+      "startChina": "2026-08-28T18:00:00+08:00",
+      "dateLabel": "Fri, 28 Aug",
+      "timeLabel": "6:00 PM",
+      "homeTeam": "Penrith Panthers",
+      "awayTeam": "Canterbury Bulldogs",
+      "displayTitle": "Penrith Panthers vs Canterbury Bulldogs",
+      "teams": "Penrith Panthers vs Canterbury Bulldogs",
+      "status": "Scheduled",
+      "source": "espn-nrl",
+      "kickoffUtcIso": "2026-08-28T10:00:00.000Z",
+      "sourceUrlOrSourceName": "espn-nrl live feed",
+      "verifiedAt": "2026-08-22T03:16:55.094Z",
+      "timeConfidence": "trusted"
+    },
+    {
+      "id": "football-2026-08-28-001",
+      "sport": "Football",
+      "league": "Premier League",
+      "startUtc": "2026-08-28T19:00:00.000Z",
+      "startChina": "2026-08-29T03:00:00+08:00",
+      "dateLabel": "Sat, 29 Aug",
+      "timeLabel": "3:00 AM",
+      "homeTeam": "Crystal Palace",
+      "awayTeam": "Manchester City",
+      "displayTitle": "Crystal Palace vs Manchester City",
+      "teams": "Crystal Palace vs Manchester City",
+      "status": "Scheduled",
+      "source": "espn-soccer-eng.1",
+      "kickoffUtcIso": "2026-08-28T19:00:00.000Z",
+      "sourceUrlOrSourceName": "espn-soccer-eng.1 live feed",
+      "verifiedAt": "2026-08-22T03:16:55.094Z",
       "timeConfidence": "trusted"
     }
   ]
