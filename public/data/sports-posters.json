@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-27T09:51:36.785Z",
+  "updatedAt": "2026-08-27T09:51:57.828Z",
   "posters": [
     {
       "id": "ops-20260821115648-atoc-b7a2ad27",
@@ -283,6 +283,25 @@
       "imageUrl": "/media/sports-posters/ops-20260827095132-atoc-c7fc17ad/poster-output-v2.png",
       "createdAt": "2026-08-27T09:51:32.736Z",
       "sentAt": "2026-08-27T09:51:36.785Z",
+      "source": "ai-mission-control",
+      "active": true
+    },
+    {
+      "id": "ops-20260827095154-atoc-2c4b75cc",
+      "jobId": "ops-20260827095154-atoc-2c4b75cc",
+      "title": "Aston Villa vs Arsenal",
+      "sport": "Football",
+      "competition": "Premier League",
+      "venue": "ATOC Bar, Guangzhou",
+      "kickoffAt": "2026-08-31T19:00:00.000Z",
+      "displayKickoffTime": "3:00 AM",
+      "displayTimezone": "Asia/Shanghai",
+      "verifiedAt": "2026-08-27T03:39:23.672Z",
+      "verificationSource": "espn-soccer-eng.1 live feed",
+      "expiresAt": "2026-08-31T22:00:00.000Z",
+      "imageUrl": "/media/sports-posters/ops-20260827095154-atoc-2c4b75cc/poster-output-v2.png",
+      "createdAt": "2026-08-27T09:51:54.379Z",
+      "sentAt": "2026-08-27T09:51:57.828Z",
       "source": "ai-mission-control",
       "active": true
     }
