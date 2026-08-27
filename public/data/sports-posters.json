@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-27T09:50:30.460Z",
+  "updatedAt": "2026-08-27T09:50:45.718Z",
   "posters": [
     {
       "id": "ops-20260821115648-atoc-b7a2ad27",
@@ -207,6 +207,25 @@
       "imageUrl": "/media/sports-posters/ops-20260827095025-atoc-085432e5/poster-output-v2.png",
       "createdAt": "2026-08-27T09:50:25.740Z",
       "sentAt": "2026-08-27T09:50:30.460Z",
+      "source": "ai-mission-control",
+      "active": true
+    },
+    {
+      "id": "ops-20260827095041-atoc-af4cf539",
+      "jobId": "ops-20260827095041-atoc-af4cf539",
+      "title": "Chelsea vs Brighton & Hove Albion",
+      "sport": "Football",
+      "competition": "Premier League",
+      "venue": "ATOC Bar, Guangzhou",
+      "kickoffAt": "2026-08-30T13:00:00.000Z",
+      "displayKickoffTime": "9:00 PM",
+      "displayTimezone": "Asia/Shanghai",
+      "verifiedAt": "2026-08-27T03:39:23.672Z",
+      "verificationSource": "espn-soccer-eng.1 live feed",
+      "expiresAt": "2026-08-30T16:00:00.000Z",
+      "imageUrl": "/media/sports-posters/ops-20260827095041-atoc-af4cf539/poster-output-v2.png",
+      "createdAt": "2026-08-27T09:50:41.468Z",
+      "sentAt": "2026-08-27T09:50:45.718Z",
       "source": "ai-mission-control",
       "active": true
     }
