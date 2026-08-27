@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-27T09:50:10.391Z",
+  "updatedAt": "2026-08-27T09:50:30.460Z",
   "posters": [
     {
       "id": "ops-20260821115648-atoc-b7a2ad27",
@@ -188,6 +188,25 @@
       "imageUrl": "/media/sports-posters/ops-20260827095004-atoc-7dbca52e/poster-output-v2.png",
       "createdAt": "2026-08-27T09:50:04.796Z",
       "sentAt": "2026-08-27T09:50:10.391Z",
+      "source": "ai-mission-control",
+      "active": true
+    },
+    {
+      "id": "ops-20260827095025-atoc-085432e5",
+      "jobId": "ops-20260827095025-atoc-085432e5",
+      "title": "Indianapolis Colts vs Detroit Lions",
+      "sport": "NFL",
+      "competition": "NFL 2026",
+      "venue": "ATOC Bar, Guangzhou",
+      "kickoffAt": "2026-08-29T17:00:00.000Z",
+      "displayKickoffTime": "1:00 AM",
+      "displayTimezone": "Asia/Shanghai",
+      "verifiedAt": "2026-08-27T03:39:23.672Z",
+      "verificationSource": "espn-nfl live feed",
+      "expiresAt": "2026-08-29T21:00:00.000Z",
+      "imageUrl": "/media/sports-posters/ops-20260827095025-atoc-085432e5/poster-output-v2.png",
+      "createdAt": "2026-08-27T09:50:25.740Z",
+      "sentAt": "2026-08-27T09:50:30.460Z",
       "source": "ai-mission-control",
       "active": true
     }
