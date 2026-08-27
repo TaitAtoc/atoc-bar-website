@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-27T09:49:19.011Z",
+  "updatedAt": "2026-08-27T09:49:55.809Z",
   "posters": [
     {
       "id": "ops-20260821115648-atoc-b7a2ad27",
@@ -150,6 +150,25 @@
       "imageUrl": "/media/sports-posters/ops-20260827094914-atoc-95f71a08/poster-output-v2.png",
       "createdAt": "2026-08-27T09:49:14.995Z",
       "sentAt": "2026-08-27T09:49:19.011Z",
+      "source": "ai-mission-control",
+      "active": true
+    },
+    {
+      "id": "ops-20260827094948-atoc-5a399fc8",
+      "jobId": "ops-20260827094948-atoc-5a399fc8",
+      "title": "Coventry City vs Hull City",
+      "sport": "Football",
+      "competition": "Premier League",
+      "venue": "ATOC Bar, Guangzhou",
+      "kickoffAt": "2026-08-29T14:00:00.000Z",
+      "displayKickoffTime": "10:00 PM",
+      "displayTimezone": "Asia/Shanghai",
+      "verifiedAt": "2026-08-27T03:39:23.672Z",
+      "verificationSource": "espn-soccer-eng.1 live feed",
+      "expiresAt": "2026-08-29T17:00:00.000Z",
+      "imageUrl": "/media/sports-posters/ops-20260827094948-atoc-5a399fc8/poster-output-v2.png",
+      "createdAt": "2026-08-27T09:49:48.219Z",
+      "sentAt": "2026-08-27T09:49:55.809Z",
       "source": "ai-mission-control",
       "active": true
     }
