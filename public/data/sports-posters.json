@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-27T09:47:21.966Z",
+  "updatedAt": "2026-08-27T09:48:02.081Z",
   "posters": [
     {
       "id": "ops-20260821115648-atoc-b7a2ad27",
@@ -74,6 +74,25 @@
       "imageUrl": "/media/sports-posters/ops-20260822103022-atoc-862b9278/poster-output-v2.png",
       "createdAt": "2026-08-22T10:30:22.178Z",
       "sentAt": "2026-08-27T09:47:21.966Z",
+      "source": "ai-mission-control",
+      "active": true
+    },
+    {
+      "id": "ops-20260826051934-atoc-6cd897ad",
+      "jobId": "ops-20260826051934-atoc-6cd897ad",
+      "title": "Melbourne vs Carlton",
+      "sport": "AFL",
+      "competition": "AFL — Wildcard Finals",
+      "venue": "ATOC Bar, Guangzhou",
+      "kickoffAt": "2026-08-29T09:35:00.000Z",
+      "displayKickoffTime": "5:35 PM",
+      "displayTimezone": "Asia/Shanghai",
+      "verifiedAt": "2026-08-26T03:36:49.498Z",
+      "verificationSource": "squiggle live feed",
+      "expiresAt": "2026-08-29T12:35:00.000Z",
+      "imageUrl": "/media/sports-posters/ops-20260826051934-atoc-6cd897ad/poster-output-v2.png",
+      "createdAt": "2026-08-26T05:19:34.657Z",
+      "sentAt": "2026-08-27T09:48:02.081Z",
       "source": "ai-mission-control",
       "active": true
     }
