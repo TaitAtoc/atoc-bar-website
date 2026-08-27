@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-27T09:51:20.495Z",
+  "updatedAt": "2026-08-27T09:51:36.785Z",
   "posters": [
     {
       "id": "ops-20260821115648-atoc-b7a2ad27",
@@ -264,6 +264,25 @@
       "imageUrl": "/media/sports-posters/ops-20260827095114-atoc-348d1044/poster-output-v2.png",
       "createdAt": "2026-08-27T09:51:14.371Z",
       "sentAt": "2026-08-27T09:51:20.495Z",
+      "source": "ai-mission-control",
+      "active": true
+    },
+    {
+      "id": "ops-20260827095132-atoc-c7fc17ad",
+      "jobId": "ops-20260827095132-atoc-c7fc17ad",
+      "title": "Manchester United vs Ipswich Town",
+      "sport": "Football",
+      "competition": "Premier League",
+      "venue": "ATOC Bar, Guangzhou",
+      "kickoffAt": "2026-08-30T15:30:00.000Z",
+      "displayKickoffTime": "11:30 PM",
+      "displayTimezone": "Asia/Shanghai",
+      "verifiedAt": "2026-08-27T03:39:23.672Z",
+      "verificationSource": "espn-soccer-eng.1 live feed",
+      "expiresAt": "2026-08-30T18:30:00.000Z",
+      "imageUrl": "/media/sports-posters/ops-20260827095132-atoc-c7fc17ad/poster-output-v2.png",
+      "createdAt": "2026-08-27T09:51:32.736Z",
+      "sentAt": "2026-08-27T09:51:36.785Z",
       "source": "ai-mission-control",
       "active": true
     }
