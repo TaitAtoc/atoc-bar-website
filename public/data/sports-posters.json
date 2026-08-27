@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T11:11:18.015Z",
+  "updatedAt": "2026-08-27T09:47:21.966Z",
   "posters": [
     {
       "id": "ops-20260821115648-atoc-b7a2ad27",
@@ -55,6 +55,25 @@
       "imageUrl": "/media/sports-posters/ops-20260825111059-atoc-68019bbf/poster-output-v2.png",
       "createdAt": "2026-08-25T11:10:59.516Z",
       "sentAt": "2026-08-25T11:11:18.015Z",
+      "source": "ai-mission-control",
+      "active": true
+    },
+    {
+      "id": "ops-20260822103022-atoc-862b9278",
+      "jobId": "ops-20260822103022-atoc-862b9278",
+      "title": "Crystal Palace vs Manchester City",
+      "sport": "Football",
+      "competition": "Premier League",
+      "venue": "ATOC Bar, Guangzhou",
+      "kickoffAt": "2026-08-28T19:00:00.000Z",
+      "displayKickoffTime": "3:00 AM",
+      "displayTimezone": "Asia/Shanghai",
+      "verifiedAt": "2026-08-22T06:28:39.670Z",
+      "verificationSource": "espn-soccer-eng.1 live feed",
+      "expiresAt": "2026-08-28T22:00:00.000Z",
+      "imageUrl": "/media/sports-posters/ops-20260822103022-atoc-862b9278/poster-output-v2.png",
+      "createdAt": "2026-08-22T10:30:22.178Z",
+      "sentAt": "2026-08-27T09:47:21.966Z",
       "source": "ai-mission-control",
       "active": true
     }
