@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-27T09:48:35.222Z",
+  "updatedAt": "2026-08-27T09:49:19.011Z",
   "posters": [
     {
       "id": "ops-20260821115648-atoc-b7a2ad27",
@@ -131,6 +131,25 @@
       "imageUrl": "/media/sports-posters/ops-20260827094831-atoc-ea2cfbe2/poster-output-v2.png",
       "createdAt": "2026-08-27T09:48:31.017Z",
       "sentAt": "2026-08-27T09:48:35.222Z",
+      "source": "ai-mission-control",
+      "active": true
+    },
+    {
+      "id": "ops-20260827094914-atoc-95f71a08",
+      "jobId": "ops-20260827094914-atoc-95f71a08",
+      "title": "AFC Bournemouth vs Everton",
+      "sport": "Football",
+      "competition": "Premier League",
+      "venue": "ATOC Bar, Guangzhou",
+      "kickoffAt": "2026-08-29T14:00:00.000Z",
+      "displayKickoffTime": "10:00 PM",
+      "displayTimezone": "Asia/Shanghai",
+      "verifiedAt": "2026-08-27T03:39:23.672Z",
+      "verificationSource": "espn-soccer-eng.1 live feed",
+      "expiresAt": "2026-08-29T17:00:00.000Z",
+      "imageUrl": "/media/sports-posters/ops-20260827094914-atoc-95f71a08/poster-output-v2.png",
+      "createdAt": "2026-08-27T09:49:14.995Z",
+      "sentAt": "2026-08-27T09:49:19.011Z",
       "source": "ai-mission-control",
       "active": true
     }
