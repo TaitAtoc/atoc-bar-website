@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-27T09:50:59.078Z",
+  "updatedAt": "2026-08-27T09:51:20.495Z",
   "posters": [
     {
       "id": "ops-20260821115648-atoc-b7a2ad27",
@@ -245,6 +245,25 @@
       "imageUrl": "/media/sports-posters/ops-20260827095055-atoc-49659a4c/poster-output-v2.png",
       "createdAt": "2026-08-27T09:50:55.861Z",
       "sentAt": "2026-08-27T09:50:59.078Z",
+      "source": "ai-mission-control",
+      "active": true
+    },
+    {
+      "id": "ops-20260827095114-atoc-348d1044",
+      "jobId": "ops-20260827095114-atoc-348d1044",
+      "title": "Sunderland vs Fulham",
+      "sport": "Football",
+      "competition": "Premier League",
+      "venue": "ATOC Bar, Guangzhou",
+      "kickoffAt": "2026-08-30T13:00:00.000Z",
+      "displayKickoffTime": "9:00 PM",
+      "displayTimezone": "Asia/Shanghai",
+      "verifiedAt": "2026-08-27T03:39:23.672Z",
+      "verificationSource": "espn-soccer-eng.1 live feed",
+      "expiresAt": "2026-08-30T16:00:00.000Z",
+      "imageUrl": "/media/sports-posters/ops-20260827095114-atoc-348d1044/poster-output-v2.png",
+      "createdAt": "2026-08-27T09:51:14.371Z",
+      "sentAt": "2026-08-27T09:51:20.495Z",
       "source": "ai-mission-control",
       "active": true
     }
