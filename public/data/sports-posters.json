@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-27T09:49:55.809Z",
+  "updatedAt": "2026-08-27T09:50:10.391Z",
   "posters": [
     {
       "id": "ops-20260821115648-atoc-b7a2ad27",
@@ -169,6 +169,25 @@
       "imageUrl": "/media/sports-posters/ops-20260827094948-atoc-5a399fc8/poster-output-v2.png",
       "createdAt": "2026-08-27T09:49:48.219Z",
       "sentAt": "2026-08-27T09:49:55.809Z",
+      "source": "ai-mission-control",
+      "active": true
+    },
+    {
+      "id": "ops-20260827095004-atoc-7dbca52e",
+      "jobId": "ops-20260827095004-atoc-7dbca52e",
+      "title": "Tottenham Hotspur vs Newcastle United",
+      "sport": "Football",
+      "competition": "Premier League",
+      "venue": "ATOC Bar, Guangzhou",
+      "kickoffAt": "2026-08-29T16:30:00.000Z",
+      "displayKickoffTime": "12:30 AM",
+      "displayTimezone": "Asia/Shanghai",
+      "verifiedAt": "2026-08-27T03:39:23.672Z",
+      "verificationSource": "espn-soccer-eng.1 live feed",
+      "expiresAt": "2026-08-29T19:30:00.000Z",
+      "imageUrl": "/media/sports-posters/ops-20260827095004-atoc-7dbca52e/poster-output-v2.png",
+      "createdAt": "2026-08-27T09:50:04.796Z",
+      "sentAt": "2026-08-27T09:50:10.391Z",
       "source": "ai-mission-control",
       "active": true
     }
