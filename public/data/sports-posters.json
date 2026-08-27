@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-27T09:50:45.718Z",
+  "updatedAt": "2026-08-27T09:50:59.078Z",
   "posters": [
     {
       "id": "ops-20260821115648-atoc-b7a2ad27",
@@ -226,6 +226,25 @@
       "imageUrl": "/media/sports-posters/ops-20260827095041-atoc-af4cf539/poster-output-v2.png",
       "createdAt": "2026-08-27T09:50:41.468Z",
       "sentAt": "2026-08-27T09:50:45.718Z",
+      "source": "ai-mission-control",
+      "active": true
+    },
+    {
+      "id": "ops-20260827095055-atoc-49659a4c",
+      "jobId": "ops-20260827095055-atoc-49659a4c",
+      "title": "Leeds United vs Brentford",
+      "sport": "Football",
+      "competition": "Premier League",
+      "venue": "ATOC Bar, Guangzhou",
+      "kickoffAt": "2026-08-30T13:00:00.000Z",
+      "displayKickoffTime": "9:00 PM",
+      "displayTimezone": "Asia/Shanghai",
+      "verifiedAt": "2026-08-27T03:39:23.672Z",
+      "verificationSource": "espn-soccer-eng.1 live feed",
+      "expiresAt": "2026-08-30T16:00:00.000Z",
+      "imageUrl": "/media/sports-posters/ops-20260827095055-atoc-49659a4c/poster-output-v2.png",
+      "createdAt": "2026-08-27T09:50:55.861Z",
+      "sentAt": "2026-08-27T09:50:59.078Z",
       "source": "ai-mission-control",
       "active": true
     }
