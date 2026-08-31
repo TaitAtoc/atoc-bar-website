@@ -1,86 +1,10 @@
 {
-  "generatedAt": "2026-08-30T03:51:30.484Z",
+  "generatedAt": "2026-08-31T13:56:29.933Z",
   "timezone": "Asia/Shanghai",
   "daysAhead": 7,
   "openingHours": "17:00-03:00",
   "source": "build-sports-schedule",
   "events": [
-    {
-      "id": "football-2026-08-30-001",
-      "sport": "Football",
-      "league": "Premier League",
-      "startUtc": "2026-08-30T13:00:00.000Z",
-      "startChina": "2026-08-30T21:00:00+08:00",
-      "dateLabel": "Sun, 30 Aug",
-      "timeLabel": "9:00 PM",
-      "homeTeam": "Chelsea",
-      "awayTeam": "Brighton & Hove Albion",
-      "displayTitle": "Chelsea vs Brighton & Hove Albion",
-      "teams": "Chelsea vs Brighton & Hove Albion",
-      "status": "Scheduled",
-      "source": "espn-soccer-eng.1",
-      "kickoffUtcIso": "2026-08-30T13:00:00.000Z",
-      "sourceUrlOrSourceName": "espn-soccer-eng.1 live feed",
-      "verifiedAt": "2026-08-30T03:51:30.484Z",
-      "timeConfidence": "trusted"
-    },
-    {
-      "id": "football-2026-08-30-002",
-      "sport": "Football",
-      "league": "Premier League",
-      "startUtc": "2026-08-30T13:00:00.000Z",
-      "startChina": "2026-08-30T21:00:00+08:00",
-      "dateLabel": "Sun, 30 Aug",
-      "timeLabel": "9:00 PM",
-      "homeTeam": "Leeds United",
-      "awayTeam": "Brentford",
-      "displayTitle": "Leeds United vs Brentford",
-      "teams": "Leeds United vs Brentford",
-      "status": "Scheduled",
-      "source": "espn-soccer-eng.1",
-      "kickoffUtcIso": "2026-08-30T13:00:00.000Z",
-      "sourceUrlOrSourceName": "espn-soccer-eng.1 live feed",
-      "verifiedAt": "2026-08-30T03:51:30.484Z",
-      "timeConfidence": "trusted"
-    },
-    {
-      "id": "football-2026-08-30-003",
-      "sport": "Football",
-      "league": "Premier League",
-      "startUtc": "2026-08-30T13:00:00.000Z",
-      "startChina": "2026-08-30T21:00:00+08:00",
-      "dateLabel": "Sun, 30 Aug",
-      "timeLabel": "9:00 PM",
-      "homeTeam": "Sunderland",
-      "awayTeam": "Fulham",
-      "displayTitle": "Sunderland vs Fulham",
-      "teams": "Sunderland vs Fulham",
-      "status": "Scheduled",
-      "source": "espn-soccer-eng.1",
-      "kickoffUtcIso": "2026-08-30T13:00:00.000Z",
-      "sourceUrlOrSourceName": "espn-soccer-eng.1 live feed",
-      "verifiedAt": "2026-08-30T03:51:30.484Z",
-      "timeConfidence": "trusted"
-    },
-    {
-      "id": "football-2026-08-30-004",
-      "sport": "Football",
-      "league": "Premier League",
-      "startUtc": "2026-08-30T15:30:00.000Z",
-      "startChina": "2026-08-30T23:30:00+08:00",
-      "dateLabel": "Sun, 30 Aug",
-      "timeLabel": "11:30 PM",
-      "homeTeam": "Manchester United",
-      "awayTeam": "Ipswich Town",
-      "displayTitle": "Manchester United vs Ipswich Town",
-      "teams": "Manchester United vs Ipswich Town",
-      "status": "Scheduled",
-      "source": "espn-soccer-eng.1",
-      "kickoffUtcIso": "2026-08-30T15:30:00.000Z",
-      "sourceUrlOrSourceName": "espn-soccer-eng.1 live feed",
-      "verifiedAt": "2026-08-30T03:51:30.484Z",
-      "timeConfidence": "trusted"
-    },
     {
       "id": "football-2026-08-31-001",
       "sport": "Football",
@@ -97,7 +21,7 @@
       "source": "espn-soccer-eng.1",
       "kickoffUtcIso": "2026-08-31T19:00:00.000Z",
       "sourceUrlOrSourceName": "espn-soccer-eng.1 live feed",
-      "verifiedAt": "2026-08-30T03:51:30.484Z",
+      "verifiedAt": "2026-08-31T13:56:29.933Z",
       "timeConfidence": "trusted"
     },
     {
@@ -116,7 +40,7 @@
       "source": "espn-nrl",
       "kickoffUtcIso": "2026-09-03T09:50:00.000Z",
       "sourceUrlOrSourceName": "espn-nrl live feed",
-      "verifiedAt": "2026-08-30T03:51:30.484Z",
+      "verifiedAt": "2026-08-31T13:56:29.933Z",
       "timeConfidence": "trusted"
     },
     {
@@ -135,7 +59,7 @@
       "source": "squiggle",
       "kickoffUtcIso": "2026-09-03T10:10:00.000Z",
       "sourceUrlOrSourceName": "squiggle live feed",
-      "verifiedAt": "2026-08-30T03:51:30.484Z",
+      "verifiedAt": "2026-08-31T13:56:29.933Z",
       "timeConfidence": "trusted"
     },
     {
@@ -154,7 +78,7 @@
       "source": "squiggle",
       "kickoffUtcIso": "2026-09-04T09:40:00.000Z",
       "sourceUrlOrSourceName": "squiggle live feed",
-      "verifiedAt": "2026-08-30T03:51:30.484Z",
+      "verifiedAt": "2026-08-31T13:56:29.933Z",
       "timeConfidence": "trusted"
     },
     {
@@ -173,7 +97,7 @@
       "source": "espn-nrl",
       "kickoffUtcIso": "2026-09-04T10:00:00.000Z",
       "sourceUrlOrSourceName": "espn-nrl live feed",
-      "verifiedAt": "2026-08-30T03:51:30.484Z",
+      "verifiedAt": "2026-08-31T13:56:29.933Z",
       "timeConfidence": "trusted"
     },
     {
@@ -192,7 +116,7 @@
       "source": "espn-soccer-eng.1",
       "kickoffUtcIso": "2026-09-04T19:00:00.000Z",
       "sourceUrlOrSourceName": "espn-soccer-eng.1 live feed",
-      "verifiedAt": "2026-08-30T03:51:30.484Z",
+      "verifiedAt": "2026-08-31T13:56:29.933Z",
       "timeConfidence": "trusted"
     },
     {
@@ -211,7 +135,7 @@
       "source": "squiggle",
       "kickoffUtcIso": "2026-09-05T09:35:00.000Z",
       "sourceUrlOrSourceName": "squiggle live feed",
-      "verifiedAt": "2026-08-30T03:51:30.484Z",
+      "verifiedAt": "2026-08-31T13:56:29.933Z",
       "timeConfidence": "trusted"
     },
     {
@@ -230,7 +154,7 @@
       "source": "espn-nrl",
       "kickoffUtcIso": "2026-09-05T09:35:00.000Z",
       "sourceUrlOrSourceName": "espn-nrl live feed",
-      "verifiedAt": "2026-08-30T03:51:30.484Z",
+      "verifiedAt": "2026-08-31T13:56:29.933Z",
       "timeConfidence": "trusted"
     },
     {
@@ -249,7 +173,7 @@
       "source": "espn-soccer-eng.1",
       "kickoffUtcIso": "2026-09-05T11:30:00.000Z",
       "sourceUrlOrSourceName": "espn-soccer-eng.1 live feed",
-      "verifiedAt": "2026-08-30T03:51:30.484Z",
+      "verifiedAt": "2026-08-31T13:56:29.933Z",
       "timeConfidence": "trusted"
     },
     {
@@ -268,7 +192,7 @@
       "source": "espn-soccer-eng.1",
       "kickoffUtcIso": "2026-09-05T14:00:00.000Z",
       "sourceUrlOrSourceName": "espn-soccer-eng.1 live feed",
-      "verifiedAt": "2026-08-30T03:51:30.484Z",
+      "verifiedAt": "2026-08-31T13:56:29.933Z",
       "timeConfidence": "trusted"
     },
     {
@@ -287,7 +211,7 @@
       "source": "espn-soccer-eng.1",
       "kickoffUtcIso": "2026-09-05T14:00:00.000Z",
       "sourceUrlOrSourceName": "espn-soccer-eng.1 live feed",
-      "verifiedAt": "2026-08-30T03:51:30.484Z",
+      "verifiedAt": "2026-08-31T13:56:29.933Z",
       "timeConfidence": "trusted"
     },
     {
@@ -306,7 +230,7 @@
       "source": "espn-soccer-eng.1",
       "kickoffUtcIso": "2026-09-05T14:00:00.000Z",
       "sourceUrlOrSourceName": "espn-soccer-eng.1 live feed",
-      "verifiedAt": "2026-08-30T03:51:30.484Z",
+      "verifiedAt": "2026-08-31T13:56:29.933Z",
       "timeConfidence": "trusted"
     },
     {
@@ -325,7 +249,7 @@
       "source": "espn-soccer-eng.1",
       "kickoffUtcIso": "2026-09-05T14:00:00.000Z",
       "sourceUrlOrSourceName": "espn-soccer-eng.1 live feed",
-      "verifiedAt": "2026-08-30T03:51:30.484Z",
+      "verifiedAt": "2026-08-31T13:56:29.933Z",
       "timeConfidence": "trusted"
     },
     {
@@ -344,7 +268,7 @@
       "source": "espn-soccer-eng.1",
       "kickoffUtcIso": "2026-09-05T14:00:00.000Z",
       "sourceUrlOrSourceName": "espn-soccer-eng.1 live feed",
-      "verifiedAt": "2026-08-30T03:51:30.484Z",
+      "verifiedAt": "2026-08-31T13:56:29.933Z",
       "timeConfidence": "trusted"
     },
     {
@@ -363,7 +287,64 @@
       "source": "espn-soccer-eng.1",
       "kickoffUtcIso": "2026-09-05T16:30:00.000Z",
       "sourceUrlOrSourceName": "espn-soccer-eng.1 live feed",
-      "verifiedAt": "2026-08-30T03:51:30.484Z",
+      "verifiedAt": "2026-08-31T13:56:29.933Z",
+      "timeConfidence": "trusted"
+    },
+    {
+      "id": "formula-1-2026-09-06-001",
+      "sport": "Formula 1",
+      "league": "Formula 1 — Italian Grand Prix",
+      "startUtc": "2026-09-06T13:00:00.000Z",
+      "startChina": "2026-09-06T21:00:00+08:00",
+      "dateLabel": "Sun, 6 Sept",
+      "timeLabel": "9:00 PM",
+      "homeTeam": null,
+      "awayTeam": null,
+      "displayTitle": "Italian Grand Prix — Race",
+      "teams": "N/A",
+      "status": "Scheduled",
+      "source": "openf1",
+      "kickoffUtcIso": "2026-09-06T13:00:00.000Z",
+      "sourceUrlOrSourceName": "openf1 live feed",
+      "verifiedAt": "2026-08-31T13:56:29.933Z",
+      "timeConfidence": "trusted"
+    },
+    {
+      "id": "football-2026-09-06-001",
+      "sport": "Football",
+      "league": "Premier League",
+      "startUtc": "2026-09-06T13:00:00.000Z",
+      "startChina": "2026-09-06T21:00:00+08:00",
+      "dateLabel": "Sun, 6 Sept",
+      "timeLabel": "9:00 PM",
+      "homeTeam": "Everton",
+      "awayTeam": "Manchester United",
+      "displayTitle": "Everton vs Manchester United",
+      "teams": "Everton vs Manchester United",
+      "status": "Scheduled",
+      "source": "espn-soccer-eng.1",
+      "kickoffUtcIso": "2026-09-06T13:00:00.000Z",
+      "sourceUrlOrSourceName": "espn-soccer-eng.1 live feed",
+      "verifiedAt": "2026-08-31T13:56:29.933Z",
+      "timeConfidence": "trusted"
+    },
+    {
+      "id": "football-2026-09-06-002",
+      "sport": "Football",
+      "league": "Premier League",
+      "startUtc": "2026-09-06T15:30:00.000Z",
+      "startChina": "2026-09-06T23:30:00+08:00",
+      "dateLabel": "Sun, 6 Sept",
+      "timeLabel": "11:30 PM",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Chelsea",
+      "displayTitle": "Arsenal vs Chelsea",
+      "teams": "Arsenal vs Chelsea",
+      "status": "Scheduled",
+      "source": "espn-soccer-eng.1",
+      "kickoffUtcIso": "2026-09-06T15:30:00.000Z",
+      "sourceUrlOrSourceName": "espn-soccer-eng.1 live feed",
+      "verifiedAt": "2026-08-31T13:56:29.933Z",
       "timeConfidence": "trusted"
     }
   ]
