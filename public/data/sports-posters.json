@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T05:16:22.830Z",
+  "updatedAt": "2026-09-02T05:17:11.949Z",
   "posters": [
     {
       "id": "ops-20260902051617-atoc-882365a9",
@@ -17,6 +17,25 @@
       "imageUrl": "/media/sports-posters/ops-20260902051617-atoc-882365a9/poster-output-v2.png",
       "createdAt": "2026-09-02T05:16:17.699Z",
       "sentAt": "2026-09-02T05:16:22.830Z",
+      "source": "ai-mission-control",
+      "active": true
+    },
+    {
+      "id": "ops-20260902051707-atoc-1af0b8d6",
+      "jobId": "ops-20260902051707-atoc-1af0b8d6",
+      "title": "Geelong vs Carlton",
+      "sport": "AFL",
+      "competition": "AFL — Finals Week 1",
+      "venue": "ATOC Bar, Guangzhou",
+      "kickoffAt": "2026-09-04T09:40:00.000Z",
+      "displayKickoffTime": "5:40 PM",
+      "displayTimezone": "Asia/Shanghai",
+      "verifiedAt": "2026-09-01T13:59:58.110Z",
+      "verificationSource": "squiggle live feed",
+      "expiresAt": "2026-09-04T12:40:00.000Z",
+      "imageUrl": "/media/sports-posters/ops-20260902051707-atoc-1af0b8d6/poster-output-v2.png",
+      "createdAt": "2026-09-02T05:17:07.747Z",
+      "sentAt": "2026-09-02T05:17:11.949Z",
       "source": "ai-mission-control",
       "active": true
     }
