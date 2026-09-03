@@ -1,48 +1,10 @@
 {
-  "generatedAt": "2026-09-02T14:15:48.282Z",
+  "generatedAt": "2026-09-03T14:20:02.236Z",
   "timezone": "Asia/Shanghai",
   "daysAhead": 7,
   "openingHours": "17:00-03:00",
   "source": "build-sports-schedule",
   "events": [
-    {
-      "id": "nrl-2026-09-03-001",
-      "sport": "NRL",
-      "league": "NRL 2026",
-      "startUtc": "2026-09-03T09:50:00.000Z",
-      "startChina": "2026-09-03T17:50:00+08:00",
-      "dateLabel": "Thu, 3 Sept",
-      "timeLabel": "5:50 PM",
-      "homeTeam": "Canterbury Bulldogs",
-      "awayTeam": "Brisbane Broncos",
-      "displayTitle": "Canterbury Bulldogs vs Brisbane Broncos",
-      "teams": "Canterbury Bulldogs vs Brisbane Broncos",
-      "status": "Scheduled",
-      "source": "espn-nrl",
-      "kickoffUtcIso": "2026-09-03T09:50:00.000Z",
-      "sourceUrlOrSourceName": "espn-nrl live feed",
-      "verifiedAt": "2026-09-02T14:15:48.282Z",
-      "timeConfidence": "trusted"
-    },
-    {
-      "id": "afl-2026-09-03-001",
-      "sport": "AFL",
-      "league": "AFL — Finals Week 1",
-      "startUtc": "2026-09-03T10:10:00.000Z",
-      "startChina": "2026-09-03T18:10:00+08:00",
-      "dateLabel": "Thu, 3 Sept",
-      "timeLabel": "6:10 PM",
-      "homeTeam": "Fremantle",
-      "awayTeam": "Hawthorn",
-      "displayTitle": "Fremantle vs Hawthorn",
-      "teams": "Fremantle vs Hawthorn",
-      "status": "Scheduled",
-      "source": "squiggle",
-      "kickoffUtcIso": "2026-09-03T10:10:00.000Z",
-      "sourceUrlOrSourceName": "squiggle live feed",
-      "verifiedAt": "2026-09-02T14:15:48.282Z",
-      "timeConfidence": "trusted"
-    },
     {
       "id": "afl-2026-09-04-001",
       "sport": "AFL",
@@ -59,7 +21,7 @@
       "source": "squiggle",
       "kickoffUtcIso": "2026-09-04T09:40:00.000Z",
       "sourceUrlOrSourceName": "squiggle live feed",
-      "verifiedAt": "2026-09-02T14:15:48.282Z",
+      "verifiedAt": "2026-09-03T14:20:02.236Z",
       "timeConfidence": "trusted"
     },
     {
@@ -78,7 +40,7 @@
       "source": "espn-nrl",
       "kickoffUtcIso": "2026-09-04T10:00:00.000Z",
       "sourceUrlOrSourceName": "espn-nrl live feed",
-      "verifiedAt": "2026-09-02T14:15:48.282Z",
+      "verifiedAt": "2026-09-03T14:20:02.236Z",
       "timeConfidence": "trusted"
     },
     {
@@ -97,7 +59,7 @@
       "source": "espn-soccer-eng.1",
       "kickoffUtcIso": "2026-09-04T19:00:00.000Z",
       "sourceUrlOrSourceName": "espn-soccer-eng.1 live feed",
-      "verifiedAt": "2026-09-02T14:15:48.282Z",
+      "verifiedAt": "2026-09-03T14:20:02.236Z",
       "timeConfidence": "trusted"
     },
     {
@@ -116,7 +78,7 @@
       "source": "squiggle",
       "kickoffUtcIso": "2026-09-05T09:35:00.000Z",
       "sourceUrlOrSourceName": "squiggle live feed",
-      "verifiedAt": "2026-09-02T14:15:48.282Z",
+      "verifiedAt": "2026-09-03T14:20:02.236Z",
       "timeConfidence": "trusted"
     },
     {
@@ -135,7 +97,7 @@
       "source": "espn-nrl",
       "kickoffUtcIso": "2026-09-05T09:35:00.000Z",
       "sourceUrlOrSourceName": "espn-nrl live feed",
-      "verifiedAt": "2026-09-02T14:15:48.282Z",
+      "verifiedAt": "2026-09-03T14:20:02.236Z",
       "timeConfidence": "trusted"
     },
     {
@@ -154,7 +116,7 @@
       "source": "espn-soccer-eng.1",
       "kickoffUtcIso": "2026-09-05T11:30:00.000Z",
       "sourceUrlOrSourceName": "espn-soccer-eng.1 live feed",
-      "verifiedAt": "2026-09-02T14:15:48.282Z",
+      "verifiedAt": "2026-09-03T14:20:02.236Z",
       "timeConfidence": "trusted"
     },
     {
@@ -173,7 +135,7 @@
       "source": "espn-soccer-eng.1",
       "kickoffUtcIso": "2026-09-05T14:00:00.000Z",
       "sourceUrlOrSourceName": "espn-soccer-eng.1 live feed",
-      "verifiedAt": "2026-09-02T14:15:48.282Z",
+      "verifiedAt": "2026-09-03T14:20:02.236Z",
       "timeConfidence": "trusted"
     },
     {
@@ -192,7 +154,7 @@
       "source": "espn-soccer-eng.1",
       "kickoffUtcIso": "2026-09-05T14:00:00.000Z",
       "sourceUrlOrSourceName": "espn-soccer-eng.1 live feed",
-      "verifiedAt": "2026-09-02T14:15:48.282Z",
+      "verifiedAt": "2026-09-03T14:20:02.236Z",
       "timeConfidence": "trusted"
     },
     {
@@ -211,7 +173,7 @@
       "source": "espn-soccer-eng.1",
       "kickoffUtcIso": "2026-09-05T14:00:00.000Z",
       "sourceUrlOrSourceName": "espn-soccer-eng.1 live feed",
-      "verifiedAt": "2026-09-02T14:15:48.282Z",
+      "verifiedAt": "2026-09-03T14:20:02.236Z",
       "timeConfidence": "trusted"
     },
     {
@@ -230,7 +192,7 @@
       "source": "espn-soccer-eng.1",
       "kickoffUtcIso": "2026-09-05T14:00:00.000Z",
       "sourceUrlOrSourceName": "espn-soccer-eng.1 live feed",
-      "verifiedAt": "2026-09-02T14:15:48.282Z",
+      "verifiedAt": "2026-09-03T14:20:02.236Z",
       "timeConfidence": "trusted"
     },
     {
@@ -249,7 +211,7 @@
       "source": "espn-soccer-eng.1",
       "kickoffUtcIso": "2026-09-05T14:00:00.000Z",
       "sourceUrlOrSourceName": "espn-soccer-eng.1 live feed",
-      "verifiedAt": "2026-09-02T14:15:48.282Z",
+      "verifiedAt": "2026-09-03T14:20:02.236Z",
       "timeConfidence": "trusted"
     },
     {
@@ -268,7 +230,7 @@
       "source": "espn-soccer-eng.1",
       "kickoffUtcIso": "2026-09-05T16:30:00.000Z",
       "sourceUrlOrSourceName": "espn-soccer-eng.1 live feed",
-      "verifiedAt": "2026-09-02T14:15:48.282Z",
+      "verifiedAt": "2026-09-03T14:20:02.236Z",
       "timeConfidence": "trusted"
     },
     {
@@ -287,7 +249,7 @@
       "source": "openf1",
       "kickoffUtcIso": "2026-09-06T13:00:00.000Z",
       "sourceUrlOrSourceName": "openf1 live feed",
-      "verifiedAt": "2026-09-02T14:15:48.282Z",
+      "verifiedAt": "2026-09-03T14:20:02.236Z",
       "timeConfidence": "trusted"
     },
     {
@@ -306,7 +268,7 @@
       "source": "espn-soccer-eng.1",
       "kickoffUtcIso": "2026-09-06T13:00:00.000Z",
       "sourceUrlOrSourceName": "espn-soccer-eng.1 live feed",
-      "verifiedAt": "2026-09-02T14:15:48.282Z",
+      "verifiedAt": "2026-09-03T14:20:02.236Z",
       "timeConfidence": "trusted"
     },
     {
@@ -325,7 +287,7 @@
       "source": "espn-soccer-eng.1",
       "kickoffUtcIso": "2026-09-06T15:30:00.000Z",
       "sourceUrlOrSourceName": "espn-soccer-eng.1 live feed",
-      "verifiedAt": "2026-09-02T14:15:48.282Z",
+      "verifiedAt": "2026-09-03T14:20:02.236Z",
       "timeConfidence": "trusted"
     }
   ]
