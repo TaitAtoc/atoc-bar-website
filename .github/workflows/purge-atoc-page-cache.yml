@@ -1,0 +1,35 @@
+name: Purge ATOC Page Cache
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  purge:
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - name: Purge LiteSpeed and WordPress caches
+        uses: appleboy/ssh-action@v1.2.0
+        env:
+          WP_THEME_REMOTE_PATH: ${{ secrets.WP_THEME_REMOTE_PATH }}
+        with:
+          host: ${{ secrets.WP_DEPLOY_HOST }}
+          username: ${{ secrets.WP_DEPLOY_USER }}
+          port: ${{ secrets.WP_DEPLOY_PORT }}
+          password: ${{ secrets.WP_DEPLOY_PASSWORD }}
+          key: ${{ secrets.WP_DEPLOY_SSH_KEY }}
+          envs: WP_THEME_REMOTE_PATH
+          script: |
+            set -eu
+            themes_path="${WP_THEME_REMOTE_PATH%/}"
+            case "$themes_path" in
+              */wp-content/themes) ;;
+              *) echo 'WP_THEME_REMOTE_PATH must be the WordPress themes parent directory'; exit 1 ;;
+            esac
+            wordpress_root="${themes_path%/wp-content/themes}"
+            cd "$wordpress_root"
+            wp litespeed-purge all --allow-root
+            wp cache flush --allow-root
