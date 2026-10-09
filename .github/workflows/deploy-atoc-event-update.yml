@@ -1,0 +1,77 @@
+name: Deploy ATOC Event Update
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  deploy-event:
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+
+      - name: Package only changed theme files
+        shell: bash
+        run: |
+          set -euo pipefail
+          package=release/atoc-bar-v2
+          mkdir -p "$package/assets/photos/promo" "$package/assets" "$package/.vite"
+          cp deploy/wordpress-theme/atoc-bar-v2/functions.php "$package/functions.php"
+          cp dist/.vite/manifest.json "$package/.vite/manifest.json"
+          cp dist/assets/index-*.js dist/assets/index-*.css "$package/assets/"
+          cp dist/assets/photos/promo/nzgba-canton-fair-phase-2-networking-drinks.png "$package/assets/photos/promo/"
+          test -s "$package/functions.php"
+          test -s "$package/.vite/manifest.json"
+          test -s "$package/assets/photos/promo/nzgba-canton-fair-phase-2-networking-drinks.png"
+
+      - name: Validate WordPress themes parent path
+        shell: bash
+        env:
+          WP_THEME_REMOTE_PATH: ${{ secrets.WP_THEME_REMOTE_PATH }}
+        run: |
+          set -euo pipefail
+          case "${WP_THEME_REMOTE_PATH%/}" in
+            */wp-content/themes) ;;
+            *) echo '::error::WP_THEME_REMOTE_PATH must be the WordPress themes parent directory'; exit 1 ;;
+          esac
+
+      - name: Upload event update
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: ${{ secrets.WP_DEPLOY_HOST }}
+          username: ${{ secrets.WP_DEPLOY_USER }}
+          port: ${{ secrets.WP_DEPLOY_PORT }}
+          password: ${{ secrets.WP_DEPLOY_PASSWORD }}
+          key: ${{ secrets.WP_DEPLOY_SSH_KEY }}
+          source: release/atoc-bar-v2
+          target: ${{ secrets.WP_THEME_REMOTE_PATH }}
+          strip_components: 1
+          overwrite: true
+
+      - name: Purge ATOC page cache
+        uses: appleboy/ssh-action@v1.2.0
+        env:
+          WP_THEME_REMOTE_PATH: ${{ secrets.WP_THEME_REMOTE_PATH }}
+        with:
+          host: ${{ secrets.WP_DEPLOY_HOST }}
+          username: ${{ secrets.WP_DEPLOY_USER }}
+          port: ${{ secrets.WP_DEPLOY_PORT }}
+          password: ${{ secrets.WP_DEPLOY_PASSWORD }}
+          key: ${{ secrets.WP_DEPLOY_SSH_KEY }}
+          envs: WP_THEME_REMOTE_PATH
+          script: |
+            set -eu
+            themes_path="${WP_THEME_REMOTE_PATH%/}"
+            wordpress_root="${themes_path%/wp-content/themes}"
+            cd "$wordpress_root"
+            wp litespeed-purge all --allow-root
+            wp cache flush --allow-root
