@@ -37,9 +37,9 @@ function atoc_bar_v2_route_meta() {
             'h1' => 'Drinks and Menus at ATOC',
         ],
         '/promotions' => [
-            'title' => 'ATOC Promotions | Happy Hour & Bar Offers in Guangzhou',
-            'description' => 'See ATOC BAR happy hour, bar promotions, sports-night offers, and special nights in Guangzhou.',
-            'h1' => 'ATOC Promotions',
+            'title' => 'Events & Promotions at ATOC Bar | Guangzhou',
+            'description' => 'See the NZGBA Canton Fair Phase 2 Networking Drinks on 24 October 2026, plus ATOC Bar happy hour and current promotions in Guangzhou.',
+            'h1' => 'Events & Promotions',
         ],
         '/gallery' => [
             'title' => 'ATOC Gallery | Guangzhou Bar Photos & Atmosphere',

@@ -73,6 +73,7 @@ export function Home() {
               <span>{item.tag}</span>
               <h3>{item.title}</h3>
               <p>{item.text}</p>
+              {item.href && <Link href={item.href} className="text-link">Event details & RSVP poster</Link>}
             </article>
           ))}
         </div>
@@ -83,7 +84,7 @@ export function Home() {
       <ScrollReveal className="section visual-links">
         <FeatureCard title="Events & Sports" text="Rugby, football, F1, basketball, MMA, and group watch-party planning." image={assetUrl('/assets/photos/posters/Sports Generic Poster.png')} href="/sports" badge="Live sports" />
         <FeatureCard title="Drinks & Menus" text="Beer, cocktails, coffee, tea, shisha, and match-night drinks categories." image={assetUrl('/assets/photos/posters/Coffee Poster.png')} href="/menus" badge="Menus" />
-        <FeatureCard title="Promotions" text="Happy hour and bar promotion candidates with current terms still to confirm." image={promotions[0].image} href="/promotions" badge="Offers" />
+        <FeatureCard title="Events & Promotions" text="NZGBA networking on 24 October, happy hour, and other ATOC offers." image={promotions[0].image} href="/promotions" badge="Events & offers" />
         <FeatureCard title="Gallery" text="Venue atmosphere, terrace, bar counter, screens, and sports-night photos." image={assetUrl('/assets/photos/posters/ChatGPT Image Jun 26, 2026, 06_01_22 PM.png')} href="/gallery" badge="Atmosphere" />
       </ScrollReveal>
 

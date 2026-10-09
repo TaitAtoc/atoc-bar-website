@@ -62,6 +62,14 @@ function App() {
     upsertCanonical(canonical)
   }, [path])
 
+  useEffect(() => {
+    if (!window.location.hash) return undefined
+    const frame = window.requestAnimationFrame(() => {
+      document.getElementById(decodeURIComponent(window.location.hash.slice(1)))?.scrollIntoView({ behavior: 'instant' })
+    })
+    return () => window.cancelAnimationFrame(frame)
+  }, [path])
+
   return (
     <div className="app-shell">
       <Nav path={path} />

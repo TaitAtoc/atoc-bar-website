@@ -7,7 +7,12 @@ export function Link({ href, children, className, onClick, ...props }) {
     event.preventDefault()
     window.history.pushState({}, '', href)
     window.dispatchEvent(new PopStateEvent('popstate'))
-    window.scrollTo({ top: 0, behavior: 'smooth' })
+    const hash = href.split('#')[1]
+    if (hash) {
+      requestAnimationFrame(() => document.getElementById(decodeURIComponent(hash))?.scrollIntoView({ behavior: 'smooth' }))
+    } else {
+      window.scrollTo({ top: 0, behavior: 'smooth' })
+    }
   }
 
   return (

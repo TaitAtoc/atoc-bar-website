@@ -27,10 +27,10 @@ export const pageMeta = {
     keywords: ['cocktails Guangzhou', 'beer bar Guangzhou', 'happy hour Guangzhou', 'Guangzhou bar menu'],
   },
   '/promotions': {
-    title: 'ATOC Promotions | Happy Hour & Bar Offers in Guangzhou',
-    description: 'See ATOC BAR happy hour, bar promotions, sports-night offers, and special nights in Guangzhou.',
-    h1: 'ATOC Promotions',
-    keywords: ['happy hour Guangzhou', 'bar promotions Guangzhou', 'drink specials Guangzhou'],
+    title: 'Events & Promotions at ATOC Bar | Guangzhou',
+    description: 'See the NZGBA Canton Fair Phase 2 Networking Drinks on 24 October 2026, plus ATOC Bar happy hour and current promotions in Guangzhou.',
+    h1: 'Events & Promotions',
+    keywords: ['NZGBA Canton Fair networking', 'Guangzhou events', 'happy hour Guangzhou', 'bar promotions Guangzhou'],
   },
   '/gallery': {
     title: 'ATOC Gallery | Guangzhou Bar Photos & Atmosphere',

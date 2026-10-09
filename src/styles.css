@@ -511,6 +511,7 @@ h1 {
 .event-tile span { display: block; margin-bottom: 10px; }
 .event-tile h3 { color: var(--txt-hi); font-size: 18px; font-weight: 800; margin-bottom: 10px; }
 .event-tile p  { color: var(--txt-mid); font-size: 14px; line-height: 1.62; }
+.event-tile .text-link { margin-top: 18px; }
 
 /* ================================================================
    VENUE MOSAIC — Phase 4B homepage editorial image block
@@ -777,6 +778,35 @@ h1 {
 /* ================================================================
    PROMOTIONS
    ================================================================ */
+
+.nzgba-event { scroll-margin-top: 110px; }
+.nzgba-event.reveal { opacity: 1; transform: none; }
+.nzgba-event__layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(300px, 450px);
+  gap: clamp(28px, 5vw, 72px);
+  align-items: start;
+  max-width: 1250px;
+  margin: 0 auto;
+}
+.nzgba-event__copy { min-width: 0; max-width: 70ch; color: var(--txt-mid); }
+.nzgba-event .section-title h2 { overflow-wrap: anywhere; }
+.nzgba-event__copy p { margin-bottom: 1.2em; }
+.nzgba-event__copy h3 { margin: 1.65em 0 .7em; color: var(--gold); font-size: clamp(23px, 2.5vw, 29px); line-height: 1.2; }
+.nzgba-event__copy a { color: var(--gold); text-underline-offset: 3px; }
+.nzgba-event__details { border-top: 1px solid var(--bdr); }
+.nzgba-event__details div { display: grid; grid-template-columns: minmax(110px, 28%) 1fr; gap: 14px; padding: 12px 0; border-bottom: 1px solid var(--bdr); }
+.nzgba-event__details dt { color: var(--txt-hi); font-weight: 800; }
+.nzgba-event__details dd { margin: 0; }
+.nzgba-event__poster { min-width: 0; margin: 0; }
+.nzgba-event__poster a { display: block; cursor: zoom-in; }
+.nzgba-event__poster img { display: block; width: 100%; height: auto; object-fit: contain; border: 1px solid var(--bdr-hi); box-shadow: var(--shadow-lg); }
+.nzgba-event__poster figcaption { margin-top: 12px; color: var(--txt-mid); font-size: 13px; line-height: 1.5; }
+
+@media (max-width: 860px) {
+  .nzgba-event__layout { grid-template-columns: minmax(0, 1fr); }
+  .nzgba-event__poster { grid-row: 1; max-width: 620px; width: 100%; margin: 0 auto; }
+}
 
 .promo-wall {
   display: grid;

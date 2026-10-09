@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 
-export function ScrollReveal({ as: Tag = 'section', className = '', children }) {
+export function ScrollReveal({ as: Tag = 'section', className = '', children, ...props }) {
   const ref = useRef(null)
 
   useEffect(() => {
@@ -21,5 +21,5 @@ export function ScrollReveal({ as: Tag = 'section', className = '', children }) 
     return () => observer.disconnect()
   }, [])
 
-  return <Tag ref={ref} className={`reveal ${className}`}>{children}</Tag>
+  return <Tag ref={ref} className={`reveal ${className}`} {...props}>{children}</Tag>
 }

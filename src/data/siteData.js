@@ -148,7 +148,7 @@ export const navItems = [
   { label: 'About', path: '/about' },
   { label: 'Sports', path: '/sports' },
   { label: 'Menus', path: '/menus' },
-  { label: 'Promotions', path: '/promotions' },
+  { label: 'Events & Promotions', path: '/promotions' },
   { label: 'Gallery', path: '/gallery' },
   { label: 'Bookings', path: '/bookings' },
   { label: 'Contact', path: '/contact' },
@@ -163,6 +163,7 @@ export const facts = [
 ]
 
 export const eventCards = [
+  { title: 'NZGBA Canton Fair Phase 2 Networking Drinks', tag: 'Saturday, 24 October · 7:00 pm onwards', text: 'A free New Zealand networking evening at ATOC Bar. RSVP by scanning the QR code on the poster.', href: '/promotions#nzgba-canton-fair-phase-2-networking-drinks' },
   { title: 'This Week At ATOC', tag: 'Schedule pending', text: 'Weekly schedule and event details are being confirmed. Check back soon or enquire via the contact page.' },
   { title: 'Live Sports Nights', tag: 'Watch-party format', text: 'Rugby, football, F1, basketball, and MMA categories can anchor weekly sports nights once fixtures are confirmed.' },
   { title: 'Group Match Tables', tag: 'Private groups', text: 'Built for teams, dragon boat crews, birthdays, and casual watch groups. Capacity and booking rules are pending confirmation.' },
@@ -205,6 +206,15 @@ export const menuSections = [
 ]
 
 const promo = `${b}assets/photos/promo/`
+
+export const nzgbaEvent = {
+  title: 'NZGBA Canton Fair Phase 2 Networking Drinks',
+  date: 'Saturday, 24 October 2026',
+  time: '7:00 pm onwards',
+  startDate: '2026-10-24T19:00:00+08:00',
+  image: `${promo}nzgba-canton-fair-phase-2-networking-drinks.png`,
+  href: '/promotions#nzgba-canton-fair-phase-2-networking-drinks',
+}
 
 export const promotions = [
   {
