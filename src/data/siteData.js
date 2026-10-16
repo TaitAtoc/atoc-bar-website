@@ -192,7 +192,7 @@ export const venueMoments = [
 
 export const homeStory = {
   eyebrow: 'Real bar energy',
-  title: 'Bar counter, live screens, terrace — the full ATOC feel',
+  title: 'Bar counter, live screens and terrace: the full ATOC feel',
   text: 'A compact Guangzhou bar built for live sports, group rounds, and easy nights out. Warm lighting, social seating, and a terrace that does not take itself too seriously.',
   cta: { label: 'See the venue photos', href: '/gallery' },
 }
@@ -219,12 +219,12 @@ export const nzgbaEvent = {
 export const promotions = [
   {
     title: 'Happy Hour',
-    status: 'Daily 2:30pm–10pm — discounted beer, wine, and house spirits.',
+    status: 'Daily 2:30pm–10pm. Discounted beer, wine and house spirits.',
     image: `${promo}${encodeURIComponent('Happy Hour.jpg')}`,
   },
   {
     title: 'Ladies Night',
-    status: 'Every Tuesday — free frozen margaritas, plus free shisha for groups of 4 ladies.',
+    status: 'Every Tuesday, enjoy free frozen margaritas and free shisha for groups of 4 ladies.',
     image: `${promo}${encodeURIComponent('Ladies Night.jpg')}`,
   },
   {

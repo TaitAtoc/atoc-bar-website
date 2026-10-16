@@ -1,0 +1,88 @@
+name: Deploy ATOC Editorial Copy
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  deploy-copy:
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - name: Package JavaScript and its manifest only
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p release/atoc-bar-v2/assets release/atoc-bar-v2/.vite
+          cp dist/.vite/manifest.json release/atoc-bar-v2/.vite/manifest.json
+          cp dist/assets/index-*.js release/atoc-bar-v2/assets/
+          test -s release/atoc-bar-v2/.vite/manifest.json
+      - name: Back up current JavaScript and manifest
+        uses: appleboy/ssh-action@v1.2.0
+        env:
+          WP_THEME_REMOTE_PATH: ${{ secrets.WP_THEME_REMOTE_PATH }}
+        with:
+          host: ${{ secrets.WP_DEPLOY_HOST }}
+          username: ${{ secrets.WP_DEPLOY_USER }}
+          port: ${{ secrets.WP_DEPLOY_PORT }}
+          password: ${{ secrets.WP_DEPLOY_PASSWORD }}
+          key: ${{ secrets.WP_DEPLOY_SSH_KEY }}
+          envs: WP_THEME_REMOTE_PATH
+          script: |
+            set -eu
+            themes_path="${WP_THEME_REMOTE_PATH%/}"
+            case "$themes_path" in
+              */wp-content/themes) ;;
+              *) echo 'Invalid themes path'; exit 1 ;;
+            esac
+            theme="$themes_path/atoc-bar-v2"
+            test -s "$theme/.vite/manifest.json"
+            backup="$HOME/atoc-dash-backups/$(date +%Y%m%d-%H%M%S)"
+            mkdir -p "$backup"
+            chmod 700 "$HOME/atoc-dash-backups" "$backup"
+            cp -p "$theme/.vite/manifest.json" "$backup/manifest.json"
+            cp -p "$theme"/assets/index-*.js "$backup/"
+            echo "Backed up ATOC assets to $backup"
+      - name: Upload JavaScript and manifest
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: ${{ secrets.WP_DEPLOY_HOST }}
+          username: ${{ secrets.WP_DEPLOY_USER }}
+          port: ${{ secrets.WP_DEPLOY_PORT }}
+          password: ${{ secrets.WP_DEPLOY_PASSWORD }}
+          key: ${{ secrets.WP_DEPLOY_SSH_KEY }}
+          source: release/atoc-bar-v2
+          target: ${{ secrets.WP_THEME_REMOTE_PATH }}
+          strip_components: 1
+          overwrite: true
+      - name: Purge page cache
+        uses: appleboy/ssh-action@v1.2.0
+        env:
+          WP_THEME_REMOTE_PATH: ${{ secrets.WP_THEME_REMOTE_PATH }}
+        with:
+          host: ${{ secrets.WP_DEPLOY_HOST }}
+          username: ${{ secrets.WP_DEPLOY_USER }}
+          port: ${{ secrets.WP_DEPLOY_PORT }}
+          password: ${{ secrets.WP_DEPLOY_PASSWORD }}
+          key: ${{ secrets.WP_DEPLOY_SSH_KEY }}
+          envs: WP_THEME_REMOTE_PATH
+          script: |
+            set -eu
+            themes_path="${WP_THEME_REMOTE_PATH%/}"
+            case "$themes_path" in
+              */wp-content/themes) ;;
+              *) echo 'Invalid themes path'; exit 1 ;;
+            esac
+            wordpress_root="${themes_path%/wp-content/themes}"
+            cd "$wordpress_root"
+            wp litespeed-purge all --allow-root
+            wp cache flush --allow-root

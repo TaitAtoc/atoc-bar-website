@@ -78,7 +78,7 @@ function BookingForm() {
         </label>
 
         {error && <p className="booking-form-error" role="alert">{error}</p>}
-        {submitted && !error && <p className="booking-form-success" role="status">Thanks — your booking enquiry is ready to send.</p>}
+        {submitted && !error && <p className="booking-form-success" role="status">Thanks. Your booking enquiry is ready to send.</p>}
 
         <button type="submit" className="booking-form-submit">Send booking enquiry</button>
       </form>

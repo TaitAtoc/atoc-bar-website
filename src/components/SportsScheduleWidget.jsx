@@ -156,7 +156,7 @@ export function SportsScheduleWidget({ compact = false }) {
         <div className="sports-widget__updated-group">
           {loadError ? (
             <span className="sports-widget__sample-label" role="alert">
-              Live schedule unavailable — no sample fixtures shown
+              Live schedule unavailable. No sample fixtures are shown.
             </span>
           ) : updatedDate && (
             <span className="sports-widget__updated">
