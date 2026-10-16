@@ -53,17 +53,30 @@ jobs:
             cp -p "$theme"/assets/index-*.js "$backup/"
             echo "Backed up ATOC assets to $backup"
       - name: Upload JavaScript and manifest
-        uses: appleboy/scp-action@v0.1.7
-        with:
-          host: ${{ secrets.WP_DEPLOY_HOST }}
-          username: ${{ secrets.WP_DEPLOY_USER }}
-          port: ${{ secrets.WP_DEPLOY_PORT }}
-          password: ${{ secrets.WP_DEPLOY_PASSWORD }}
-          key: ${{ secrets.WP_DEPLOY_SSH_KEY }}
-          source: release/atoc-bar-v2
-          target: ${{ secrets.WP_THEME_REMOTE_PATH }}
-          strip_components: 1
-          overwrite: true
+        shell: bash
+        env:
+          WP_DEPLOY_HOST: ${{ secrets.WP_DEPLOY_HOST }}
+          WP_DEPLOY_USER: ${{ secrets.WP_DEPLOY_USER }}
+          WP_DEPLOY_PORT: ${{ secrets.WP_DEPLOY_PORT }}
+          WP_DEPLOY_SSH_KEY: ${{ secrets.WP_DEPLOY_SSH_KEY }}
+          WP_THEME_REMOTE_PATH: ${{ secrets.WP_THEME_REMOTE_PATH }}
+        run: |
+          set -euo pipefail
+          themes_path="${WP_THEME_REMOTE_PATH%/}"
+          case "$themes_path" in
+            */wp-content/themes) ;;
+            *) echo 'Invalid themes path'; exit 1 ;;
+          esac
+          key_file="$(mktemp)"
+          trap 'rm -f "$key_file"' EXIT
+          printf '%s\n' "$WP_DEPLOY_SSH_KEY" > "$key_file"
+          chmod 600 "$key_file"
+          port="${WP_DEPLOY_PORT:-22}"
+          remote="${WP_DEPLOY_USER}@${WP_DEPLOY_HOST}"
+          options=(-i "$key_file" -o BatchMode=yes -o IdentitiesOnly=yes -o StrictHostKeyChecking=accept-new -o ConnectTimeout=20)
+          scp "${options[@]}" -P "$port" release/atoc-bar-v2/assets/index-*.js "$remote:$themes_path/atoc-bar-v2/assets/"
+          scp "${options[@]}" -P "$port" release/atoc-bar-v2/.vite/manifest.json "$remote:$themes_path/atoc-bar-v2/.vite/manifest.json.editorial-new"
+          ssh "${options[@]}" -p "$port" "$remote" "mv -f '$themes_path/atoc-bar-v2/.vite/manifest.json.editorial-new' '$themes_path/atoc-bar-v2/.vite/manifest.json'"
       - name: Purge page cache
         uses: appleboy/ssh-action@v1.2.0
         env:
